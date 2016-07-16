@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Crappy by LaboratoireMecaniqueLille</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Crappy</h1>
+      <h2 class="project-tagline">Command and Real-time Acquisition Parallelized in Python</h2>
+      <a href="https://github.com/LaboratoireMecaniqueLille/crappy" class="btn">View on GitHub</a>
+      <a href="https://github.com/LaboratoireMecaniqueLille/crappy/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/LaboratoireMecaniqueLille/crappy/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h3>
+<a id="what-is-crappy-" class="anchor" href="#what-is-crappy-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is Crappy ?</h3>
+
+<p>CRAPPY is an acronym and stands for Command and Real-time Acquisition in 
+Parallelized PYthon.</p>
+
+<p>Crappy was first developped in the "Laboratoire de Mécanique de Lille", a 
+mechanical research laboratory base in Lille,France, to provide a powerful 
+and easy-to-use framework for material testing.</p>
+
+<p>In order to better understand the mechanical behaviour of materials, we tend
+to setup tests, with more sensors, more precision and more complexity.
+As we are one step before industrials, the testing machines we can buy are not
+adapted to our objectives and we have to develop our own softwares to improve
+our tests.</p>
+
+<p>This is the original reason why we created Crappy : provide a framework to 
+control our tests and all of our hardware.</p>
+
+<p>To this end, we made some choice that are now the keys of the framework:</p>
+
+<ul>
+<li><p><strong>open-source</strong> : it is important for us that everyone can use our work, 
+and bring is own code to the world.</p></li>
+<li><p><strong>modular</strong> : the hardware as to be, as much as possible, separated from the
+software, to provide re-usable code for different setup.</p></li>
+<li><p><strong>simple</strong> : Python as been chosen for its good performance and its high 
+level. We are not developpers, and our users neither, so we can't afford
+a low level programming language. We work with typical loop time of more 
+than 1 millisecond (10ms most of the time), and Python is enough for this.
+It is also pretty easy to put a small piece of C/C++ in the Python if we 
+need a speedup.</p></li>
+<li><p><strong>performance</strong> : a great deal of work is made to ensure the performance of 
+the framework. Most tests requires a good repetablilty and a stability,
+and may become hazardous in case of not-handled issue.</p></li>
+<li><p><strong>parallelization</strong> : the key to a good test is the synchronisation between
+the different sensors. Thsi is why we chose to massively parallelize our
+framework, to ensure everything can run at the same time. This is also one
+of the major difficulties we have to deal with in Python.</p></li>
+</ul>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<h2>
+<a id="-required-packages-" class="anchor" href="#-required-packages-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Required Packages </h2>
+
+<ul>
+<li> Opencv </li>
+<li> SimpleITK </li>
+<li> matplotlib </li>
+<li> Python 2.7 or later and Numpy 1.5 or later with developer packages (python-dev, python-numpy) </li>
+<li> Scipy </li>
+<li> Skimage </li>
+</ul>
+
+<p>Other packages should be installed to enable some functionalities:</p>
+
+<ul>
+<li> xiApi </li>
+<li> Comedi (only avalaible on Linux)</li>
+<li> niFgen package from National Instrument (only avalaible on Windows)</li>
+<li> PyDaqmx </li>
+<li> labjack </li>
+</ul>
+
+<h2>
+<a id="-getting-the-crappy-source-code-" class="anchor" href="#-getting-the-crappy-source-code-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Getting the Crappy Source Code </h2>
+
+<p>The packages can be installed using a terminal and the following commands:</p>
+
+<h2>
+<a id="installation-in-linux" class="anchor" href="#installation-in-linux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation in Linux</h2>
+
+<p>These steps have been tested for Ubuntu 14.04, 15.10 and 16.04 but should work with other distros as well.</p>
+
+<pre><code>git clone https://github.com/LaboratoireMecaniqueLille/crappy.git
+cd crappy
+sudo python setup.py install
+</code></pre>
+
+<h2>
+<a id="installation-in-windows" class="anchor" href="#installation-in-windows" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation in Windows</h2>
+
+<p>These steps have been tested for Windows 8.1 but should work with other distros as well.</p>
+
+<pre><code>git clone https://github.com/LaboratoireMecaniqueLille/crappy.git
+cd crappy
+setup.py install
+</code></pre>
+
+<h3>
+<a id="basics" class="anchor" href="#basics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basics</h3>
+
+<h3>
+<a id="physical-objects" class="anchor" href="#physical-objects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Physical objects</h3>
+
+<p>As Crappy is originaly designed to control tests, the core of our framework
+is the hardware we work with.</p>
+
+<p>We chose to divide it in three different categories.</p>
+
+<h2>
+<a id="sensors" class="anchor" href="#sensors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sensors</h2>
+
+<p>In Crappy, the sensors represent everything that can <strong>acquire</strong> a physical
+signal. It can be an acquisition card, but also a camera, a thermocouple...</p>
+
+<h2>
+<a id="actuators" class="anchor" href="#actuators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Actuators</h2>
+
+<p>on the other hand, actuators represent all the objects that can <strong>interact on
+the other part of the test</strong>, and can be controled. The most common example are 
+motors.</p>
+
+<h2>
+<a id="technicals" class="anchor" href="#technicals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technicals</h2>
+
+<p>Some hardware is <strong>both a sensor and an actuator</strong> by our definitions. This is for 
+example the case of a variable-frequency drive : they can set the speed of the
+motor (the <em>actuator</em> part), but most of them can also read the position or the
+speed of the motor the <em>sensor</em> part).</p>
+
+<h3>
+<a id="blocks-objects" class="anchor" href="#blocks-objects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blocks objects</h3>
+
+<p>Crappy is based on a schematic architecture with single blocks linked between
+each others. Th blocks are the part that <strong>do</strong> and the <em>Links</em> are the parts 
+that carry informations between these blocks.</p>
+
+<p>This way, you can simply write down on a paper the architecture of your test,
+what functions you need in which order, and write your code by reading your 
+paper.
+Blocks are classes, running indefinitely in a single process. Some of them are
+already implemented (see the reference manual), but you can also implement your
+own.</p>
+
+<h3>
+<a id="links-objects" class="anchor" href="#links-objects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Links objects</h3>
+
+<p>Links are simply the part that carry information between the different blocks.
+You just need to define the input and the output of a links, and it will 
+transfer all data from one block to the other.</p>
+
+<h3>
+<a id="condition-objects" class="anchor" href="#condition-objects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Condition objects</h3>
+
+<p>With the Blocks and Links, we already have a working framework to design and 
+custom tests. But if you need to do something slightly different than what is 
+implemented in the Blocks, you have to re-write the whole thing.</p>
+
+<p>To bring some flexibility to the whole system, we added conditions. They are 
+small classes, implemented by the user, and they are added on the links.
+A link paired with a condition won't simply transfer data, but transfer the 
+result of the data passed by the condition.
+That mean almost infinite possibilites :</p>
+
+<ul>
+<li>Modify the values you are passing</li>
+<li>Evaluate a composition of the values</li>
+<li>Decide wether you should transfer - or not - the data</li>
+<li>Transfer something completely different from the input values</li>
+</ul>
+
+<p>This can be used to send a signal to another block (for example to synchronise 
+a camera), filter the signal with a mean, include numerical modelisation in 
+real-time in your test...</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/LaboratoireMecaniqueLille/crappy">Crappy</a> is maintained by <a href="https://github.com/LaboratoireMecaniqueLille">LaboratoireMecaniqueLille</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

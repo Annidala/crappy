@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Crappy: What is Crappy ?</title>
+<title>Crappy: Technical classes</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -44,8 +44,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li class="current"><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
@@ -80,7 +80,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('technical.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -99,26 +99,27 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">What is Crappy ? </div>  </div>
+<div class="title">Technical classes </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>CRAPPY is an acronym and stands for Command and Real-time Acquisition in Parallelized PYthon.</p>
-<p>Crappy is developped in the "Laboratoire de Mécanique de Lille", a mechanical research laboratory based in Lille, France to provide a powerful and easy-to-use framework for material testing.</p>
-<p>In order to understand the mechanical behaviour of materials, we tend to setup tests with more sensors, more precision and more complexity. As we are one step ahead of industrials, the testing machines we can buy may not be adapted to our objectives and we have to develop our own softwares to improve our tests.</p>
-<p>This is the original reason why we created Crappy : provide a framework to control our tests and all of our hardware.</p>
-<p>To this end, we made some choice that are now the keys of the framework:</p>
-<ul>
-<li><b>open-source</b> : it is important for us that everyone can use our work, and bring its own code to the world.</li>
-<li><b>modular</b> : the hardware has to be, as much as possible, separated from the software, to provide re-usable code for different setup.</li>
-<li><b>simple</b> : Python as been chosen for its high level. We are not developpers, and neither are our users , so we cannot afford to use a low level programming language. We work with typical loop time of more than 1 millisecond (10ms most of the time), and Python is enough for this. It is also pretty easy to put a small piece of C/C++ in the Python if we need a speedup.</li>
-<li><b>performance</b> : a great deal of work is made to ensure the performance of the framework. Most tests requires a good repetablilty and a stability, and may become hazardous in case of not-handled issue.</li>
-<li><b>parallelization</b> : the key to a good test is the synchronisation between the different sensors. This is why we chose to massively parallelize our framework, to ensure everything can run at the same time. This is also one of the major difficulties we have to deal with in Python. </li>
-</ul>
+<div class="textblock"><p>This is the core of the module: this regroups all the classes that actually DO the stuff we want. Most of them are used to represent hardware, but there can also be software classes, for example the classes that process data like videoextensometry. They are organized in categories depending on their use.</p>
+<p>Each catergory is in a different subfolder of Crappy and has a basis class. Every class the enters in this category must be in this folder (or a subfloder) and inherit from the parent class. The parent class is always based on a metaclass that counts and keeps a reference to each child class. This allows complete introspection to list and instanciate easily those classes. Note that each metaclass may define conventions for the child classes so they can be used by the blocks in a standard way.</p>
+<p>For example: camera folder holds all the classes related to cameras. The file <a class="el" href="camera_2camera_8py.html">camera/camera.py</a> defines a metaclass MetaCam and a class Camera based on MetaCam. MetaCam keeps track of all the classes in MetaCam.classes. The class Camera must be parent of all cameras, so they will also be based on MetaCam. Finally, <a class="el" href="camera_2____init_____8py.html">camera/__init__.py</a> defines camera_list = MetaCam.classes, which is a dict containing all available classes with their names as key. This provides a simple way to instanciate them from a 'name' parameter. The MetaCam class makes sure that all cameras have the needed methods (open, get_image,close,etc...). This allow replacing a camera with another without changing the code using it.</p>
+<p>As for now, their are 4 different categories of technical classes, this may change as more hardware is implemented.</p>
+<h2>Actuators </h2>
+<p>These classes represent physical actuators like motors or the axis of a machine. They must have a "open" method and at least one of "set_speed" or "set_cmd". They can also have get_pos and/or get_speed method to read informations.</p>
+<h2>Cameras </h2>
+<p>The name is pretty self-explenatory: it regroups all the classes that acquire images. They must have "open" and "get_image" methods. "get_image" must return a tuple containing time since epoch in seconds and a numpy array containing the image. They include a setting mechanism for user-friendly camera settings, see the camera class for more details.</p>
+<h2>Inout </h2>
+<p>Originally meant for IO boards, it includes all the hardware that can read and/or send values.</p>
+<h2>Tools </h2>
+<p>This category is for purely software classes. These classes are either used in several blocks or complicated enough to be isolated in their own file. The goal is to keep the code of the blocks as simple as possible. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="page2.html">Basics</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

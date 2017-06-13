@@ -1,0 +1,26 @@
+var setup_8py =
+[
+    [ "author", "setup_8py.html#ac83393287a89728d636e4ae9f4ac914f", null ],
+    [ "author_email", "setup_8py.html#aa144ac52ed417d5c65d7377e0e75673e", null ],
+    [ "classifiers", "setup_8py.html#a2d96dddd66b7833bbb2db38dbbe55a02", null ],
+    [ "clModule", "setup_8py.html#aabf986c2d798ca3767ed3ac25b9162f0", null ],
+    [ "clPath", "setup_8py.html#a7381ebc186852acac9a16d29dfa4c22d", null ],
+    [ "data_files", "setup_8py.html#aa53ac83b0960b5acd92e9692d0297097", null ],
+    [ "description", "setup_8py.html#ade8aa54df2083113a10326ea2fe7934b", null ],
+    [ "ext_modules", "setup_8py.html#a1bf56ea61d1e9865f316116dca2fbfea", null ],
+    [ "ext_package", "setup_8py.html#afa1a87f702080d5171df46e4428805a6", null ],
+    [ "extentions", "setup_8py.html#a0903581b09cb42b54fea54f70d48ea4f", null ],
+    [ "extras_require", "setup_8py.html#a42dc11d3e255aac9bf46cfced6ee794b", null ],
+    [ "here", "setup_8py.html#a0cc428af737d9d584e852ddde7620e2b", null ],
+    [ "keywords", "setup_8py.html#a13f1455f03aed281ae4f7619aaa7f57b", null ],
+    [ "license", "setup_8py.html#aae5aa7c9d1cf462778a54e8f6a874c6f", null ],
+    [ "long_description", "setup_8py.html#a4cda9dbfb952875376a0749fe08a5bde", null ],
+    [ "name", "setup_8py.html#a61de3710bf6c9d78c0afa352263f8b09", null ],
+    [ "p", "setup_8py.html#a4001153aafd2d6f93c55eefb4fab386f", null ],
+    [ "packages", "setup_8py.html#aac31bc6390743c46ed466881a9d62eb2", null ],
+    [ "pyFgenModule", "setup_8py.html#a90b65992ab365ca811b7f69b2efff9c9", null ],
+    [ "url", "setup_8py.html#a3376e8b9735800b5b9e455914cee908d", null ],
+    [ "version", "setup_8py.html#a2aa722b36a933088812b50ea79b97a5c", null ],
+    [ "ximeaModule", "setup_8py.html#ad46ee7091496f8878a181ab58d02b0e0", null ],
+    [ "zip_safe", "setup_8py.html#a13510753661cb74083a0c664db11dde9", null ]
+];

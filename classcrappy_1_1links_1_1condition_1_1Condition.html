@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Crappy: What is Crappy ?</title>
+<title>Crappy: crappy.links.condition.Condition Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -44,11 +44,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -68,6 +68,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -80,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('classcrappy_1_1links_1_1condition_1_1Condition.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -98,27 +106,73 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classcrappy_1_1links_1_1condition_1_1Condition-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">What is Crappy ? </div>  </div>
+<div class="title">crappy.links.condition.Condition Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>CRAPPY is an acronym and stands for Command and Real-time Acquisition in Parallelized PYthon.</p>
-<p>Crappy is developped in the "Laboratoire de Mécanique de Lille", a mechanical research laboratory based in Lille, France to provide a powerful and easy-to-use framework for material testing.</p>
-<p>In order to understand the mechanical behaviour of materials, we tend to setup tests with more sensors, more precision and more complexity. As we are one step ahead of industrials, the testing machines we can buy may not be adapted to our objectives and we have to develop our own softwares to improve our tests.</p>
-<p>This is the original reason why we created Crappy : provide a framework to control our tests and all of our hardware.</p>
-<p>To this end, we made some choice that are now the keys of the framework:</p>
-<ul>
-<li><b>open-source</b> : it is important for us that everyone can use our work, and bring its own code to the world.</li>
-<li><b>modular</b> : the hardware has to be, as much as possible, separated from the software, to provide re-usable code for different setup.</li>
-<li><b>simple</b> : Python as been chosen for its high level. We are not developpers, and neither are our users , so we cannot afford to use a low level programming language. We work with typical loop time of more than 1 millisecond (10ms most of the time), and Python is enough for this. It is also pretty easy to put a small piece of C/C++ in the Python if we need a speedup.</li>
-<li><b>performance</b> : a great deal of work is made to ensure the performance of the framework. Most tests requires a good repetablilty and a stability, and may become hazardous in case of not-handled issue.</li>
-<li><b>parallelization</b> : the key to a good test is the synchronisation between the different sensors. This is why we chose to massively parallelize our framework, to ensure everything can run at the same time. This is also one of the major difficulties we have to deal with in Python. </li>
+
+<p>Metaclass for all Links conditions.  
+ <a href="classcrappy_1_1links_1_1condition_1_1Condition.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad3002e18d9737d17297f3b32bec0392a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1links_1_1condition_1_1Condition.html#ad3002e18d9737d17297f3b32bec0392a">__init__</a></td></tr>
+<tr class="separator:ad3002e18d9737d17297f3b32bec0392a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79774811bd04b4e983684fc2f84368fc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1links_1_1condition_1_1Condition.html#a79774811bd04b4e983684fc2f84368fc">evaluate</a></td></tr>
+<tr class="memdesc:a79774811bd04b4e983684fc2f84368fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called by the Links and must always be implemented.  <a href="#a79774811bd04b4e983684fc2f84368fc">More...</a><br/></td></tr>
+<tr class="separator:a79774811bd04b4e983684fc2f84368fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Metaclass for all Links conditions. </p>
+<p>Must implement the evaluate method. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ad3002e18d9737d17297f3b32bec0392a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def crappy.links.condition.Condition.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a79774811bd04b4e983684fc2f84368fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def crappy.links.condition.Condition.evaluate </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method is called by the Links and must always be implemented. </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>/home/vic/crappy/crappy/links/<a class="el" href="links_2condition_8py.html">condition.py</a></li>
 </ul>
-</div></div><!-- contents -->
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="namespacecrappy.html">crappy</a></li><li class="navelem"><a class="el" href="namespacecrappy_1_1links.html">links</a></li><li class="navelem"><a class="el" href="namespacecrappy_1_1links_1_1condition.html">condition</a></li><li class="navelem"><a class="el" href="classcrappy_1_1links_1_1condition_1_1Condition.html">Condition</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

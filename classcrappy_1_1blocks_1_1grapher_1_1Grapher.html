@@ -143,6 +143,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8316109d1e4f02c5efd3e82f306c6551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ae17dab4e7648eab3e4d8d06fab6c3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a6ae17dab4e7648eab3e4d8d06fab6c3f">maxpt</a></td></tr>
 <tr class="separator:a6ae17dab4e7648eab3e4d8d06fab6c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0909718eea9d2c3508686b2840d97401"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a0909718eea9d2c3508686b2840d97401">window_size</a></td></tr>
+<tr class="separator:a0909718eea9d2c3508686b2840d97401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a25521dd6de7a9d463dadbcbdc8a6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a16a25521dd6de7a9d463dadbcbdc8a6b">window_pos</a></td></tr>
+<tr class="separator:a16a25521dd6de7a9d463dadbcbdc8a6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a299384b1345cac87bef5a92ad034af38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a299384b1345cac87bef5a92ad034af38">labels</a></td></tr>
 <tr class="separator:a299384b1345cac87bef5a92ad034af38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adba4d230f9c26654179daf4ff8bf1751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#adba4d230f9c26654179daf4ff8bf1751">f</a></td></tr>
@@ -166,16 +170,17 @@ Public Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">optional</td><td>window_size (tuple: (width, height), in INCHES). Self explanatory ? </td></tr>
     <tr><td class="paramname">freq</td><td>Defines the refresh rate of the grapher</td></tr>
+    <tr><td class="paramname">optional</td><td>window_pos (tuple: (x_position, y_position), in PIXELS). Defines where on the screen the window grapher pops. Works with multiple screens. The origin is the top left corner. For instance, to have a graph that pops on the top right corner: <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;         window_pos=(1920, 0)</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;@param       Examples</div>
+</div><!-- fragment --><hr/>
+ <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;graph=Grapher((<span class="stringliteral">&#39;t(s)&#39;</span>,<span class="stringliteral">&#39;F(N)&#39;</span>),(<span class="stringliteral">&#39;t(s)&#39;</span>,<span class="stringliteral">&#39;def(%)&#39;</span>))</div>
+</div><!-- fragment --> plot a dynamic graph with two lines plot(F=f(t) and def=f(t)). <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;graph=Grapher((<span class="stringliteral">&#39;def(%)&#39;</span>,<span class="stringliteral">&#39;F(N)&#39;</span>),length=0)</div>
+</div><!-- fragment --> plot a static graph. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;graph=Grapher((<span class="stringliteral">&#39;t(s)&#39;</span>,<span class="stringliteral">&#39;F(N)&#39;</span>),length=30)</div>
+</div><!-- fragment --> plot a dynamic graph that will display the last 30 chunks of data </td></tr>
   </table>
   </dd>
 </dl>
-<h2>Examples </h2>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;graph=Grapher((<span class="stringliteral">&#39;t(s)&#39;</span>,<span class="stringliteral">&#39;F(N)&#39;</span>),(<span class="stringliteral">&#39;t(s)&#39;</span>,<span class="stringliteral">&#39;def(%)&#39;</span>))</div>
-</div><!-- fragment --><p> plot a dynamic graph with two lines plot(F=f(t) and def=f(t)). </p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;graph=Grapher((<span class="stringliteral">&#39;def(%)&#39;</span>,<span class="stringliteral">&#39;F(N)&#39;</span>),length=0)</div>
-</div><!-- fragment --><p> plot a static graph. </p>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;graph=Grapher((<span class="stringliteral">&#39;t(s)&#39;</span>,<span class="stringliteral">&#39;F(N)&#39;</span>),length=30)</div>
-</div><!-- fragment --><p> plot a dynamic graph that will display the last 30 chunks of data </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac7f63e071608ce9f501cb6854851c44f"></a>
 <div class="memitem">
@@ -321,6 +326,30 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">crappy.blocks.grapher.Grapher.maxpt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a16a25521dd6de7a9d463dadbcbdc8a6b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.blocks.grapher.Grapher.window_pos</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0909718eea9d2c3508686b2840d97401"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.blocks.grapher.Grapher.window_size</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../namespacemultiplex.html#a596fff3231d1d6effb1ea9e501f9dafa',1,'multiplex.m()'],['../namespaceprotection.html#a79f083642df12eaf9c581bced1405a73',1,'protection.m()'],['../namespaceprotection__par__axe.html#a07a7fe778f20bea45a66b6785ec9aac6',1,'protection_par_axe.m()'],['../namespaceread.html#a3a2056156ace3312bb5b1d693b1d0729',1,'read.m()']]],
+  ['m',['m',['../namespaceprotection.html#a79f083642df12eaf9c581bced1405a73',1,'protection.m()'],['../namespaceprotection__par__axe.html#a07a7fe778f20bea45a66b6785ec9aac6',1,'protection_par_axe.m()'],['../namespaceread.html#a3a2056156ace3312bb5b1d693b1d0729',1,'read.m()']]],
   ['m1',['m1',['../namespaceprotection.html#a4ff749646460add3b4551851f4120993',1,'protection.m1()'],['../namespaceprotection__par__axe.html#a2e065df26a97badafede71af5a9f8909',1,'protection_par_axe.m1()']]],
   ['m2',['m2',['../namespaceprotection.html#a571a96b21a650a1d7f4c390dc02a6e4b',1,'protection.m2()'],['../namespaceprotection__par__axe.html#a058e7140c398ea0d40eaca4706adf751',1,'protection_par_axe.m2()']]],
   ['m3',['m3',['../namespaceprotection.html#ab9f975a13972866bcedbbfaf3565150b',1,'protection.m3()'],['../namespaceprotection__par__axe.html#ac724a0fcf49f31abff6ddf22e94db259',1,'protection_par_axe.m3()']]],
@@ -11,6 +11,7 @@ var searchData=
   ['masterblock',['MasterBlock',['../namespacecrappy.html#aee8e89ef368bfe2fd0940d788a7bae28',1,'crappy']]],
   ['max_5ffps',['max_fps',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#a3fc05c9fc4a0491ca8efcf5cae9c13be',1,'crappy::camera::camera::Camera']]],
   ['maxpt',['maxpt',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a6ae17dab4e7648eab3e4d8d06fab6c3f',1,'crappy::blocks::grapher::Grapher']]],
+  ['mean',['mean',['../classInstron__measures__with__labjack_1_1EvalStress.html#aa52630fc775f9f31ee969212a86f66f4',1,'Instron_measures_with_labjack::EvalStress']]],
   ['minitens_5fframe',['minitens_frame',['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#abff0743b58e5be7064c73409ba93b515',1,'crappy::inout::arduino::ArduinoHandler']]],
   ['minitens_5fframe_5fpreload_5fradiobuttons',['minitens_frame_preload_radiobuttons',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html#abd38d01fa5ec0efb0e77d45115b5fa64',1,'crappy::inout::arduino::MinitensFrame']]],
   ['minitens_5fframe_5fradiobuttons',['minitens_frame_radiobuttons',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html#a26a8fef8930fcd417e191c7d055eb0c1',1,'crappy::inout::arduino::MinitensFrame']]],

@@ -25,6 +25,6 @@ var searchData=
   ['author_5femail',['author_email',['../namespacesetup.html#aa144ac52ed417d5c65d7377e0e75673e',1,'setup']]],
   ['auto_5frange',['auto_range',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a206030e43771e5a73392f6cf701cafc9',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['auto_5fthresh',['auto_thresh',['../classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#a395e40e3d1557846e7421e89545023ed',1,'crappy::tool::videoextenso::Tracker']]],
-  ['ax',['ax',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a97037d67df4fc6eabbce94bc10ad3b5c',1,'crappy.blocks.grapher.Grapher.ax()'],['../classtest__gui_1_1Interface.html#a7fbb30d362469d03b367ba9024ccc6f8',1,'test_gui.Interface.ax()']]],
+  ['ax',['ax',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a97037d67df4fc6eabbce94bc10ad3b5c',1,'crappy::blocks::grapher::Grapher']]],
   ['axe',['axe',['../namespacebiaxe.html#a5a860c693af98e8982abc31008aac090',1,'biaxe.axe()'],['../namespaceoriental.html#ad6438c55b6270e1c176c6b6db0efa720',1,'oriental.axe()']]]
 ];

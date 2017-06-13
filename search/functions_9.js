@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['inc',['inc',['../classtest__gui_1_1Interface.html#a809ff6070f22ec07fa737c5deca50759',1,'test_gui::Interface']]],
   ['init_5fmain_5fwindow',['init_main_window',['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#a7aa89a1ae45816c8456e2983590af5ff',1,'crappy::inout::arduino::ArduinoHandler']]],
   ['init_5fstream',['init_stream',['../classcrappy_1_1inout_1_1opendaq_1_1Opendaq.html#a963985da9dbd7ea80d07fbfbb0bf1e30',1,'crappy::inout::opendaq::Opendaq']]],
   ['initclmodule',['initclModule',['../pyCameraLink_8cpp.html#adc29d363d02611463496f131a0b926ba',1,'pyCameraLink.cpp']]],

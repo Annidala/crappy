@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1generator_1_1
 <div class="title">crappy.blocks.generator.Generator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This block is used to generate a signal.  
+ <a href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.generator.Generator:</div>
 <div class="dyncontent">
@@ -153,7 +156,20 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a81f77d720fe8f47c8c22d577b2fbca00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#a81f77d720fe8f47c8c22d577b2fbca00">cmd</a></td></tr>
 <tr class="separator:a81f77d720fe8f47c8c22d577b2fbca00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This block is used to generate a signal. </p>
+<p>It can be used to drive a machine. This block can take inputs, and each path can use these inputs to take decisions.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>It must be a list of dict, each dict providing the parameters to generate the path. Each dict MUST have a key 'type'. The <a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html" title="This block is used to generate a signal. ">Generator</a> will then instanciate <a class="el" href="namespacecrappy_1_1blocks_1_1generator__path.html">generator_path</a>.**type** with all the other keys as kwargs, adding the current cmd and the time. On each round, it will call get_cmd method of this class, passing data until it raise StopIteration. It will then skip to the next path. When all paths are over, it will stop Crappy by raising CrappyStop unless repeat is set to True. If so, it will start over indefinelty.</td></tr>
+    <tr><td class="paramname">freq</td><td>(default=500) The frequency of the block. If set and positive, the generator will try to send the command at this frequency (Hz). Else, it will go as fast as possible. It relies on the MasterBlock freq control scheme (see <a class="el" href="masterblock_8py.html">masterblock.py</a>).</td></tr>
+    <tr><td class="paramname">cmd_label</td><td>(default='cmd') The label of the command to send in the links.</td></tr>
+    <tr><td class="paramname">cmd</td><td>(default=0) The first value of the command. Some paths may rely on the previous value to guarantee a continuous signal This argument sets the initial value for the first signal</td></tr>
+    <tr><td class="paramname">repeat</td><td>(default=False) Loop over the paths or stop when done ? If False, the block will raise a CrappyStop exception to end the program when all the paths have been executed If True, the <a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html" title="This block is used to generate a signal. ">Generator</a> will start over and over again </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a84db0bab81ccc40efd99da522cfaab19"></a>
 <div class="memitem">
 <div class="memproto">

@@ -9,5 +9,7 @@ var classcrappy_1_1blocks_1_1grapher_1_1Grapher =
     [ "labels", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a299384b1345cac87bef5a92ad034af38", null ],
     [ "length", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a6eb6d50dff84bcf46db1bd5aada98e94", null ],
     [ "lines", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a1aa252179ba41c60b2581eff1e7544f8", null ],
-    [ "maxpt", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a6ae17dab4e7648eab3e4d8d06fab6c3f", null ]
+    [ "maxpt", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a6ae17dab4e7648eab3e4d8d06fab6c3f", null ],
+    [ "window_pos", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a16a25521dd6de7a9d463dadbcbdc8a6b", null ],
+    [ "window_size", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a0909718eea9d2c3508686b2840d97401", null ]
 ];

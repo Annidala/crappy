@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1generator__pa
 <div class="title">crappy.blocks.generator_path.cyclic_ramp.Cyclic_ramp Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A "boosted" ramp path: will take TWO values and condtions.  
+ <a href="classcrappy_1_1blocks_1_1generator__path_1_1cyclic__ramp_1_1Cyclic__ramp.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.generator_path.cyclic_ramp.Cyclic_ramp:</div>
 <div class="dyncontent">
@@ -147,7 +150,24 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a818c793ea3fb1ffca4de8dea14c43816"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator__path_1_1cyclic__ramp_1_1Cyclic__ramp.html#a818c793ea3fb1ffca4de8dea14c43816">t0</a></td></tr>
 <tr class="separator:a818c793ea3fb1ffca4de8dea14c43816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A "boosted" ramp path: will take TWO values and condtions. </p>
+<p>It will make a ramp of speed speed1, switch to the second when the first condtion is reached and return to the first when the second condtion is reached. This will be done "cycles" times (supporting half cycles for ending after the first condition)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">speed1</td><td>Speed of the first ramp.</td></tr>
+    <tr><td class="paramname">condition1</td><td>String representing the condition to switch to speed2. See Path.parse_condition for more detail.</td></tr>
+    <tr><td class="paramname">speed2</td><td>Speed of the second ramp.</td></tr>
+    <tr><td class="paramname">condition2</td><td>String representing the condition to switch to speed1.</td></tr>
+    <tr><td class="paramname">cycles</td><td>Number of time we should be doing this. cycles = 0 will make it loop forever <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;[{<span class="stringliteral">&#39;type&#39;</span>:<span class="stringliteral">&#39;cyclic_ramp&#39;</span>,<span class="stringliteral">&#39;speed1&#39;</span>:5,<span class="stringliteral">&#39;condition1&#39;</span>:<span class="stringliteral">&#39;AIN0&gt;2&#39;</span>,</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="stringliteral">&#39;speed2&#39;</span>:-2,<span class="stringliteral">&#39;condition2&#39;</span>:<span class="stringliteral">&#39;AIN1&lt;1&#39;</span>,<span class="stringliteral">&#39;cycles&#39;</span>:5}]</div>
+</div><!-- fragment --> is equivalent to <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;[{<span class="stringliteral">&#39;type&#39;</span>:<span class="stringliteral">&#39;ramp&#39;</span>,<span class="stringliteral">&#39;speed&#39;</span>:5,<span class="stringliteral">&#39;condition&#39;</span>:<span class="stringliteral">&#39;AIN0&gt;2&#39;</span>},</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{<span class="stringliteral">&#39;type&#39;</span>:<span class="stringliteral">&#39;ramp&#39;</span>,<span class="stringliteral">&#39;value&#39;</span>:-2,<span class="stringliteral">&#39;condition&#39;</span>:<span class="stringliteral">&#39;AIN1&lt;1&#39;</span>}]*5</div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a503e16964f5acf670ad85fcd8a84d3ed"></a>
 <div class="memitem">
 <div class="memproto">

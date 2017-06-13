@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../namespacemultiplex.html#a596fff3231d1d6effb1ea9e501f9dafa',1,'multiplex.m()'],['../namespaceprotection.html#a79f083642df12eaf9c581bced1405a73',1,'protection.m()'],['../namespaceprotection__par__axe.html#a07a7fe778f20bea45a66b6785ec9aac6',1,'protection_par_axe.m()'],['../namespaceread.html#a3a2056156ace3312bb5b1d693b1d0729',1,'read.m()']]],
+  ['m',['m',['../namespaceprotection.html#a79f083642df12eaf9c581bced1405a73',1,'protection.m()'],['../namespaceprotection__par__axe.html#a07a7fe778f20bea45a66b6785ec9aac6',1,'protection_par_axe.m()'],['../namespaceread.html#a3a2056156ace3312bb5b1d693b1d0729',1,'read.m()']]],
   ['m1',['m1',['../namespaceprotection.html#a4ff749646460add3b4551851f4120993',1,'protection.m1()'],['../namespaceprotection__par__axe.html#a2e065df26a97badafede71af5a9f8909',1,'protection_par_axe.m1()']]],
   ['m2',['m2',['../namespaceprotection.html#a571a96b21a650a1d7f4c390dc02a6e4b',1,'protection.m2()'],['../namespaceprotection__par__axe.html#a058e7140c398ea0d40eaca4706adf751',1,'protection_par_axe.m2()']]],
   ['m3',['m3',['../namespaceprotection.html#ab9f975a13972866bcedbbfaf3565150b',1,'protection.m3()'],['../namespaceprotection__par__axe.html#ac724a0fcf49f31abff6ddf22e94db259',1,'protection_par_axe.m3()']]],
@@ -19,6 +19,7 @@ var searchData=
   ['max_5ffps',['max_fps',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#a3fc05c9fc4a0491ca8efcf5cae9c13be',1,'crappy.camera.camera.Camera.max_fps()'],['../classcrappy_1_1camera_1_1camera_1_1Camera.html#af7b4fc9cb70413354d3f8d701260c3ba',1,'crappy.camera.camera.Camera.max_fps'],['../classcrappy_1_1camera_1_1camera_1_1Camera.html#af7b4fc9cb70413354d3f8d701260c3ba',1,'crappy.camera.camera.Camera.max_fps']]],
   ['maxpt',['maxpt',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a6ae17dab4e7648eab3e4d8d06fab6c3f',1,'crappy::blocks::grapher::Grapher']]],
   ['mean',['Mean',['../classcrappy_1_1condition_1_1mean_1_1Mean.html',1,'crappy::condition::mean']]],
+  ['mean',['mean',['../classInstron__measures__with__labjack_1_1EvalStress.html#aa52630fc775f9f31ee969212a86f66f4',1,'Instron_measures_with_labjack::EvalStress']]],
   ['mean_2epy',['mean.py',['../mean_8py.html',1,'']]],
   ['measurebystep',['MeasureByStep',['../classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep.html',1,'crappy::blocks::measureByStep']]],
   ['measurebystep_2epy',['measureByStep.py',['../measureByStep_8py.html',1,'']]],
@@ -58,8 +59,6 @@ var searchData=
   ['moving_5favg_2epy',['moving_avg.py',['../moving__avg_8py.html',1,'']]],
   ['msg',['msg',['../classcrappy_1_1__global_1_1DefinitionError.html#a626660716333ccaef8fa933334a1aed6',1,'crappy::_global::DefinitionError']]],
   ['mul',['mul',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a9692beaa2fa5cbe02ec429725bf39b0d',1,'crappy::tool::correl::CorrelStage']]],
-  ['multiplex',['multiplex',['../namespacemultiplex.html',1,'']]],
-  ['multiplex_2epy',['multiplex.py',['../multiplex_8py.html',1,'']]],
   ['mv_5fstart',['mv_start',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a0b7369cdbaef376bb283c6da10bb2a8f',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['my_5fcondition',['My_condition',['../classconditions_1_1My__condition.html',1,'conditions']]],
   ['my_5fmap',['my_map',['../Cl__lib_2export_8h.html#ad5bfba2e60ba1f4a27cde0dfb9515395',1,'my_map():&#160;export.h'],['../XimeaLib_2export_8h.html#ad5bfba2e60ba1f4a27cde0dfb9515395',1,'my_map():&#160;export.h']]],

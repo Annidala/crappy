@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['s',['s',['../classcrappy_1_1inout_1_1opsens_1_1Opsens.html#ac510b5d64286d1d76a42c69f68f12e7f',1,'crappy.inout.opsens.Opsens.s()'],['../namespaceprotection.html#abf2d5e4644602bffda75159b5dcc1d81',1,'protection.s()'],['../namespaceprotection__par__axe.html#a12fc327dc3d872e10ba5d3842c07a92d',1,'protection_par_axe.s()'],['../namespacesave.html#af745beccf97f48ee48fb83ff3c726a63',1,'save.s()']]],
+  ['s',['s',['../classcrappy_1_1inout_1_1opsens_1_1Opsens.html#ac510b5d64286d1d76a42c69f68f12e7f',1,'crappy.inout.opsens.Opsens.s()'],['../namespaceprotection.html#abf2d5e4644602bffda75159b5dcc1d81',1,'protection.s()'],['../namespaceprotection__par__axe.html#a12fc327dc3d872e10ba5d3842c07a92d',1,'protection_par_axe.s()']]],
   ['safe_5fmode',['safe_mode',['../classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#a37b5fa5bcd8813aa5c53622ac13617d4',1,'crappy::tool::videoextenso::Tracker']]],
-  ['save_5ffolder',['save_folder',['../classcrappy_1_1blocks_1_1correl_1_1Correl.html#ae7fc9f751a3543906839741d6fdd76d7',1,'crappy::blocks::correl::Correl']]],
+  ['save_5ffolder',['save_folder',['../classcrappy_1_1blocks_1_1correl_1_1Correl.html#ae7fc9f751a3543906839741d6fdd76d7',1,'crappy.blocks.correl.Correl.save_folder()'],['../namespaceInstron__measures__with__labjack.html#af794269ab6cf1a03be330fdb97b60f27',1,'Instron_measures_with_labjack.save_folder()']]],
   ['save_5flength_5fbutton',['save_length_button',['../classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a93b2425a0899b18d6f3ab2fc21fe55c3',1,'crappy::tool::videoextensoConfig::VE_config']]],
+  ['saver',['saver',['../namespaceInstron__measures__with__labjack.html#a77c378ef40ff3cb7aab49307a75f4d31',1,'Instron_measures_with_labjack']]],
   ['scale_5flength',['scale_length',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a2c12ae6d3db592d3ca2e487d151f09e1',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['scales',['scales',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a94f5c1d758ccb5d901e800b76e9706ed',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['scan_5frate_5fper_5fchannel',['scan_rate_per_channel',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#af4586068dfa410b22919aba5cdab8053',1,'crappy::inout::labjackT7::Labjack_t7']]],
@@ -22,6 +23,7 @@ var searchData=
   ['sg1',['sg1',['../namespaceread__write2.html#a6fe752865d59fbc2e86abd94619170aa',1,'read_write2']]],
   ['sg2',['sg2',['../namespaceread__write2.html#ae4ef612178fbf3308e8b948f44f3b992',1,'read_write2']]],
   ['showdiff',['showDiff',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a74433d3e23ee6e03d200926b1ea34e5b',1,'crappy::tool::correl::CorrelStage']]],
+  ['signe',['signe',['../classInstron__measures__with__labjack_1_1EvalStress.html#ae6df8d59855026a62833c4db0c16c866',1,'Instron_measures_with_labjack::EvalStress']]],
   ['size',['size',['../classcrappy_1_1links_1_1filter_1_1Filter.html#a6939b2c72bdf7fc17c2ef341ab2d9b6e',1,'crappy::links::filter::Filter']]],
   ['smooth_5fgraph',['smooth_graph',['../namespaceconditions.html#a3a25239e12df665f6b107da1be03e59b',1,'conditions']]],
   ['speed',['speed',['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a494f1e98c41320b0271ab7ee064ac549',1,'crappy.actuator.oriental.Oriental.speed()'],['../classcrappy_1_1blocks_1_1generator__path_1_1cyclic__ramp_1_1Cyclic__ramp.html#a8275e745fc6867ed2fb645077db3d5c3',1,'crappy.blocks.generator_path.cyclic_ramp.Cyclic_ramp.speed()'],['../classcrappy_1_1blocks_1_1generator__path_1_1ramp_1_1Ramp.html#a0a69b5f98ea8b235edc3d8edd5fa0ef3',1,'crappy.blocks.generator_path.ramp.Ramp.speed()'],['../classinterfaceCMdrive_1_1Interface.html#aa5d2714ed64dbdfe39178830b41de732',1,'interfaceCMdrive.Interface.speed()'],['../namespacebiaxe.html#ae0786ec7f4af734eea3fbce270793498',1,'biaxe.speed()'],['../namespaceoriental.html#a04bdd540e4a14b82eeea7314bc93ab42',1,'oriental.speed()']]],
@@ -41,5 +43,6 @@ var searchData=
   ['submit_5fbutton',['submit_button',['../classcrappy_1_1inout_1_1arduino_1_1SubmitSerialFrame.html#a9b4e01f8ba45db6a24abe69bad886e0d',1,'crappy::inout::arduino::SubmitSerialFrame']]],
   ['submit_5fframe',['submit_frame',['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#a54fb45e18967a7e9ddc0c4da2f585004',1,'crappy::inout::arduino::ArduinoHandler']]],
   ['submit_5flabel',['submit_label',['../classcrappy_1_1inout_1_1arduino_1_1SubmitSerialFrame.html#a3049aeabf2db6aafb66eedb108056c36',1,'crappy::inout::arduino::SubmitSerialFrame']]],
-  ['submit_5fserial_5fqueue',['submit_serial_queue',['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#aaee078fd6f0ccf776ff67d30ab534d12',1,'crappy::inout::arduino::ArduinoHandler']]]
+  ['submit_5fserial_5fqueue',['submit_serial_queue',['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#aaee078fd6f0ccf776ff67d30ab534d12',1,'crappy::inout::arduino::ArduinoHandler']]],
+  ['surface',['surface',['../classInstron__measures__with__labjack_1_1EvalStress.html#a58788d581d26114ca258011a01a5b8f6',1,'Instron_measures_with_labjack::EvalStress']]]
 ];

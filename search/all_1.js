@@ -44,6 +44,6 @@ var searchData=
   ['autodrive',['AutoDrive',['../classcrappy_1_1blocks_1_1autoDrive_1_1AutoDrive.html',1,'crappy::blocks::autoDrive']]],
   ['autodrive_2epy',['autoDrive.py',['../autoDrive_8py.html',1,'']]],
   ['available_5fsettings',['available_settings',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#a645026f409cf1725405a9c27890e33b5',1,'crappy::camera::camera::Camera']]],
-  ['ax',['ax',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a97037d67df4fc6eabbce94bc10ad3b5c',1,'crappy.blocks.grapher.Grapher.ax()'],['../classtest__gui_1_1Interface.html#a7fbb30d362469d03b367ba9024ccc6f8',1,'test_gui.Interface.ax()']]],
+  ['ax',['ax',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a97037d67df4fc6eabbce94bc10ad3b5c',1,'crappy::blocks::grapher::Grapher']]],
   ['axe',['axe',['../namespacebiaxe.html#a5a860c693af98e8982abc31008aac090',1,'biaxe.axe()'],['../namespaceoriental.html#ad6438c55b6270e1c176c6b6db0efa720',1,'oriental.axe()']]]
 ];

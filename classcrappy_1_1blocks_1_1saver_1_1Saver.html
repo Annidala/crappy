@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1saver_1_1Save
 <div class="title">crappy.blocks.saver.Saver Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Will save the incomming data to a file (default csv)  
+ <a href="classcrappy_1_1blocks_1_1saver_1_1Saver.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.saver.Saver:</div>
 <div class="dyncontent">
@@ -149,7 +152,18 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8de9a46e5d6e9d65dfa6e3e2b3f10122"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1saver_1_1Saver.html#a8de9a46e5d6e9d65dfa6e3e2b3f10122">last_save</a></td></tr>
 <tr class="separator:a8de9a46e5d6e9d65dfa6e3e2b3f10122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Will save the incomming data to a file (default csv) </p>
+<p>Can only take ONE input. If the folders do not exist, they will be created. If the file exists, the actual file will be named with a trailing number to avoid overriding it.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Path and name of the output file</td></tr>
+    <tr><td class="paramname">delay</td><td>(default=5) Delay between each writes (in seconds)</td></tr>
+    <tr><td class="paramname">labels</td><td>(default='t(s)') What labels to save If labels is a string, all the data will be saved, but with this one in first place. If it is a list, only these labels will be saved, in that order. </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5252e958dfa9b5018fb97ff5ae10e648"></a>
 <div class="memitem">
 <div class="memproto">

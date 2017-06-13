@@ -14,7 +14,6 @@ var searchData=
   ['camport',['camPort',['../classCaptureCAM__CL.html#a63023c34ba9c4cb2c8ab517b8190f641',1,'CaptureCAM_CL']]],
   ['camptr',['camptr',['../structVideoCapture.html#a7c2092818c4ed07974ef5d420153ec8f',1,'VideoCapture']]],
   ['camtype',['camType',['../structVideoCapture.html#a57bcd24a5a26cc1ae03b82f18e0b00b1',1,'VideoCapture']]],
-  ['canvas',['canvas',['../classtest__gui_1_1Interface.html#ab016247f46d0edbe7eab75cbc70fd275',1,'test_gui::Interface']]],
   ['cap',['cap',['../classcrappy_1_1camera_1_1cameralink_1_1CLCamera.html#a58047d204292c620bea673630893f1a0',1,'crappy.camera.cameralink.CLCamera.cap()'],['../classcrappy_1_1camera_1_1webcam_1_1Webcam.html#ae9f9b6c6099cba45b0557b36983c9b7e',1,'crappy.camera.webcam.Webcam.cap()'],['../classcrappy_1_1camera_1_1ximeaCV_1_1XimeaCV.html#a304b0a8bae229cf852cc9b56ff068ecd',1,'crappy.camera.ximeaCV.XimeaCV.cap()']]],
   ['capt',['capt',['../pyXimea_8cpp.html#a7d802db23788e7dd385893dea5d1f2cb',1,'pyXimea.cpp']]],
   ['chan_5frange',['chan_range',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a5b79e09bcb10de4b49254d75c3ec3d11',1,'crappy::inout::labjackT7::Labjack_t7']]],

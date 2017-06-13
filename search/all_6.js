@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['f',['f',['../classcrappy_1_1blocks_1_1generator__path_1_1custom_1_1Custom.html#ade51e71deec1588f3ec10baa1fe77deb',1,'crappy.blocks.generator_path.custom.Custom.f()'],['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#adba4d230f9c26654179daf4ff8bf1751',1,'crappy.blocks.grapher.Grapher.f()'],['../classtest__gui_1_1Interface.html#a5c818ceaf657854747eb5f6f5bf48cd3',1,'test_gui.Interface.f()']]],
+  ['f',['f',['../classcrappy_1_1blocks_1_1generator__path_1_1custom_1_1Custom.html#ade51e71deec1588f3ec10baa1fe77deb',1,'crappy.blocks.generator_path.custom.Custom.f()'],['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#adba4d230f9c26654179daf4ff8bf1751',1,'crappy.blocks.grapher.Grapher.f()']]],
   ['fake_5fcamera',['Fake_camera',['../classcrappy_1_1camera_1_1fakeCamera_1_1Fake__camera.html',1,'crappy::camera::fakeCamera']]],
   ['fakecamera_2epy',['fakeCamera.py',['../fakeCamera_8py.html',1,'']]],
   ['fallback',['fallback',['../classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#aa3aa19d183b275ff851bc006fde4292b',1,'crappy::tool::videoextenso::Tracker']]],

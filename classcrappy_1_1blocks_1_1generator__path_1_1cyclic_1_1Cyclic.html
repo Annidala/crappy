@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1generator__pa
 <div class="title">crappy.blocks.generator_path.cyclic.Cyclic Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A "boosted" constant path: will take TWO values and condtions.  
+ <a href="classcrappy_1_1blocks_1_1generator__path_1_1cyclic_1_1Cyclic.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.generator_path.cyclic.Cyclic:</div>
 <div class="dyncontent">
@@ -147,7 +150,24 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a70a3d84bdd6134033780f468e4b4a153"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator__path_1_1cyclic_1_1Cyclic.html#a70a3d84bdd6134033780f468e4b4a153">t0</a></td></tr>
 <tr class="separator:a70a3d84bdd6134033780f468e4b4a153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A "boosted" constant path: will take TWO values and condtions. </p>
+<p>It will set the first value, switch to the second when the first condtion is reached and return to the first when the second condtion is reached. This will be done "cycles" times (supporting half cycles for ending after the first condition)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value1</td><td>First value to send.</td></tr>
+    <tr><td class="paramname">condition1</td><td>String representing the condition to switch to value2. See Path.parse_condition for more detail.</td></tr>
+    <tr><td class="paramname">value2</td><td>Second value to send.</td></tr>
+    <tr><td class="paramname">condition2</td><td>String representing the condition to switch to value1.</td></tr>
+    <tr><td class="paramname">cycles</td><td>Number of time we should be doing this. cycles = 0 will make it loop forever <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;[{<span class="stringliteral">&#39;type&#39;</span>:<span class="stringliteral">&#39;cyclic&#39;</span>,<span class="stringliteral">&#39;value1&#39;</span>:1,<span class="stringliteral">&#39;condition1&#39;</span>:<span class="stringliteral">&#39;AIN0&gt;2&#39;</span>,</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="stringliteral">&#39;value2&#39;</span>:0,<span class="stringliteral">&#39;condition2&#39;</span>:<span class="stringliteral">&#39;AIN1&lt;1&#39;</span>,<span class="stringliteral">&#39;cycles&#39;</span>:5}]</div>
+</div><!-- fragment --> is equivalent to <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;[{<span class="stringliteral">&#39;type&#39;</span>:<span class="stringliteral">&#39;constant&#39;</span>,<span class="stringliteral">&#39;value&#39;</span>:1,<span class="stringliteral">&#39;condition&#39;</span>:<span class="stringliteral">&#39;AIN0&gt;2&#39;</span>},</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{<span class="stringliteral">&#39;type&#39;</span>:<span class="stringliteral">&#39;constant&#39;</span>,<span class="stringliteral">&#39;value&#39;</span>:0,<span class="stringliteral">&#39;condition&#39;</span>:<span class="stringliteral">&#39;AIN1&lt;1&#39;</span>}]*5</div>
+</div><!-- fragment --></td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a67b6827bc59f28563a9b904da22584ca"></a>
 <div class="memitem">
 <div class="memproto">

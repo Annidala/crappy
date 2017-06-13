@@ -41,13 +41,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CameraLink_8cpp.html",
-"classcrappy_1_1blocks_1_1dashboard_1_1Dashboard.html#afb2aa05b43e115920e58efb93fd657a9",
-"classcrappy_1_1camera_1_1camera_1_1Camera.html",
-"classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a348ba2dc4aaea8a40b41d1313d687008",
-"classcrappy_1_1tool_1_1datapicker_1_1DataPicker.html#a37102ceb3146acc90890f75989f0022e",
+"classcrappy_1_1blocks_1_1correl_1_1Correl.html#aa1c90fbe41babb64e6b8f19d271f3a72",
+"classcrappy_1_1camera_1_1bispectral_1_1Bispectral.html#ab48e7447313f10d7b43727694434d513",
+"classcrappy_1_1inout_1_1labjackT7_1_1DialogBox.html#a8b4213b99ca74813f6662750e2b5d8e2",
+"classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a87a4342a8f07719798361caa23e5c01c",
 "functions_x.html",
-"namespacecrappy_1_1inout_1_1arduino.html",
-"video__extenso__auto__drive_8py.html#aeebbcbed32b104661c3ee145a994d55c"
+"namespacecrappy_1_1inout_1_1labjackT7.html",
+"ximea_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba70c3bce87ff182adc32f8393ba2fc72c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

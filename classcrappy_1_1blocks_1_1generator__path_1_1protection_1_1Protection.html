@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1generator__pa
 <div class="title">crappy.blocks.generator_path.protection.Protection Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Useful to protect samples from being pulled appart when setting up a test.  
+ <a href="classcrappy_1_1blocks_1_1generator__path_1_1protection_1_1Protection.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.generator_path.protection.Protection:</div>
 <div class="dyncontent">
@@ -143,7 +146,20 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a04deff32c1b58f306b5d69a2c428ea13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator__path_1_1protection_1_1Protection.html#a04deff32c1b58f306b5d69a2c428ea13">status</a></td></tr>
 <tr class="separator:a04deff32c1b58f306b5d69a2c428ea13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Useful to protect samples from being pulled appart when setting up a test. </p>
+<p>by default will send value0. While condition1 is met, will return value1. While condition2 is met, will return value2. If condition1 and condition2 are met simultaneaously, the first one met will prevail. If met at the same time, condition1 will prevail.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value0</td><td>value to send when no condition is reached.</td></tr>
+    <tr><td class="paramname">condition1</td><td>String representing the first condition. See Path.parse_condition for more detail.</td></tr>
+    <tr><td class="paramname">value1</td><td>value to send when condition1 is met</td></tr>
+    <tr><td class="paramname">condition2</td><td>String representing the second condition.</td></tr>
+    <tr><td class="paramname">value2</td><td>value to send when condition2 is met </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab6d404132cbf68077cb595a25bf891e1"></a>
 <div class="memitem">
 <div class="memproto">

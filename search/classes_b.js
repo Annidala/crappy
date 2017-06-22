@@ -13,5 +13,6 @@ var searchData=
   ['minitensframe',['MinitensFrame',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html',1,'crappy::inout::arduino']]],
   ['monitorframe',['MonitorFrame',['../classcrappy_1_1inout_1_1arduino_1_1MonitorFrame.html',1,'crappy::inout::arduino']]],
   ['moving_5favg',['Moving_avg',['../classcrappy_1_1condition_1_1moving__avg_1_1Moving__avg.html',1,'crappy::condition::moving_avg']]],
+  ['multiplex',['Multiplex',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html',1,'crappy::blocks::multiplex']]],
   ['my_5fcondition',['My_condition',['../classconditions_1_1My__condition.html',1,'conditions']]]
 ];

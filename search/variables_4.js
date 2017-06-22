@@ -1,12 +1,12 @@
 var searchData=
 [
   ['daqmx',['Daqmx',['../namespacecrappy_1_1inout.html#a6f20577fd45bd9e8891b25263e55fa35',1,'crappy::inout']]],
-  ['data',['data',['../classcrappy_1_1blocks_1_1camera_1_1Camera.html#adc17ef00aeca01e7e66dbb36ada81835',1,'crappy::blocks::camera::Camera']]],
+  ['data',['data',['../classcrappy_1_1blocks_1_1camera_1_1Camera.html#adc17ef00aeca01e7e66dbb36ada81835',1,'crappy.blocks.camera.Camera.data()'],['../namespacecrappy_1_1tool_1_1comedi__bind.html#aa70532e1e52eb43e0b4097fcd1c76057',1,'crappy.tool.comedi_bind.data()']]],
   ['data_5ffiles',['data_files',['../namespacesetup.html#aa53ac83b0960b5acd92e9692d0297097',1,'setup']]],
   ['dcoffset',['DCOffset',['../structpyFgen.html#a2f983db00bc1e4137f0230eb0d357e8b',1,'pyFgen']]],
   ['default',['default',['../classcrappy_1_1camera_1_1camera_1_1Cam__setting.html#a49ff8381bdbaaff39ba9952f0886e2bd',1,'crappy.camera.camera.Cam_setting.default()'],['../classcrappy_1_1inout_1_1comedi_1_1Comedi.html#a3354253e5c2cfca0e9a7f767ae461abd',1,'crappy.inout.comedi.Comedi.default()']]],
   ['definezerobutton',['defineZeroButton',['../classinterfaceCMdrive_1_1Interface.html#a6b9a9b5fb87e8cecef33ffb3ae569062',1,'interfaceCMdrive::Interface']]],
-  ['delay',['delay',['../classcrappy_1_1blocks_1_1displayer_1_1Displayer.html#accd4256114a1b794689a98ce34d514bc',1,'crappy.blocks.displayer.Displayer.delay()'],['../classcrappy_1_1blocks_1_1saver_1_1Saver.html#a3d2245eed7132e95415e1c5bdc3c5278',1,'crappy.blocks.saver.Saver.delay()'],['../classcrappy_1_1camera_1_1camera_1_1Camera.html#ae660d1cbb678bb2206487a2262b136d6',1,'crappy.camera.camera.Camera.delay()']]],
+  ['delay',['delay',['../classcrappy_1_1blocks_1_1displayer_1_1Displayer.html#accd4256114a1b794689a98ce34d514bc',1,'crappy.blocks.displayer.Displayer.delay()'],['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a7551e82f4f72099286636475418c1ce1',1,'crappy.blocks.multiplex.Multiplex.delay()'],['../classcrappy_1_1blocks_1_1saver_1_1Saver.html#a3d2245eed7132e95415e1c5bdc3c5278',1,'crappy.blocks.saver.Saver.delay()'],['../classcrappy_1_1camera_1_1camera_1_1Camera.html#ae660d1cbb678bb2206487a2262b136d6',1,'crappy.camera.camera.Camera.delay()']]],
   ['deldot',['DELDOT',['../namespacemodule__lister.html#af23a373eeb57ddc57f5ec2ced27bbd02',1,'module_lister']]],
   ['description',['description',['../namespacesetup.html#ade8aa54df2083113a10326ea2fe7934b',1,'setup']]],
   ['devfieldsx',['devFieldsX',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a3a9a0e8f5705adcb11f43277ce24cca8',1,'crappy::tool::correl::CorrelStage']]],
@@ -25,5 +25,6 @@ var searchData=
   ['devvec',['devVec',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#acf99e865d730e23bcec6b06874e1e564',1,'crappy::tool::correl::CorrelStage']]],
   ['devx',['devX',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a7120fc31b383a979fac669ce824b9169',1,'crappy::tool::correl::CorrelStage']]],
   ['direction',['direction',['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#aabd4608b7cdfb37b24a21a81cf8d2ec9',1,'crappy::blocks::signalGenerator::SignalGenerator']]],
-  ['disp',['disp',['../namespacedisplayer.html#a601e38579659261dcd5b27e3e71be230',1,'displayer']]]
+  ['disp',['disp',['../namespacedisp.html#ac895dcb66a7ebe8f283b89a4a293a4a2',1,'disp.disp()'],['../namespacedisplayer.html#a601e38579659261dcd5b27e3e71be230',1,'displayer.disp()']]],
+  ['dt',['dt',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a2cd7a49270cc39065a0ccf9c4c38f802',1,'crappy::blocks::multiplex::Multiplex']]]
 ];

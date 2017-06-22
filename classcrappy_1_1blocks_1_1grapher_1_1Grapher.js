@@ -1,6 +1,7 @@
 var classcrappy_1_1blocks_1_1grapher_1_1Grapher =
 [
     [ "__init__", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#ac7f63e071608ce9f501cb6854851c44f", null ],
+    [ "finish", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#ad3a3274c7b0eca8f770610d1632efa94", null ],
     [ "loop", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a4d1240c5e127b3609746df75e5a0fb09", null ],
     [ "prepare", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a2eeeff4719caf8007ac4dd542cba9569", null ],
     [ "ax", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a97037d67df4fc6eabbce94bc10ad3b5c", null ],

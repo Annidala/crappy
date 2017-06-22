@@ -17,6 +17,9 @@ var dir_10e1c26be9c5e01e2a69c4a04feb329c =
       [ "Jai8", "classcrappy_1_1camera_1_1jai_1_1Jai8.html", "classcrappy_1_1camera_1_1jai_1_1Jai8" ],
       [ "Jai", "classcrappy_1_1camera_1_1jai_1_1Jai.html", "classcrappy_1_1camera_1_1jai_1_1Jai" ]
     ] ],
+    [ "streamer.py", "streamer_8py.html", [
+      [ "Streamer", "classcrappy_1_1camera_1_1streamer_1_1Streamer.html", "classcrappy_1_1camera_1_1streamer_1_1Streamer" ]
+    ] ],
     [ "webcam.py", "webcam_8py.html", [
       [ "Webcam", "classcrappy_1_1camera_1_1webcam_1_1Webcam.html", "classcrappy_1_1camera_1_1webcam_1_1Webcam" ]
     ] ],

@@ -37,6 +37,10 @@ var hierarchy =
       [ "crappy.tool.videoextenso.Video_extenso", "classcrappy_1_1tool_1_1videoextenso_1_1Video__extenso.html", null ]
     ] ],
     [ "pyFgen", "structpyFgen.html", null ],
+    [ "Structure", null, [
+      [ "crappy.tool.comedi_bind.comedi_range", "classcrappy_1_1tool_1_1comedi__bind_1_1comedi__range.html", null ],
+      [ "crappy.tool.comedi_bind.comedi_t", "classcrappy_1_1tool_1_1comedi__bind_1_1comedi__t.html", null ]
+    ] ],
     [ "type", null, [
       [ "crappy.actuator.actuator.MetaActuator", "classcrappy_1_1actuator_1_1actuator_1_1MetaActuator.html", null ],
       [ "crappy.camera.camera.MetaCam", "classcrappy_1_1camera_1_1camera_1_1MetaCam.html", null ],
@@ -53,6 +57,7 @@ var hierarchy =
     [ "Camera", null, [
       [ "crappy.camera.cameralink.CLCamera", "classcrappy_1_1camera_1_1cameralink_1_1CLCamera.html", null ],
       [ "crappy.camera.fakeCamera.Fake_camera", "classcrappy_1_1camera_1_1fakeCamera_1_1Fake__camera.html", null ],
+      [ "crappy.camera.streamer.Streamer", "classcrappy_1_1camera_1_1streamer_1_1Streamer.html", null ],
       [ "crappy.camera.webcam.Webcam", "classcrappy_1_1camera_1_1webcam_1_1Webcam.html", null ],
       [ "crappy.camera.ximea.Ximea", "classcrappy_1_1camera_1_1ximea_1_1Ximea.html", null ],
       [ "crappy.camera.ximeaCV.XimeaCV", "classcrappy_1_1camera_1_1ximeaCV_1_1XimeaCV.html", null ]
@@ -72,9 +77,7 @@ var hierarchy =
       [ "crappy.condition.moving_avg.Moving_avg", "classcrappy_1_1condition_1_1moving__avg_1_1Moving__avg.html", null ],
       [ "crappy.condition.trig_on_change.Trig_on_change", "classcrappy_1_1condition_1_1trig__on__change_1_1Trig__on__change.html", null ],
       [ "crappy.condition.trig_on_value.Trig_on_value", "classcrappy_1_1condition_1_1trig__on__value_1_1Trig__on__value.html", null ],
-      [ "crappy.links.filter.Filter", "classcrappy_1_1links_1_1filter_1_1Filter.html", null ]
-    ] ],
-    [ "condition", null, [
+      [ "crappy.links.filter.Filter", "classcrappy_1_1links_1_1filter_1_1Filter.html", null ],
       [ "Instron_measures_with_labjack.EvalStress", "classInstron__measures__with__labjack_1_1EvalStress.html", null ]
     ] ],
     [ "InOut", null, [
@@ -98,6 +101,7 @@ var hierarchy =
       [ "crappy.blocks.ioblock.IOBlock", "classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html", null ],
       [ "crappy.blocks.machine.Machine", "classcrappy_1_1blocks_1_1machine_1_1Machine.html", null ],
       [ "crappy.blocks.measureByStep.MeasureByStep", "classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep.html", null ],
+      [ "crappy.blocks.multiplex.Multiplex", "classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html", null ],
       [ "crappy.blocks.reader.Reader", "classcrappy_1_1blocks_1_1reader_1_1Reader.html", null ],
       [ "crappy.blocks.saver.Saver", "classcrappy_1_1blocks_1_1saver_1_1Saver.html", null ],
       [ "crappy.blocks.signalGenerator.SignalGenerator", "classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html", null ],

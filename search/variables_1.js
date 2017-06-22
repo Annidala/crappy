@@ -18,6 +18,7 @@ var searchData=
   ['arduino',['arduino',['../classcrappy_1_1inout_1_1arduino_1_1MonitorFrame.html#a33e3345757849542e8e485bbce9359ee',1,'crappy::inout::arduino::MonitorFrame']]],
   ['arduino_5fhandler',['arduino_handler',['../classcrappy_1_1inout_1_1arduino_1_1Arduino.html#a0a6fc5d6993a7b4d46178c7c72dec1d5',1,'crappy::inout::arduino::Arduino']]],
   ['arduino_5fser',['arduino_ser',['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#a26485f44b194a3862854611792c6ffe3',1,'crappy::inout::arduino::ArduinoHandler']]],
+  ['aref_5fground',['AREF_GROUND',['../namespacecrappy_1_1tool_1_1comedi__bind.html#a33d3649a181a5ba2b3ffbd0e1c580f2e',1,'crappy::tool::comedi_bind']]],
   ['array',['array',['../classcrappy_1_1blocks_1_1generator__path_1_1custom_1_1Custom.html#a5bdcea10c26af501502c315753fcbbf5',1,'crappy.blocks.generator_path.custom.Custom.array()'],['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a84b241731455365abb3b11926dbd10bc',1,'crappy.tool.correl.CorrelStage.array()']]],
   ['array_5fbuffer',['array_buffer',['../structVideoCapture.html#a48c7393bcbcbe8f8b9b25dd3db2641ea',1,'VideoCapture::array_buffer()'],['../pyXimea_8cpp.html#a41628769fdff45ffe979265b06f8a648',1,'array_buffer():&#160;pyXimea.cpp']]],
   ['array_5fd',['array_d',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a97892be0b54ec5480553909d07e53af5',1,'crappy::tool::correl::CorrelStage']]],

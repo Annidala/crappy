@@ -4,6 +4,7 @@ var dir_03680f297d755c096b0a1ead13ee12b7 =
     [ "conditions.py", "conditions_8py.html", "conditions_8py" ],
     [ "correl_advanced.py", "correl__advanced_8py.html", "correl__advanced_8py" ],
     [ "correl_simple.py", "correl__simple_8py.html", "correl__simple_8py" ],
+    [ "disp.py", "disp_8py.html", "disp_8py" ],
     [ "displayer.py", "Examples_2displayer_8py.html", "Examples_2displayer_8py" ],
     [ "Instron_measures_with_labjack.py", "Instron__measures__with__labjack_8py.html", "Instron__measures__with__labjack_8py" ],
     [ "protection.py", "Examples_2protection_8py.html", "Examples_2protection_8py" ],

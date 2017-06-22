@@ -12,6 +12,7 @@ var namespacecrappy_1_1blocks =
     [ "machine", "namespacecrappy_1_1blocks_1_1machine.html", "namespacecrappy_1_1blocks_1_1machine" ],
     [ "masterblock", "namespacecrappy_1_1blocks_1_1masterblock.html", "namespacecrappy_1_1blocks_1_1masterblock" ],
     [ "measureByStep", "namespacecrappy_1_1blocks_1_1measureByStep.html", "namespacecrappy_1_1blocks_1_1measureByStep" ],
+    [ "multiplex", "namespacecrappy_1_1blocks_1_1multiplex.html", "namespacecrappy_1_1blocks_1_1multiplex" ],
     [ "reader", "namespacecrappy_1_1blocks_1_1reader.html", "namespacecrappy_1_1blocks_1_1reader" ],
     [ "saver", "namespacecrappy_1_1blocks_1_1saver.html", "namespacecrappy_1_1blocks_1_1saver" ],
     [ "signalGenerator", "namespacecrappy_1_1blocks_1_1signalGenerator.html", "namespacecrappy_1_1blocks_1_1signalGenerator" ],

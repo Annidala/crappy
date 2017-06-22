@@ -36,6 +36,7 @@ var dir_288bf8d1322eece1f9dc4d9035a9de20 =
     [ "measureByStep.py", "measureByStep_8py.html", [
       [ "MeasureByStep", "classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep.html", "classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep" ]
     ] ],
+    [ "multiplex.py", "multiplex_8py.html", "multiplex_8py" ],
     [ "reader.py", "reader_8py.html", [
       [ "Reader", "classcrappy_1_1blocks_1_1reader_1_1Reader.html", "classcrappy_1_1blocks_1_1reader_1_1Reader" ]
     ] ],

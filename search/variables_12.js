@@ -15,6 +15,7 @@ var searchData=
   ['res',['res',['../classcrappy_1_1blocks_1_1correl_1_1Correl.html#a5d413204d0e6c4d93144c2fc27785027',1,'crappy.blocks.correl.Correl.res()'],['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a64cd2ce7cc5a92cf51f03402f0547e74',1,'crappy.tool.correl.CorrelStage.res()']]],
   ['resamplef',['resampleF',['../classcrappy_1_1tool_1_1correl_1_1Correl.html#a9bcc2b152148a908f838f8cd24a3d451',1,'crappy::tool::correl::Correl']]],
   ['resamplingfactor',['resamplingFactor',['../classcrappy_1_1tool_1_1correl_1_1Correl.html#a337576de8a246c86cd0ccb6c24708287',1,'crappy::tool::correl::Correl']]],
+  ['reset',['reset',['../namespacecrappy.html#a2afbe1be71cf387754b12778edf95ce2',1,'crappy']]],
   ['resetzero',['resetZero',['../classinterfaceCMdrive_1_1Interface.html#a4fbca41b4ef10f1caa474cc1ebf39831',1,'interfaceCMdrive::Interface']]],
   ['resolution',['resolution',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a81f93659280fd81350d20e5a3858fec3',1,'crappy.inout.labjackT7.Labjack_t7.resolution()'],['../classcrappy_1_1inout_1_1labjackUE9_1_1Labjack__ue9.html#ae8e922e6c44d25f455c8c1c1e9046b7a',1,'crappy.inout.labjackUE9.Labjack_ue9.resolution()']]],
   ['result',['result',['../classcrappy_1_1links_1_1link_1_1MethodThread.html#aebac0f1752288e57153c92fb011ed7ff',1,'crappy::links::link::MethodThread']]],

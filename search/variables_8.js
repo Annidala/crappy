@@ -7,7 +7,7 @@ var searchData=
   ['help_5fstring',['help_string',['../namespacebiaxe.html#aef3b1487cb6af9ba81f0dbf1d07f5439',1,'biaxe.help_string()'],['../namespaceoriental.html#a95016fe4d295a953c8037ac31550ff1a',1,'oriental.help_string()']]],
   ['here',['here',['../namespacesetup.html#a0cc428af737d9d584e852ddde7620e2b',1,'setup']]],
   ['high',['high',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a1258854c47ef9bd4c35efeb95071fcff',1,'crappy::tool::cameraConfig::Camera_config']]],
-  ['hist',['hist',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a8f6c0f267fdd35e61b54e8978c99af3c',1,'crappy::tool::cameraConfig::Camera_config']]],
+  ['hist',['hist',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a4d9bf3744ba3aae0619a5ebb2dc85eee',1,'crappy.blocks.multiplex.Multiplex.hist()'],['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a8f6c0f267fdd35e61b54e8978c99af3c',1,'crappy.tool.cameraConfig.Camera_config.hist()']]],
   ['hist_5flabel',['hist_label',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#ae416396bab8234c7e36bdff8fa0d0bf4',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['hist_5fprocess',['hist_process',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a84274d988682241630322b0cd19c274a',1,'crappy::tool::cameraConfig::Camera_config']]]
 ];

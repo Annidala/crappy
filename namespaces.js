@@ -5,6 +5,7 @@ var namespaces =
     [ "correl_advanced", "namespacecorrel__advanced.html", null ],
     [ "correl_simple", "namespacecorrel__simple.html", null ],
     [ "crappy", "namespacecrappy.html", "namespacecrappy" ],
+    [ "disp", "namespacedisp.html", null ],
     [ "displayer", "namespacedisplayer.html", null ],
     [ "example", "namespaceexample.html", null ],
     [ "Instron_measures_with_labjack", "namespaceInstron__measures__with__labjack.html", null ],

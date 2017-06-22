@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1ioblock_1_1IO
 <div class="title">crappy.blocks.ioblock.IOBlock Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This block is used to communicate with inout objects.  
+ <a href="classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.ioblock.IOBlock:</div>
 <div class="dyncontent">
@@ -150,7 +153,13 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:abc67ca4e334d1d445765d5c141542f9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#abc67ca4e334d1d445765d5c141542f9c">device</a></td></tr>
 <tr class="separator:abc67ca4e334d1d445765d5c141542f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This block is used to communicate with inout objects. </p>
+<p>Then can be used as sensor, command or both. It only takes a single argument: name The name of the inout class to instanciate It can take all the settings as kwargs: freq (float or None): The looping frequency (see masterblock) set to None (default) to go as fast as possible verbose Will print extra information labels The list of the output labels (see masterblock) </p>
+<dl class="section note"><dt>Note</dt><dd>the first label is the time. default ['t(s)','1'] cmd_label The list of the labels carrying values for the output the block will call ioobject.set_cmd(...) with these values unless it is empty (default). trigger (int or None): If the block is trigged by another block, this must specify the index of the input considered as a trigger. If set to None (default), it will run at freq if possible. </dd>
+<dd>
+The data going through the trig link is discarded. Add another link if necessary streamer If False (default), will call get_data else, will call get_stream </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a626c041b2f33af4a99e3eec680d173ed"></a>
 <div class="memitem">
 <div class="memproto">

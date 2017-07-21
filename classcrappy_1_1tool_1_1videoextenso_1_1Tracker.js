@@ -1,7 +1,7 @@
 var classcrappy_1_1tool_1_1videoextenso_1_1Tracker =
 [
     [ "__init__", "classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#a0c168cb39c26bfa94ded4fcf9f2926ac", null ],
-    [ "eval", "classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#a80f79b182cc42277c7c93fe52f9d0193", null ],
+    [ "evaluate", "classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#a381b597500c4b76a2b537937071f5286", null ],
     [ "fallback", "classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#aa3aa19d183b275ff851bc006fde4292b", null ],
     [ "run", "classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#afdf6a5bfbce856109f544664002deac8", null ],
     [ "auto_thresh", "classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#a395e40e3d1557846e7421e89545023ed", null ],

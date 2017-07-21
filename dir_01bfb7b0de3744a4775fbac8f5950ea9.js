@@ -5,6 +5,15 @@ var dir_01bfb7b0de3744a4775fbac8f5950ea9 =
       [ "MetaCondition", "classcrappy_1_1condition_1_1condition_1_1MetaCondition.html", "classcrappy_1_1condition_1_1condition_1_1MetaCondition" ],
       [ "Condition", "classcrappy_1_1condition_1_1condition_1_1Condition.html", null ]
     ] ],
+    [ "demux.py", "demux_8py.html", [
+      [ "Demux", "classcrappy_1_1condition_1_1demux_1_1Demux.html", "classcrappy_1_1condition_1_1demux_1_1Demux" ]
+    ] ],
+    [ "derive.py", "derive_8py.html", [
+      [ "Derive", "classcrappy_1_1condition_1_1derive_1_1Derive.html", "classcrappy_1_1condition_1_1derive_1_1Derive" ]
+    ] ],
+    [ "integrate.py", "integrate_8py.html", [
+      [ "Integrate", "classcrappy_1_1condition_1_1integrate_1_1Integrate.html", "classcrappy_1_1condition_1_1integrate_1_1Integrate" ]
+    ] ],
     [ "mean.py", "mean_8py.html", [
       [ "Mean", "classcrappy_1_1condition_1_1mean_1_1Mean.html", "classcrappy_1_1condition_1_1mean_1_1Mean" ]
     ] ],

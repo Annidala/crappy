@@ -5,6 +5,5 @@ var module__lister_8py =
     [ "from_", "module__lister_8py.html#a375fc10d210405d8c39c99b12d656cd4", null ],
     [ "import_", "module__lister_8py.html#a8cee9d77bbdf633d504b7125034d9580", null ],
     [ "l", "module__lister_8py.html#a0cbf661e24f28b1fc5b38d3adfce3644", null ],
-    [ "local_modules", "module__lister_8py.html#a7f3d766fa283f123a05512251bf544ce", null ],
     [ "o", "module__lister_8py.html#aa40d1a0a1463b309671089b2fb4db19a", null ]
 ];

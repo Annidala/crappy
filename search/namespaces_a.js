@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['video_5fextenso_5fauto_5fdrive',['video_extenso_auto_drive',['../namespacevideo__extenso__auto__drive.html',1,'']]],
-  ['video_5fextenso_5fonly',['video_extenso_only',['../namespacevideo__extenso__only.html',1,'']]]
+  ['self_2dheating',['self-heating',['../namespaceself-heating.html',1,'']]],
+  ['setup',['setup',['../namespacesetup.html',1,'']]],
+  ['spectrum',['spectrum',['../namespacespectrum.html',1,'']]],
+  ['spectrum_5fsave',['spectrum_save',['../namespacespectrum__save.html',1,'']]],
+  ['stream_5ft7',['stream_t7',['../namespacestream__t7.html',1,'']]]
 ];

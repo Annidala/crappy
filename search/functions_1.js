@@ -1,9 +1,16 @@
 var searchData=
 [
+  ['add_5fbutton',['add_button',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#aafdcc6e0f174dd229e9c8a749eff8166',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
+  ['add_5fcheckbutton',['add_checkbutton',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#a93fdf10945518b283792a19944cc4abf',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
+  ['add_5fcombobox',['add_combobox',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#ade113c0e736cdd7b7e26c3261bfcd991',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
   ['add_5fcrc',['add_crc',['../namespacecrappy_1_1camera_1_1bispectral.html#a963c13dd0246972080a1f07a73e83b42',1,'crappy::camera::bispectral']]],
+  ['add_5fentry',['add_entry',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#a73b349df6ffe202040c73a37be23bdf9',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
   ['add_5finput',['add_input',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#ac0e8d5b02542834ec2db645334f3c7c9',1,'crappy::blocks::masterblock::MasterBlock']]],
+  ['add_5flabel',['add_label',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#a562f298d99ee7a54ae7bc2bf65be5285',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
   ['add_5foutput',['add_output',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a3adb47cd8b9fae8623a181c15bb6ac45',1,'crappy::blocks::masterblock::MasterBlock']]],
+  ['add_5fscale',['add_scale',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#ae927d07b475fe1202e9866711e337165',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
   ['add_5fsetting',['add_setting',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#abd27a7b3b87cefab0d129f0c1530ca79',1,'crappy::camera::camera::Camera']]],
+  ['add_5ftext',['add_text',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#a95952fd555fa472e44572e69639f6685',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
   ['addtrigger',['addTrigger',['../group__ximea.html#ga91744613f323e5aff228f8c1b34b062a',1,'CaptureCAM_XIMEA']]],
   ['advance',['advance',['../classinterfaceCMdrive_1_1Interface.html#a6148002bacfc09c86f3632366d3acee5',1,'interfaceCMdrive::Interface']]],
   ['all_5fare',['all_are',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a1116f6749634e1c828db45d94e98d214',1,'crappy::blocks::masterblock::MasterBlock']]],

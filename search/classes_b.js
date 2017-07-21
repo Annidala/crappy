@@ -10,8 +10,10 @@ var searchData=
   ['metacondition',['MetaCondition',['../classcrappy_1_1condition_1_1condition_1_1MetaCondition.html',1,'crappy::condition::condition']]],
   ['metaio',['MetaIO',['../classcrappy_1_1inout_1_1inout_1_1MetaIO.html',1,'crappy::inout::inout']]],
   ['methodthread',['MethodThread',['../classcrappy_1_1links_1_1link_1_1MethodThread.html',1,'crappy::links::link']]],
-  ['minitensframe',['MinitensFrame',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html',1,'crappy::inout::arduino']]],
-  ['monitorframe',['MonitorFrame',['../classcrappy_1_1inout_1_1arduino_1_1MonitorFrame.html',1,'crappy::inout::arduino']]],
+  ['minitensframe',['MinitensFrame',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html',1,'crappy::tool::GUI_Arduino::minitens']]],
+  ['minitensframes',['MinitensFrames',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrames.html',1,'crappy::tool::GUI_Arduino::minitens']]],
+  ['minitenspopups',['MinitensPopups',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html',1,'crappy::tool::GUI_Arduino::minitens']]],
+  ['monitorframe',['MonitorFrame',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1arduino__basics_1_1MonitorFrame.html',1,'crappy::tool::GUI_Arduino::arduino_basics']]],
   ['moving_5favg',['Moving_avg',['../classcrappy_1_1condition_1_1moving__avg_1_1Moving__avg.html',1,'crappy::condition::moving_avg']]],
   ['multiplex',['Multiplex',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html',1,'crappy::blocks::multiplex']]],
   ['my_5fcondition',['My_condition',['../classconditions_1_1My__condition.html',1,'conditions']]]

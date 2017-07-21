@@ -1,5 +1,6 @@
 var dir_9cb89a04c850b01873e261442f29aef1 =
 [
+    [ "GUI_Arduino", "dir_7166b02287b97ff3b72985140525547d.html", "dir_7166b02287b97ff3b72985140525547d" ],
     [ "__init__.py", "tool_2____init_____8py.html", "tool_2____init_____8py" ],
     [ "cameraConfig.py", "cameraConfig_8py.html", [
       [ "Hist_generator", "classcrappy_1_1tool_1_1cameraConfig_1_1Hist__generator.html", "classcrappy_1_1tool_1_1cameraConfig_1_1Hist__generator" ],
@@ -10,6 +11,7 @@ var dir_9cb89a04c850b01873e261442f29aef1 =
     [ "datapicker.py", "datapicker_8py.html", [
       [ "DataPicker", "classcrappy_1_1tool_1_1datapicker_1_1DataPicker.html", "classcrappy_1_1tool_1_1datapicker_1_1DataPicker" ]
     ] ],
+    [ "pyspcm.py", "pyspcm_8py.html", "pyspcm_8py" ],
     [ "videoextenso.py", "videoextenso_8py.html", "videoextenso_8py" ],
     [ "videoextensoConfig.py", "videoextensoConfig_8py.html", [
       [ "VE_config", "classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html", "classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config" ]

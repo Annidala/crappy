@@ -9,6 +9,7 @@ var classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso =
     [ "last_fps_loops", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#ad0bd03be6aa426b8d7bbc938d8df8320", null ],
     [ "last_fps_print", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#abb637cc1e8df003a0f363d400f49948d", null ],
     [ "loops", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#a946c0776d92618e572a8044b78faa276", null ],
+    [ "niceness", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#ae61c135f5eb5b92c866e08fce73c373a", null ],
     [ "ve", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#a0a6f1b3cfff9b451549a743470253d08", null ],
     [ "ve_kwargs", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#a6ef45c8094f2cfbb457e8d15783c8309", null ]
 ];

@@ -10,9 +10,9 @@ var NAVTREE =
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ]
+        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
       ] ]
     ] ],
     [ "Classes", null, [
@@ -41,13 +41,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "CameraLink_8cpp.html",
-"classcrappy_1_1blocks_1_1correl_1_1Correl.html#a4599312d11255d99c5b5cd06f49dafab",
-"classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#aaf6613b249a2df78e97957ceacd917d4",
-"classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#a4aaf10b9e886773dec8192482790a174",
-"classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a140aa888d1b85bf96e266c204c4a8e08",
-"functions_g.html",
-"namespacecrappy_1_1blocks_1_1videoExtenso.html",
-"tool_2correl_8py.html#a3072af8459d1fd07cfdb96d03f3e7975"
+"classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a107880c5e0f3cabd6999decc9601f906",
+"classcrappy_1_1blocks_1_1machine_1_1Machine.html#a033c0cef0505a93a911fbd8cdb333d5a",
+"classcrappy_1_1camera_1_1ximea_1_1Ximea.html#aa2c5b9cea42f22da7d7cb72757022835",
+"classcrappy_1_1links_1_1link_1_1Link.html#aa920d6318b4bfd5063f98e8e5908dba3",
+"classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a94d87ab9fe793b690e71f22ca2d987bc",
+"functions_s.html",
+"namespacecrappy_1_1blocks_1_1pid.html",
+"protection__par__axe_8py.html#a12fc327dc3d872e10ba5d3842c07a92d",
+"ximea_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba559869b9dcb0eac5e613d8e710533b25"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,0 +1,28 @@
+var classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame =
+[
+    [ "__init__", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a78b3e3bae8c43b81e2a6e0369374e905", null ],
+    [ "calc_speed", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a9649cf1117d0600c34ec710628bd392c", null ],
+    [ "check_cycle", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#acb6db2e3ad40bf00ba8563aac1196541", null ],
+    [ "check_go_to", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#ac72f99533f69f66106b1d72e2fe46212", null ],
+    [ "check_limits", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a34878db8ce972924f6892aeee7964fda", null ],
+    [ "create_widgets", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a59757201fb557e3fcbcdbd971a5fd1e0", null ],
+    [ "init_command", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#afc3ada0419e45bdd99bd333a526c6d15", null ],
+    [ "start_cycle", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a3d86b210463e8d2483e9a68ac89a4a38", null ],
+    [ "submit_command", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a46ec78e1a255cbe52277431c36222424", null ],
+    [ "submit_cycle", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#abacc1d15b105ba2e4cb9376dd55f1857", null ],
+    [ "tare", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a9f557f1bf48b028ae7061d548c0a9ecc", null ],
+    [ "update_data", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a6532511242b45b16bbcca6cd0a6a33ca", null ],
+    [ "update_widgets", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#ae734653716dca9b768cdbd59581f3c47", null ],
+    [ "check_goto_bool", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#ae06017183fbad5d27946408c63f96a92", null ],
+    [ "command_bool", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#aeb56bac4901fb7503b53e87497469ed2", null ],
+    [ "crappy_queue", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a586c31a8f752f15c4585446ce43ddc14", null ],
+    [ "cycles_started", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#aca02fa5ad36fbc1c46b456ab2316e6d7", null ],
+    [ "frames", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a20f6b6ef65f6e096c530274e50963903", null ],
+    [ "position", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a4a021d6925b917c303e2b36603b57453", null ],
+    [ "position_prct", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a28233f47aa40bd9e66a68cb7f377ebc7", null ],
+    [ "position_rel", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a896ee97988e9debcd289eb7daf24ead7", null ],
+    [ "queue", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a539ffb7f245bd46c2fbf1143953f4a46", null ],
+    [ "recording_state", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a090934868de706926a60ab9043329337", null ],
+    [ "rising", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a0edd047ecdad5b1f18170905cae06c80", null ],
+    [ "variables", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a605bfa297936d1d8867b374d209eecb4", null ]
+];

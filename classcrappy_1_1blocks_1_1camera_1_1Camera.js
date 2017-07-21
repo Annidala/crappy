@@ -12,6 +12,7 @@ var classcrappy_1_1blocks_1_1camera_1_1Camera =
     [ "fps_timer", "classcrappy_1_1blocks_1_1camera_1_1Camera.html#a95698ffd6e8fb3b7755285bd239a0e77", null ],
     [ "last_index", "classcrappy_1_1blocks_1_1camera_1_1Camera.html#a2c24d2584892aeced86b913da10166b5", null ],
     [ "loops", "classcrappy_1_1blocks_1_1camera_1_1Camera.html#ae97bcb35fc0ddde268f49830057376b9", null ],
+    [ "niceness", "classcrappy_1_1blocks_1_1camera_1_1Camera.html#a98c517ddd54c210dff73ce60374a9f0b", null ],
     [ "timer", "classcrappy_1_1blocks_1_1camera_1_1Camera.html#a442fb01e3764ed0c3ec0704c02526747", null ],
     [ "trigger", "classcrappy_1_1blocks_1_1camera_1_1Camera.html#ac6dd82d006129a78e3f5dbcdb0375c5c", null ]
 ];

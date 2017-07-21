@@ -7,5 +7,7 @@ var inout_2____init_____8py =
     [ "Labjack_t7", "inout_2____init_____8py.html#a9efdedca4470ae4ecafebb92d47c29ec", null ],
     [ "Labjack_ue9", "inout_2____init_____8py.html#abc143470fddd0c886acb692a1fdd369b", null ],
     [ "openDAQ", "inout_2____init_____8py.html#ab71804da08f7afd7458c05fa4c37fbee", null ],
-    [ "out_list", "inout_2____init_____8py.html#a8be6789413279c749c0b97c47fd3db3c", null ]
+    [ "out_list", "inout_2____init_____8py.html#a8be6789413279c749c0b97c47fd3db3c", null ],
+    [ "Spectrum", "inout_2____init_____8py.html#af5e93262b2805cef65fecc1d726cdaff", null ],
+    [ "T7_streamer", "inout_2____init_____8py.html#a372298092cbbbf731a07126ad7238ec1", null ]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['d',['d',['../namespacedrawing.html#ac867b7177c13ba41dbf36489451f7815',1,'drawing.d()'],['../namespacepid.html#a8f23a40d467b624b4c0b63b742625dc2',1,'pid.d()'],['../namespacepid__autotune.html#ae69cf7c39e9bfcc0b2a1f25c7af6fd30',1,'pid_autotune.d()']]],
   ['daqmx',['Daqmx',['../namespacecrappy_1_1inout.html#a6f20577fd45bd9e8891b25263e55fa35',1,'crappy::inout']]],
   ['data',['data',['../classcrappy_1_1blocks_1_1camera_1_1Camera.html#adc17ef00aeca01e7e66dbb36ada81835',1,'crappy.blocks.camera.Camera.data()'],['../namespacecrappy_1_1tool_1_1comedi__bind.html#aa70532e1e52eb43e0b4097fcd1c76057',1,'crappy.tool.comedi_bind.data()']]],
   ['data_5ffiles',['data_files',['../namespacesetup.html#aa53ac83b0960b5acd92e9692d0297097',1,'setup']]],
@@ -19,12 +20,17 @@ var searchData=
   ['device_5fkwargs',['device_kwargs',['../classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#a5b42abdb7cb96c12a75de02edbdfa536',1,'crappy::blocks::ioblock::IOBlock']]],
   ['device_5fname',['device_name',['../classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#ab2f60643c76312c0c43b16c010086a88',1,'crappy.blocks.ioblock.IOBlock.device_name()'],['../classcrappy_1_1inout_1_1comedi_1_1Comedi.html#afeed3df5cb0dcdaeff634fe5c9fbdcab',1,'crappy.inout.comedi.Comedi.device_name()']]],
   ['device_5fpath',['device_path',['../structVideoCapture.html#aa61752d623c37c2ce6eb81e4fa7d5a0c',1,'VideoCapture']]],
+  ['devname',['devname',['../classcrappy_1_1actuator_1_1servostar_1_1Servostar.html#a5e132058b627ee4ff3e5efa6145e124f',1,'crappy::actuator::servostar::Servostar']]],
   ['devorig',['devOrig',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a1519b27c09e9abc32f0d21fa50195845',1,'crappy::tool::correl::CorrelStage']]],
   ['devout',['devOut',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a344e43b9c01904a1e0f56c0c81ef8832',1,'crappy::tool::correl::CorrelStage']]],
   ['devrout',['devROut',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#add21591bffd28d7370c485699d495a3b',1,'crappy::tool::correl::CorrelStage']]],
   ['devvec',['devVec',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#acf99e865d730e23bcec6b06874e1e564',1,'crappy::tool::correl::CorrelStage']]],
   ['devx',['devX',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a7120fc31b383a979fac669ce824b9169',1,'crappy::tool::correl::CorrelStage']]],
   ['direction',['direction',['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#aabd4608b7cdfb37b24a21a81cf8d2ec9',1,'crappy::blocks::signalGenerator::SignalGenerator']]],
-  ['disp',['disp',['../namespacedisp.html#ac895dcb66a7ebe8f283b89a4a293a4a2',1,'disp.disp()'],['../namespacedisplayer.html#a601e38579659261dcd5b27e3e71be230',1,'displayer.disp()']]],
-  ['dt',['dt',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a2cd7a49270cc39065a0ccf9c4c38f802',1,'crappy::blocks::multiplex::Multiplex']]]
+  ['disp',['disp',['../namespacedisplayer.html#a601e38579659261dcd5b27e3e71be230',1,'displayer']]],
+  ['dot',['dot',['../classcrappy_1_1blocks_1_1drawing_1_1Dot__text.html#af0cbd4cea90c778ef8f15ab7a2d595d1',1,'crappy::blocks::drawing::Dot_text']]],
+  ['double_5freg',['double_reg',['../namespacecrappy_1_1tool_1_1pyspcm.html#a8f317338693350a2a4f8d9fc65307e92',1,'crappy::tool::pyspcm']]],
+  ['draw',['draw',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#a71b3dabf8addf780da26766ce0da8c6d',1,'crappy::blocks::drawing::Drawing']]],
+  ['dt',['dt',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a2cd7a49270cc39065a0ccf9c4c38f802',1,'crappy.blocks.multiplex.Multiplex.dt()'],['../classcrappy_1_1inout_1_1spectrum_1_1Spectrum.html#a7f1661418ed994ba463f1bb1ad763537',1,'crappy.inout.spectrum.Spectrum.dt()']]],
+  ['dwgeterrorinfo_5fi32',['dwGetErrorInfo_i32',['../namespacecrappy_1_1tool_1_1pyspcm.html#a5b6b138a4cfc48bc7e3972b68961fe7d',1,'crappy::tool::pyspcm']]]
 ];

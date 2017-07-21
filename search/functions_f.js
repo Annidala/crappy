@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['read',['read',['../classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#a83a7c753fef2d0b7b97ed5a9e952b76e',1,'crappy::blocks::ioblock::IOBlock']]],
+  ['read',['read',['../classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#a83a7c753fef2d0b7b97ed5a9e952b76e',1,'crappy.blocks.ioblock.IOBlock.read()'],['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a51c14630d7e1b7c2dcaf995c132b6d51',1,'crappy.inout.labjackT7.Labjack_t7.read()']]],
   ['read_5fimage',['read_image',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#ac940d077686c570f2965e9fe55f26c87',1,'crappy::camera::camera::Camera']]],
   ['read_5freply',['read_reply',['../classcrappy_1_1inout_1_1opsens_1_1Opsens.html#aba5e29028754a01e1147d9b7eb2b413b',1,'crappy::inout::opsens::Opsens']]],
   ['reader',['reader',['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a83f9dc39e35599e041e3eae0271f822d',1,'crappy::actuator::oriental::Oriental']]],
@@ -9,6 +9,8 @@ var searchData=
   ['recv_5fchunk',['recv_chunk',['../classcrappy_1_1links_1_1link_1_1Link.html#a008d53a14ec03bd5019302a062578668',1,'crappy::links::link::Link']]],
   ['recv_5fdelay',['recv_delay',['../classcrappy_1_1links_1_1link_1_1Link.html#ab7dccda93c97e576b793764e9a300164',1,'crappy::links::link::Link']]],
   ['recv_5flast',['recv_last',['../classcrappy_1_1links_1_1link_1_1Link.html#a451de395d3d0a6484a128e798d704f12',1,'crappy::links::link::Link']]],
+  ['renice',['renice',['../namespacecrappy_1_1blocks_1_1masterblock.html#ac42b11a12f4e50263a4946408903ca40',1,'crappy::blocks::masterblock']]],
+  ['renice_5fall',['renice_all',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a8f44054203d04ba8e82ca1bc76d0d949',1,'crappy::blocks::masterblock::MasterBlock']]],
   ['reopen',['reopen',['../classcrappy_1_1camera_1_1ximea_1_1Ximea.html#ae4ba1ca81ee3664cf295037554b6ab29',1,'crappy.camera.ximea.Ximea.reopen()'],['../classcrappy_1_1camera_1_1ximeaCV_1_1XimeaCV.html#ab49ec269c67dbc53d0365d9359c17cc8',1,'crappy.camera.ximeaCV.XimeaCV.reopen()']]],
   ['resampled',['resampleD',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a01c50a807c1d1b0a6c35071f7bf2d2ae',1,'crappy::tool::correl::CorrelStage']]],
   ['resampleorig',['resampleOrig',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a08e1a2622a419705178e05c3d461c7a7',1,'crappy::tool::correl::CorrelStage']]],

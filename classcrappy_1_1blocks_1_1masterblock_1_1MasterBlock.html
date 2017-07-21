@@ -142,6 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1116f6749634e1c828db45d94e98d214"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a1116f6749634e1c828db45d94e98d214">all_are</a></td></tr>
 <tr class="memdesc:a1116f6749634e1c828db45d94e98d214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true only if all processes status are s.  <a href="#a1116f6749634e1c828db45d94e98d214">More...</a><br/></td></tr>
 <tr class="separator:a1116f6749634e1c828db45d94e98d214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f44054203d04ba8e82ca1bc76d0d949"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a8f44054203d04ba8e82ca1bc76d0d949">renice_all</a></td></tr>
+<tr class="memdesc:a8f44054203d04ba8e82ca1bc76d0d949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Will renice all the blocks processes according to block.niceness value.  <a href="#a8f44054203d04ba8e82ca1bc76d0d949">More...</a><br/></td></tr>
+<tr class="separator:a8f44054203d04ba8e82ca1bc76d0d949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7856645251639b2bb49915935445ee4d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a7856645251639b2bb49915935445ee4d">prepare_all</a></td></tr>
 <tr class="memdesc:a7856645251639b2bb49915935445ee4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts all the blocks processes (block.prepare), but not the main loop.  <a href="#a7856645251639b2bb49915935445ee4d">More...</a><br/></td></tr>
 <tr class="separator:a7856645251639b2bb49915935445ee4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,6 +208,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acc4dbe1b3e329a046bb9c64ef26beaa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a844e276cc0a9addb1e129d2e04d2cb48"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a844e276cc0a9addb1e129d2e04d2cb48">in_process</a></td></tr>
 <tr class="separator:a844e276cc0a9addb1e129d2e04d2cb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c419f40c5885419a975203fd60d956"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#aa2c419f40c5885419a975203fd60d956">niceness</a></td></tr>
+<tr class="separator:aa2c419f40c5885419a975203fd60d956"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7888a90b81628bd6a51722fee971d2cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a7888a90b81628bd6a51722fee971d2cf">status</a></td></tr>
 <tr class="separator:a7888a90b81628bd6a51722fee971d2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1306b5500bbc652670bcce8a0e119f52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a1306b5500bbc652670bcce8a0e119f52">t0</a></td></tr>
@@ -666,6 +671,41 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8f44054203d04ba8e82ca1bc76d0d949"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def crappy.blocks.masterblock.MasterBlock.renice_all </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cls</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>high_prio</em> = <code>True</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>verbose</em> = <code>True</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Will renice all the blocks processes according to block.niceness value. </p>
+<p>If high_prio is False, blocks with a negative niceness value will be ignored. This is to avoid asking for the sudo password since only root can lower the niceness of processes. </p>
+
+</div>
+</div>
 <a class="anchor" id="a37ecd9110dba52bd85961e5da342163c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -753,7 +793,13 @@ Static Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>bg</em> = <code>False</code>&#160;</td>
+          <td class="paramname"><em>bg</em> = <code>False</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>high_prio</em> = <code>False</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -894,6 +940,18 @@ Static Public Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa2c419f40c5885419a975203fd60d956"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.blocks.masterblock.MasterBlock.niceness</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

@@ -1,19 +1,21 @@
 var searchData=
 [
-  ['b',['b',['../namespacebiaxe.html#afabfbbf4d37314b47beb626721ce72a8',1,'biaxe']]],
+  ['b',['b',['../namespacebiaxe.html#afabfbbf4d37314b47beb626721ce72a8',1,'biaxe.b()'],['../namespacebiotens.html#a5cc170e0e055a67927b5333a95acc6a9',1,'biotens.b()']]],
+  ['baud',['baud',['../classcrappy_1_1actuator_1_1servostar_1_1Servostar.html#a2f1a1af9e4e7f51b6e8e7a345a00c96c',1,'crappy::actuator::servostar::Servostar']]],
   ['baudcombo',['baudCombo',['../classinterfaceCMdrive_1_1Interface.html#a3ca9cee3eef6b81fe425530f3ad9fbd9',1,'interfaceCMdrive::Interface']]],
-  ['baudrate',['baudrate',['../classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#aa83260bba36130c0841b77c01a18dcb3',1,'crappy.actuator.biaxe.Biaxe.baudrate()'],['../classcrappy_1_1actuator_1_1biotens_1_1Biotens.html#a81401ccdc0c0980ecf323f86d5303cd5',1,'crappy.actuator.biotens.Biotens.baudrate()'],['../classcrappy_1_1actuator_1_1cmDrive_1_1CM__drive.html#a37bc9f150b0a61ac2349829ea4e60ee2',1,'crappy.actuator.cmDrive.CM_drive.baudrate()'],['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a08eb1cd43e8e3650558b55eac7ef6cd4',1,'crappy.actuator.oriental.Oriental.baudrate()'],['../classcrappy_1_1inout_1_1agilent34420A_1_1Agilent34420A.html#aee914ab8e057692cd331a295ff0b9c4f',1,'crappy.inout.agilent34420A.Agilent34420A.baudrate()'],['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#af0d433394271f913f15b938aa7df2bf6',1,'crappy.inout.arduino.ArduinoHandler.baudrate()'],['../classcrappy_1_1inout_1_1arduino_1_1Arduino.html#a7e764874baf12585448fbe2d84d89360',1,'crappy.inout.arduino.Arduino.baudrate()']]],
+  ['baudrate',['baudrate',['../classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#aa83260bba36130c0841b77c01a18dcb3',1,'crappy.actuator.biaxe.Biaxe.baudrate()'],['../classcrappy_1_1actuator_1_1biotens_1_1Biotens.html#a81401ccdc0c0980ecf323f86d5303cd5',1,'crappy.actuator.biotens.Biotens.baudrate()'],['../classcrappy_1_1actuator_1_1cmDrive_1_1CM__drive.html#a37bc9f150b0a61ac2349829ea4e60ee2',1,'crappy.actuator.cmDrive.CM_drive.baudrate()'],['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a08eb1cd43e8e3650558b55eac7ef6cd4',1,'crappy.actuator.oriental.Oriental.baudrate()'],['../classcrappy_1_1inout_1_1agilent34420A_1_1Agilent34420A.html#aee914ab8e057692cd331a295ff0b9c4f',1,'crappy.inout.agilent34420A.Agilent34420A.baudrate()']]],
   ['baudratecombo',['baudrateCombo',['../classinterfaceCMdrive_1_1Interface.html#a5025c607c3f162ca239aafcf47800b4b',1,'interfaceCMdrive::Interface']]],
   ['baudratelabel',['baudrateLabel',['../classinterfaceCMdrive_1_1Interface.html#a3b7ca0008ef3e9ac57db5b0d807e9d15',1,'interfaceCMdrive::Interface']]],
   ['begin',['begin',['../classcrappy_1_1blocks_1_1displayer_1_1Displayer.html#ad047813f6f44c039778f95f6ec55c1ad',1,'crappy::blocks::displayer::Displayer']]],
+  ['biotens',['biotens',['../namespacebiotens.html#a84047f1d9245dc6144f007906e6fa4af',1,'biotens']]],
   ['bispectral',['Bispectral',['../namespacecrappy_1_1camera.html#afecbbce72ae01554d8802f3dcba54fc3',1,'crappy::camera']]],
   ['bits_5flabel',['bits_label',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a4b486a4ca283bfccfcc07c2770a463f1',1,'crappy::tool::cameraConfig::Camera_config']]],
-  ['block',['block',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#ae29f55f255b9d4523b1879fdfa4a5cf2',1,'crappy::tool::correl::CorrelStage']]],
+  ['block',['block',['../classcrappy_1_1blocks_1_1drawing_1_1Time.html#afdd9951898070cbd2243c9b47e6ba757',1,'crappy.blocks.drawing.Time.block()'],['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#ae29f55f255b9d4523b1879fdfa4a5cf2',1,'crappy.tool.correl.CorrelStage.block()']]],
   ['boardnr',['boardNr',['../classCaptureCAM__CL.html#a389bd2abcf59cbbc09356897508eec7b',1,'CaptureCAM_CL']]],
-  ['boucle_5fframe',['boucle_frame',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html#adc06dca5978ae54d706c8f6155027366',1,'crappy::inout::arduino::MinitensFrame']]],
-  ['boucle_5fparameter',['boucle_parameter',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html#a3c8f37f0e116f608bfce4cc25802cc38',1,'crappy::inout::arduino::MinitensFrame']]],
+  ['bool_5floop',['bool_loop',['../classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html#a02bc59b0ca8eebf1bf267b342ac63c38',1,'crappy::inout::arduino::ArduinoHandler']]],
   ['box_5forigin',['box_origin',['../classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a0a7371e42281d08b8497fe499372e2d4',1,'crappy::tool::videoextensoConfig::VE_config']]],
   ['boxes',['boxes',['../classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#ae114875684719575812bf10294f6b48e',1,'crappy::tool::videoextensoConfig::VE_config']]],
-  ['buttons_5fframe',['buttons_frame',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html#a212d2336fa11498c668eaee1a621ab2d',1,'crappy::inout::arduino::MinitensFrame']]],
+  ['bs',['bs',['../classcrappy_1_1inout_1_1spectrum_1_1Spectrum.html#aa4aeb0c0f0152d27ba239c81eb5e6fae',1,'crappy::inout::spectrum::Spectrum']]],
+  ['buff',['buff',['../classcrappy_1_1inout_1_1spectrum_1_1Spectrum.html#a160abc2a0bf79eb2a28c7c30c6fd4b8c',1,'crappy::inout::spectrum::Spectrum']]],
   ['bytesperpixel',['bytesPerPixel',['../classCaptureCAM__CL.html#a1d758310e717faf006bf6e0ed997e06c',1,'CaptureCAM_CL']]]
 ];

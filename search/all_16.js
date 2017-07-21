@@ -1,8 +1,12 @@
 var searchData=
 [
+  ['v0',['v0',['../namespacepid__autotune.html#aa56702dc8ae348e22fc7dde6509d34ad',1,'pid_autotune']]],
+  ['v1',['v1',['../namespacepid__autotune.html#a0170039f1b54290df43fba6feed204ff',1,'pid_autotune']]],
+  ['val',['val',['../classcrappy_1_1condition_1_1integrate_1_1Integrate.html#a8cad70954c9590e4e4475092091631a6',1,'crappy::condition::integrate::Integrate']]],
   ['value',['value',['../classcrappy_1_1blocks_1_1generator__path_1_1constant_1_1Constant.html#aff85f005c3a52776b9b769a1b14a1fb5',1,'crappy.blocks.generator_path.constant.Constant.value()'],['../classcrappy_1_1blocks_1_1generator__path_1_1cyclic_1_1Cyclic.html#ae9b2e385b58d94a99231b973477df202',1,'crappy.blocks.generator_path.cyclic.Cyclic.value()'],['../classcrappy_1_1blocks_1_1generator__path_1_1protection_1_1Protection.html#ad895dc6d3644ca776e3bb5a01329e1e7',1,'crappy.blocks.generator_path.protection.Protection.value()'],['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#aebf3465e43bbc8daf927d7d9d289140e',1,'crappy.blocks.signalGenerator.SignalGenerator.value()'],['../classcrappy_1_1camera_1_1camera_1_1Cam__setting.html#a250581105706941d740cdaab9fa0a9a2',1,'crappy.camera.camera.Cam_setting.value'],['../classcrappy_1_1camera_1_1camera_1_1Cam__setting.html#a250581105706941d740cdaab9fa0a9a2',1,'crappy.camera.camera.Cam_setting.value']]],
   ['values',['values',['../classcrappy_1_1condition_1_1trig__on__value_1_1Trig__on__value.html#a639618317d40f55a216ae8f3fe25f452',1,'crappy::condition::trig_on_value::Trig_on_value']]],
-  ['var_5ftester',['var_tester',['../namespacecrappy_1_1inout_1_1labjackT7.html#a81e6df0bbfa2070502a6e76e42e68537',1,'crappy::inout::labjackT7']]],
+  ['variables',['variables',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a605bfa297936d1d8867b374d209eecb4',1,'crappy::tool::GUI_Arduino::minitens::MinitensFrame']]],
+  ['vclose',['vClose',['../namespacecrappy_1_1tool_1_1pyspcm.html#ad0eacb5961c30fb2b8a429156fd7effb',1,'crappy::tool::pyspcm']]],
   ['ve',['ve',['../classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#a0a6f1b3cfff9b451549a743470253d08',1,'crappy.blocks.videoExtenso.Video_extenso.ve()'],['../classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a0eadbf49bf2022538f968b7184428e90',1,'crappy.tool.videoextensoConfig.VE_config.ve()'],['../namespacevideo__extenso__auto__drive.html#a980bac3809345e9daec80b8e2a22887b',1,'video_extenso_auto_drive.ve()']]],
   ['ve_5fconfig',['VE_config',['../classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html',1,'crappy::tool::videoextensoConfig']]],
   ['ve_5fkwargs',['ve_kwargs',['../classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#a6ef45c8094f2cfbb457e8d15783c8309',1,'crappy::blocks::videoExtenso::Video_extenso']]],
@@ -34,8 +38,5 @@ var searchData=
   ['videocapture_5fstopacq',['VideoCapture_stopAcq',['../group__capturecam.html#gac43dd01e110d7ae082c0376e71f95a74',1,'VideoCapture_stopAcq(VideoCapture *self):&#160;pyCameraLink.cpp'],['../group__capturecam.html#gac43dd01e110d7ae082c0376e71f95a74',1,'VideoCapture_stopAcq(VideoCapture *self):&#160;pyCameraLink.cpp']]],
   ['videocapture_5fxiread',['VideoCapture_xiread',['../pyXimea_8cpp.html#a78747a7494c6b58bae46095386d21fc4',1,'VideoCapture_xiread(VideoCapture *self):&#160;pyXimea.cpp'],['../ximea_8h.html#a78747a7494c6b58bae46095386d21fc4',1,'VideoCapture_xiread(VideoCapture *self):&#160;pyXimea.cpp']]],
   ['videoextenso_2epy',['videoExtenso.py',['../videoExtenso_8py.html',1,'(Global Namespace)'],['../videoextenso_8py.html',1,'(Global Namespace)']]],
-  ['videoextensoconfig_2epy',['videoextensoConfig.py',['../videoextensoConfig_8py.html',1,'']]],
-  ['vitesse_5fframe',['vitesse_frame',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html#ab8c5e9c161a2fdd0383fec6c35376363',1,'crappy::inout::arduino::MinitensFrame']]],
-  ['vitesse_5fparameter',['vitesse_parameter',['../classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html#aa25ed74afacd68f85cea67547a503e28',1,'crappy::inout::arduino::MinitensFrame']]],
-  ['vprint',['vprint',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a707b8aba9306739e67e0c89d4ef4cd3b',1,'crappy::inout::labjackT7::Labjack_t7']]]
+  ['videoextensoconfig_2epy',['videoextensoConfig.py',['../videoextensoConfig_8py.html',1,'']]]
 ];

@@ -7,17 +7,18 @@ var hierarchy =
     [ "crappy.tool.correl.CorrelStage", "classcrappy_1_1tool_1_1correl_1_1CorrelStage.html", null ],
     [ "crappy.blocks.dashboard.Dashboard.Dashboard", "classcrappy_1_1blocks_1_1dashboard_1_1Dashboard_1_1Dashboard.html", null ],
     [ "crappy.tool.datapicker.DataPicker", "classcrappy_1_1tool_1_1datapicker_1_1DataPicker.html", null ],
-    [ "crappy.inout.labjackT7.DialogBox", "classcrappy_1_1inout_1_1labjackT7_1_1DialogBox.html", null ],
     [ "Exception", null, [
       [ "crappy._global.CrappyStop", "classcrappy_1_1__global_1_1CrappyStop.html", null ],
       [ "crappy._global.DefinitionError", "classcrappy_1_1__global_1_1DefinitionError.html", null ],
+      [ "crappy.inout.spectrum.SpectrumError", "classcrappy_1_1inout_1_1spectrum_1_1SpectrumError.html", null ],
       [ "crappy.links.link.TimeoutError", "classcrappy_1_1links_1_1link_1_1TimeoutError.html", null ],
+      [ "crappy.tool.pyspcm.SpectrumError", "classcrappy_1_1tool_1_1pyspcm_1_1SpectrumError.html", null ],
       [ "crappy.tool.videoextenso.LostSpotError", "classcrappy_1_1tool_1_1videoextenso_1_1LostSpotError.html", null ]
     ] ],
     [ "Frame", null, [
-      [ "crappy.inout.arduino.MinitensFrame", "classcrappy_1_1inout_1_1arduino_1_1MinitensFrame.html", null ],
-      [ "crappy.inout.arduino.MonitorFrame", "classcrappy_1_1inout_1_1arduino_1_1MonitorFrame.html", null ],
-      [ "crappy.inout.arduino.SubmitSerialFrame", "classcrappy_1_1inout_1_1arduino_1_1SubmitSerialFrame.html", null ],
+      [ "crappy.tool.GUI_Arduino.arduino_basics.MonitorFrame", "classcrappy_1_1tool_1_1GUI__Arduino_1_1arduino__basics_1_1MonitorFrame.html", null ],
+      [ "crappy.tool.GUI_Arduino.arduino_basics.SubmitSerialFrame", "classcrappy_1_1tool_1_1GUI__Arduino_1_1arduino__basics_1_1SubmitSerialFrame.html", null ],
+      [ "crappy.tool.GUI_Arduino.frame_objects.FrameObjects", "classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html", null ],
       [ "interfaceCMdrive.Interface", "classinterfaceCMdrive_1_1Interface.html", null ]
     ] ],
     [ "Hello", "structHello.html", null ],
@@ -26,6 +27,9 @@ var hierarchy =
     [ "crappy._global.NotSupported", "classcrappy_1_1__global_1_1NotSupported.html", null ],
     [ "object", null, [
       [ "crappy.actuator.actuator.Actuator", "classcrappy_1_1actuator_1_1actuator_1_1Actuator.html", null ],
+      [ "crappy.blocks.drawing.Dot_text", "classcrappy_1_1blocks_1_1drawing_1_1Dot__text.html", null ],
+      [ "crappy.blocks.drawing.Text", "classcrappy_1_1blocks_1_1drawing_1_1Text.html", null ],
+      [ "crappy.blocks.drawing.Time", "classcrappy_1_1blocks_1_1drawing_1_1Time.html", null ],
       [ "crappy.blocks.generator_path.path.Path", "classcrappy_1_1blocks_1_1generator__path_1_1path_1_1Path.html", null ],
       [ "crappy.camera.camera.Cam_setting", "classcrappy_1_1camera_1_1camera_1_1Cam__setting.html", null ],
       [ "crappy.camera.camera.Camera", "classcrappy_1_1camera_1_1camera_1_1Camera.html", null ],
@@ -52,7 +56,9 @@ var hierarchy =
       [ "crappy.actuator.biaxe.Biaxe", "classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html", null ],
       [ "crappy.actuator.biotens.Biotens", "classcrappy_1_1actuator_1_1biotens_1_1Biotens.html", null ],
       [ "crappy.actuator.cmDrive.CM_drive", "classcrappy_1_1actuator_1_1cmDrive_1_1CM__drive.html", null ],
-      [ "crappy.actuator.oriental.Oriental", "classcrappy_1_1actuator_1_1oriental_1_1Oriental.html", null ]
+      [ "crappy.actuator.fakemotor.Fake_motor", "classcrappy_1_1actuator_1_1fakemotor_1_1Fake__motor.html", null ],
+      [ "crappy.actuator.oriental.Oriental", "classcrappy_1_1actuator_1_1oriental_1_1Oriental.html", null ],
+      [ "crappy.actuator.servostar.Servostar", "classcrappy_1_1actuator_1_1servostar_1_1Servostar.html", null ]
     ] ],
     [ "Camera", null, [
       [ "crappy.camera.cameralink.CLCamera", "classcrappy_1_1camera_1_1cameralink_1_1CLCamera.html", null ],
@@ -72,13 +78,24 @@ var hierarchy =
       ] ]
     ] ],
     [ "Condition", null, [
+      [ "crappy.condition.demux.Demux", "classcrappy_1_1condition_1_1demux_1_1Demux.html", null ],
+      [ "crappy.condition.derive.Derive", "classcrappy_1_1condition_1_1derive_1_1Derive.html", null ],
+      [ "crappy.condition.integrate.Integrate", "classcrappy_1_1condition_1_1integrate_1_1Integrate.html", null ],
       [ "crappy.condition.mean.Mean", "classcrappy_1_1condition_1_1mean_1_1Mean.html", null ],
       [ "crappy.condition.median.Median", "classcrappy_1_1condition_1_1median_1_1Median.html", null ],
       [ "crappy.condition.moving_avg.Moving_avg", "classcrappy_1_1condition_1_1moving__avg_1_1Moving__avg.html", null ],
       [ "crappy.condition.trig_on_change.Trig_on_change", "classcrappy_1_1condition_1_1trig__on__change_1_1Trig__on__change.html", null ],
       [ "crappy.condition.trig_on_value.Trig_on_value", "classcrappy_1_1condition_1_1trig__on__value_1_1Trig__on__value.html", null ],
       [ "crappy.links.filter.Filter", "classcrappy_1_1links_1_1filter_1_1Filter.html", null ],
-      [ "Instron_measures_with_labjack.EvalStress", "classInstron__measures__with__labjack_1_1EvalStress.html", null ]
+      [ "Instron_measures.EvalStress", "classInstron__measures_1_1EvalStress.html", null ]
+    ] ],
+    [ "FrameObjects", null, [
+      [ "crappy.tool.GUI_Arduino.minitens.MinitensFrames", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrames.html", [
+        [ "crappy.tool.GUI_Arduino.minitens.MinitensFrame", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html", null ]
+      ] ],
+      [ "crappy.tool.GUI_Arduino.minitens.MinitensPopups", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html", [
+        [ "crappy.tool.GUI_Arduino.minitens.MinitensFrame", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html", null ]
+      ] ]
     ] ],
     [ "InOut", null, [
       [ "crappy.inout.agilent34420A.Agilent34420A", "classcrappy_1_1inout_1_1agilent34420A_1_1Agilent34420A.html", null ],
@@ -88,7 +105,9 @@ var hierarchy =
       [ "crappy.inout.labjackT7.Labjack_t7", "classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html", null ],
       [ "crappy.inout.labjackUE9.Labjack_ue9", "classcrappy_1_1inout_1_1labjackUE9_1_1Labjack__ue9.html", null ],
       [ "crappy.inout.opendaq.Opendaq", "classcrappy_1_1inout_1_1opendaq_1_1Opendaq.html", null ],
-      [ "crappy.inout.opsens.Opsens", "classcrappy_1_1inout_1_1opsens_1_1Opsens.html", null ]
+      [ "crappy.inout.opsens.Opsens", "classcrappy_1_1inout_1_1opsens_1_1Opsens.html", null ],
+      [ "crappy.inout.spectrum.Spectrum", "classcrappy_1_1inout_1_1spectrum_1_1Spectrum.html", null ],
+      [ "crappy.inout.t7Streamer.T7_streamer", "classcrappy_1_1inout_1_1t7Streamer_1_1T7__streamer.html", null ]
     ] ],
     [ "MasterBlock", null, [
       [ "crappy.blocks.autoDrive.AutoDrive", "classcrappy_1_1blocks_1_1autoDrive_1_1AutoDrive.html", null ],
@@ -96,17 +115,21 @@ var hierarchy =
       [ "crappy.blocks.correl.Correl", "classcrappy_1_1blocks_1_1correl_1_1Correl.html", null ],
       [ "crappy.blocks.dashboard.Dashboard", "classcrappy_1_1blocks_1_1dashboard_1_1Dashboard.html", null ],
       [ "crappy.blocks.displayer.Displayer", "classcrappy_1_1blocks_1_1displayer_1_1Displayer.html", null ],
+      [ "crappy.blocks.drawing.Drawing", "classcrappy_1_1blocks_1_1drawing_1_1Drawing.html", null ],
       [ "crappy.blocks.generator.Generator", "classcrappy_1_1blocks_1_1generator_1_1Generator.html", null ],
       [ "crappy.blocks.grapher.Grapher", "classcrappy_1_1blocks_1_1grapher_1_1Grapher.html", null ],
+      [ "crappy.blocks.hdf_saver.Hdf_saver", "classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html", null ],
       [ "crappy.blocks.ioblock.IOBlock", "classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html", null ],
       [ "crappy.blocks.machine.Machine", "classcrappy_1_1blocks_1_1machine_1_1Machine.html", null ],
       [ "crappy.blocks.measureByStep.MeasureByStep", "classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep.html", null ],
       [ "crappy.blocks.multiplex.Multiplex", "classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html", null ],
+      [ "crappy.blocks.pid.PID", "classcrappy_1_1blocks_1_1pid_1_1PID.html", null ],
       [ "crappy.blocks.reader.Reader", "classcrappy_1_1blocks_1_1reader_1_1Reader.html", null ],
       [ "crappy.blocks.saver.Saver", "classcrappy_1_1blocks_1_1saver_1_1Saver.html", null ],
       [ "crappy.blocks.signalGenerator.SignalGenerator", "classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html", null ],
       [ "crappy.blocks.sink.Sink", "classcrappy_1_1blocks_1_1sink_1_1Sink.html", null ],
-      [ "crappy.blocks.videoExtenso.Video_extenso", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html", null ]
+      [ "crappy.blocks.videoExtenso.Video_extenso", "classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html", null ],
+      [ "drawing.TestBlock", "classdrawing_1_1TestBlock.html", null ]
     ] ],
     [ "Path", null, [
       [ "crappy.blocks.generator_path.constant.Constant", "classcrappy_1_1blocks_1_1generator__path_1_1constant_1_1Constant.html", null ],

@@ -13,9 +13,11 @@ var dir_3e23172655239f0c30221431673d86c4 =
       [ "MetaIO", "classcrappy_1_1inout_1_1inout_1_1MetaIO.html", "classcrappy_1_1inout_1_1inout_1_1MetaIO" ],
       [ "InOut", "classcrappy_1_1inout_1_1inout_1_1InOut.html", "classcrappy_1_1inout_1_1inout_1_1InOut" ]
     ] ],
-    [ "labjackT7.py", "labjackT7_8py.html", [
-      [ "Labjack_t7", "classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html", "classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7" ]
+    [ "kollmorgen.py", "crappy_2inout_2kollmorgen_8py.html", [
+      [ "KollMorgenVariator", "classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator.html", "classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator" ],
+      [ "Koll", "classcrappy_1_1inout_1_1kollmorgen_1_1Koll.html", "classcrappy_1_1inout_1_1kollmorgen_1_1Koll" ]
     ] ],
+    [ "labjackT7.py", "labjackT7_8py.html", "labjackT7_8py" ],
     [ "labjackUE9.py", "labjackUE9_8py.html", "labjackUE9_8py" ],
     [ "opendaq.py", "opendaq_8py.html", "opendaq_8py" ],
     [ "opsens.py", "opsens_8py.html", [

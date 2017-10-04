@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1multiplex_1_1
 <div class="title">crappy.blocks.multiplex.Multiplex Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This block interpolates data.  
+ <a href="classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.multiplex.Multiplex:</div>
 <div class="dyncontent">
@@ -151,7 +154,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a2cd7a49270cc39065a0ccf9c4c38f802"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a2cd7a49270cc39065a0ccf9c4c38f802">dt</a></td></tr>
 <tr class="separator:a2cd7a49270cc39065a0ccf9c4c38f802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This block interpolates data. </p>
+<p>It is used to read data and return the reading from multiple sensors at the same instants and a constant frequency. s block needs a delay to make sure all the required data for interpolation has already been received, so do not use this block as the input of a decision block ! This block uses linear interpolation whenever possible, else the nearest neighbor.</p>
+<ul>
+<li>key (str,default='t(s)'): The key of the sensors that holds the timestamp</li>
+<li>freq (float, default=200): The frequency of the output</li>
+<li>delay (float, default=1): Delay to wait for the input in seconds. The block will return the data from instant t at t+delay. </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab4ba62fc1c7957d2aa796bfc4f8fff69"></a>
 <div class="memitem">
 <div class="memproto">

@@ -1,6 +1,7 @@
 var classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config =
 [
     [ "__init__", "classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a32d972e5567683d6fa2db5dd47b6d6f6", null ],
+    [ "clamp", "classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a42d8f903db19da1cf811fe09edde6377", null ],
     [ "create_window", "classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#afa8d2bcae5133aca429c65bbcc034076", null ],
     [ "draw_box", "classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a8ba1bcc3e2719f704462386dc84c853c", null ],
     [ "resize_img", "classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a32a8c399fff8c0e9f598dd444041cd20", null ],

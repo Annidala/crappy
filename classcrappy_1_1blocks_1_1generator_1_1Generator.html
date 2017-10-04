@@ -149,10 +149,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a29e2b967664fab5f412bce022f758d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58a5f03320217dac6aac37b162166772"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#a58a5f03320217dac6aac37b162166772">path_id</a></td></tr>
 <tr class="separator:a58a5f03320217dac6aac37b162166772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cab5c0b0c56739f48337c168a5cdabf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#a1cab5c0b0c56739f48337c168a5cdabf">to_get</a></td></tr>
+<tr class="separator:a1cab5c0b0c56739f48337c168a5cdabf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac33f5ef763e80854f120741aa58a1326"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#ac33f5ef763e80854f120741aa58a1326">last_t</a></td></tr>
 <tr class="separator:ac33f5ef763e80854f120741aa58a1326"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab33449fcdab717a288f8044d97fb9755"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#ab33449fcdab717a288f8044d97fb9755">last_data</a></td></tr>
 <tr class="separator:ab33449fcdab717a288f8044d97fb9755"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290d36cd1bca89e3837a40c07f1124fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#a290d36cd1bca89e3837a40c07f1124fb">last_path</a></td></tr>
+<tr class="separator:a290d36cd1bca89e3837a40c07f1124fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36afc32301c1cd9632150e2a80ded11c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#a36afc32301c1cd9632150e2a80ded11c">current_path</a></td></tr>
 <tr class="separator:a36afc32301c1cd9632150e2a80ded11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81f77d720fe8f47c8c22d577b2fbca00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html#a81f77d720fe8f47c8c22d577b2fbca00">cmd</a></td></tr>
@@ -164,10 +168,12 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>It must be a list of dict, each dict providing the parameters to generate the path. Each dict MUST have a key 'type'. The <a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html" title="This block is used to generate a signal. ">Generator</a> will then instanciate <a class="el" href="namespacecrappy_1_1blocks_1_1generator__path.html">generator_path</a>.**type** with all the other keys as kwargs, adding the current cmd and the time. On each round, it will call get_cmd method of this class, passing data until it raise StopIteration. It will then skip to the next path. When all paths are over, it will stop Crappy by raising CrappyStop unless repeat is set to True. If so, it will start over indefinelty.</td></tr>
-    <tr><td class="paramname">freq</td><td>(default=500) The frequency of the block. If set and positive, the generator will try to send the command at this frequency (Hz). Else, it will go as fast as possible. It relies on the MasterBlock freq control scheme (see <a class="el" href="masterblock_8py.html">masterblock.py</a>).</td></tr>
+    <tr><td class="paramname">freq</td><td>(default=200) The frequency of the block. If set and positive, the generator will try to send the command at this frequency (Hz). Else, it will go as fast as possible. It relies on the MasterBlock freq control scheme (see <a class="el" href="masterblock_8py.html">masterblock.py</a>).</td></tr>
     <tr><td class="paramname">cmd_label</td><td>(default='cmd') The label of the command to send in the links.</td></tr>
     <tr><td class="paramname">cmd</td><td>(default=0) The first value of the command. Some paths may rely on the previous value to guarantee a continuous signal This argument sets the initial value for the first signal</td></tr>
-    <tr><td class="paramname">repeat</td><td>(default=False) Loop over the paths or stop when done ? If False, the block will raise a CrappyStop exception to end the program when all the paths have been executed If True, the <a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html" title="This block is used to generate a signal. ">Generator</a> will start over and over again </td></tr>
+    <tr><td class="paramname">repeat</td><td>(default=False) Loop over the paths or stop when done ? If False, the block will raise a CrappyStop exception to end the program when all the paths have been executed If True, the <a class="el" href="classcrappy_1_1blocks_1_1generator_1_1Generator.html" title="This block is used to generate a signal. ">Generator</a> will start over and over again</td></tr>
+    <tr><td class="paramname">trig_link</td><td>(default=None) If given, the block will wait until data is received through the input link with this index. If None, it will try loop at freq. It is not necessary but can be really useful for optimization.</td></tr>
+    <tr><td class="paramname">spam</td><td>(default=False) If True, the value will be sent on each loop. Else, it will only send it if it was updated or we reached a new step. </td></tr>
   </table>
   </dd>
 </dl>
@@ -318,6 +324,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a290d36cd1bca89e3837a40c07f1124fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.blocks.generator.Generator.last_path</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac33f5ef763e80854f120741aa58a1326"></a>
 <div class="memitem">
 <div class="memproto">
@@ -360,6 +378,18 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">crappy.blocks.generator.Generator.path_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1cab5c0b0c56739f48337c168a5cdabf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.blocks.generator.Generator.to_get</td>
         </tr>
       </table>
 </div><div class="memdoc">

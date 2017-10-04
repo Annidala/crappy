@@ -5,6 +5,7 @@ var namespacecrappy_1_1inout =
     [ "comedi", "namespacecrappy_1_1inout_1_1comedi.html", "namespacecrappy_1_1inout_1_1comedi" ],
     [ "daqmx", "namespacecrappy_1_1inout_1_1daqmx.html", "namespacecrappy_1_1inout_1_1daqmx" ],
     [ "inout", "namespacecrappy_1_1inout_1_1inout.html", "namespacecrappy_1_1inout_1_1inout" ],
+    [ "kollmorgen", "namespacecrappy_1_1inout_1_1kollmorgen.html", "namespacecrappy_1_1inout_1_1kollmorgen" ],
     [ "labjackT7", "namespacecrappy_1_1inout_1_1labjackT7.html", "namespacecrappy_1_1inout_1_1labjackT7" ],
     [ "labjackUE9", "namespacecrappy_1_1inout_1_1labjackUE9.html", "namespacecrappy_1_1inout_1_1labjackUE9" ],
     [ "opendaq", "namespacecrappy_1_1inout_1_1opendaq.html", "namespacecrappy_1_1inout_1_1opendaq" ],

@@ -8,5 +8,5 @@ var searchData=
   ['move_5fhome',['move_home',['../classcrappy_1_1actuator_1_1cmDrive_1_1CM__drive.html#a1fb5ce1e57fee83d0a7fe4ae87de9b9e',1,'crappy.actuator.cmDrive.CM_drive.move_home()'],['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a04541f5dd22742ff3009c5b9ccf61d21',1,'crappy.actuator.oriental.Oriental.move_home()']]],
   ['move_5fwindow',['move_window',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#ae2c5f18ae56aff543326e5d46168f0c7',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['movezero',['moveZero',['../classinterfaceCMdrive_1_1Interface.html#ae9a58797bb85b75adb85ded62680cba2',1,'interfaceCMdrive::Interface']]],
-  ['my_5fmean',['my_mean',['../namespacespectrum.html#addc153d82e1c39cc597e20e35dd82660',1,'spectrum.my_mean()'],['../namespacestream__t7.html#a72128939f18e163e6a92f2ceffaecc79',1,'stream_t7.my_mean()']]]
+  ['my_5fmean',['my_mean',['../namespacestream__t7.html#a72128939f18e163e6a92f2ceffaecc79',1,'stream_t7']]]
 ];

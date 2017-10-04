@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('classcrappy_1_1actuator_1_1biaxe_1_1Bi
 </div><!--header-->
 <div class="contents">
 
-<p>Declare a new axis for the <a class="el" href="classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html" title="Declare a new axis for the Biaxe. ">Biaxe</a>.  
+<p>This class create an axis and opens the corresponding serial port.  
  <a href="classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.actuator.biaxe.Biaxe:</div>
@@ -129,7 +129,6 @@ Inheritance diagram for crappy.actuator.biaxe.Biaxe:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa1a532b6e89803ef03545f95b304650"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#aaa1a532b6e89803ef03545f95b304650">__init__</a></td></tr>
-<tr class="memdesc:aaa1a532b6e89803ef03545f95b304650"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class create an axis and opens the corresponding serial port.  <a href="#aaa1a532b6e89803ef03545f95b304650">More...</a><br/></td></tr>
 <tr class="separator:aaa1a532b6e89803ef03545f95b304650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96804459fe0d6a173fddbf6d8a6565b9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#a96804459fe0d6a173fddbf6d8a6565b9">open</a></td></tr>
 <tr class="separator:a96804459fe0d6a173fddbf6d8a6565b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,9 +154,19 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acd7ab4dcdaa2d8675a11fd66144b574c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c1bb601ea3b019f0f45054a15a471d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#a6c1bb601ea3b019f0f45054a15a471d6">ser</a></td></tr>
 <tr class="separator:a6c1bb601ea3b019f0f45054a15a471d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac533658e3b97910eced14083cfe0e5f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#ac533658e3b97910eced14083cfe0e5f8">speed</a></td></tr>
+<tr class="separator:ac533658e3b97910eced14083cfe0e5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Declare a new axis for the <a class="el" href="classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html" title="Declare a new axis for the Biaxe. ">Biaxe</a>. </p>
+<div class="textblock"><p>This class create an axis and opens the corresponding serial port. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>str Path to the corresponding serial port, e.g '/dev/ttyS4' </td></tr>
+    <tr><td class="paramname">baudrate</td><td>int, default = 38400 Set the corresponding baud rate. </td></tr>
+    <tr><td class="paramname">timeout</td><td>int or float, default = 1 Serial timeout. </td></tr>
+  </table>
+  </dd>
+</dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aaa1a532b6e89803ef03545f95b304650"></a>
 <div class="memitem">
@@ -194,16 +203,6 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>This class create an axis and opens the corresponding serial port. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">port</td><td>str Path to the corresponding serial port, e.g '/dev/ttyS4' </td></tr>
-    <tr><td class="paramname">baudrate</td><td>int, default = 38400 Set the corresponding baud rate. </td></tr>
-    <tr><td class="paramname">timeout</td><td>int or float, default = 1 Serial timeout. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -336,6 +335,18 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">crappy.actuator.biaxe.Biaxe.ser</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac533658e3b97910eced14083cfe0e5f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.actuator.biaxe.Biaxe.speed</td>
         </tr>
       </table>
 </div><div class="memdoc">

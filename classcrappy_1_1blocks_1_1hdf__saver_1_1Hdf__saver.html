@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1hdf__saver_1_
 <div class="title">crappy.blocks.hdf_saver.Hdf_saver Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>To save data efficiently in a hdf5 file.  
+ <a href="classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.hdf_saver.Hdf_saver:</div>
 <div class="dyncontent">
@@ -140,14 +143,24 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5a85597cd0d5472ef86ab8eae01051ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#a5a85597cd0d5472ef86ab8eae01051ef">filename</a></td></tr>
 <tr class="separator:a5a85597cd0d5472ef86ab8eae01051ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ead9fbdd871e10936f4cbc4df85d6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#a28ead9fbdd871e10936f4cbc4df85d6e">atom</a></td></tr>
+<tr class="separator:a28ead9fbdd871e10936f4cbc4df85d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b2b38cb3cdb47615b9a28da1a4e9b99"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#a1b2b38cb3cdb47615b9a28da1a4e9b99">hfile</a></td></tr>
 <tr class="separator:a1b2b38cb3cdb47615b9a28da1a4e9b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a65de22550b4cf642b624fb0ece63b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#a92a65de22550b4cf642b624fb0ece63b">rows_until_flush</a></td></tr>
-<tr class="separator:a92a65de22550b4cf642b624fb0ece63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac216d07487256c1fbc06b9f69f36889"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#aac216d07487256c1fbc06b9f69f36889">array</a></td></tr>
 <tr class="separator:aac216d07487256c1fbc06b9f69f36889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>To save data efficiently in a hdf5 file. </p>
+<p>This block is is meant to save data coming by arrays at a high rate (&gt;1kHz). It uses the module tables from pytables. Do not forget to specify the type of data to be saved (see atom parameter) to avoid casting the data into another type, as this could result in data loss or inefficient saving</p>
+<ul>
+<li>node: The name of the node where the data will be saved (str, default="table")</li>
+<li>expected_rows: The number of expected rows in the file It is used to optimize the dumping (int, default=10**8)</li>
+<li>atom: This represent the type of data to be stored in the table. It can be given as a tables.Atom instance. Also it can be given as an Numpy type or a str. (tables.Atom/numpy.dtype/str, default=tables.Int16Atom())</li>
+<li>label: The key of the dict that contains the array to save. (str, default="stream")</li>
+<li>metadata: A dict containing additional info to save in the hdf5 file. You can add any type of info, they will be written when opening the file at the node corresponding to its key. (dict, default={}) </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad687f82b021a8573e110bf1cb0f5e65f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -258,6 +271,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a28ead9fbdd871e10936f4cbc4df85d6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.blocks.hdf_saver.Hdf_saver.atom</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5a85597cd0d5472ef86ab8eae01051ef"></a>
 <div class="memitem">
 <div class="memproto">
@@ -276,18 +301,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">crappy.blocks.hdf_saver.Hdf_saver.hfile</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a92a65de22550b4cf642b624fb0ece63b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">crappy.blocks.hdf_saver.Hdf_saver.rows_until_flush</td>
         </tr>
       </table>
 </div><div class="memdoc">

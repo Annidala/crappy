@@ -15,7 +15,6 @@ var classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups =
     [ "frame_limits", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#a8be559da493c9178e66aa292635f95b5", null ],
     [ "init_popup_widgets", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#aad0636b6f5988e9f7724ee830159c568", null ],
     [ "limits_widgets", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#ac820e06babaa4f4a8e243f8ae144a516", null ],
-    [ "menu_display", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#a43e0e6ca07f4e5909db3cba6f04ff1de", null ],
     [ "menu_exp_parameters", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#ade54353343a1c7dbaeef446d7894f39f", null ],
     [ "menu_rec", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#a3e97cb3d70da76062f74e2268b808ee2", null ],
     [ "menu_tools", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#a06bca0b93669e18ca624dd624384e650", null ],

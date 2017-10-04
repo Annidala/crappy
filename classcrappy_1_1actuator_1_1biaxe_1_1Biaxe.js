@@ -9,5 +9,6 @@ var classcrappy_1_1actuator_1_1biaxe_1_1Biaxe =
     [ "baudrate", "classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#aa83260bba36130c0841b77c01a18dcb3", null ],
     [ "port", "classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#a94c17963aec3b20b0a600d97d7edeb74", null ],
     [ "ser", "classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#a6c1bb601ea3b019f0f45054a15a471d6", null ],
+    [ "speed", "classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#ac533658e3b97910eced14083cfe0e5f8", null ],
     [ "timeout", "classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#acd7ab4dcdaa2d8675a11fd66144b574c", null ]
 ];

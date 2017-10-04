@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i',['i',['../classcrappy_1_1blocks_1_1dashboard_1_1Dashboard_1_1Dashboard.html#a2fd29c141f2dabc1dd05627089b839d3',1,'crappy.blocks.dashboard.Dashboard.Dashboard.i()'],['../namespacepid.html#ac2c06cf8883b5a32939f9a9b27232cc3',1,'pid.i()'],['../namespacebiaxe.html#a44398a20712a76447d9cb79f437e457b',1,'biaxe.i()'],['../namespaceopen__hdf.html#ab06c5167be0178242df3cca8bd95b0f1',1,'open_hdf.i()'],['../namespaceoriental.html#ae89a3000714caa81a4aeafc03ddc9ddb',1,'oriental.i()']]],
+  ['i',['I',['../classself-heating_1_1EvalStress.html#abb2006f88188fb7aba0c61831466e0fc',1,'self-heating.EvalStress.I()'],['../classcrappy_1_1blocks_1_1dashboard_1_1Dashboard_1_1Dashboard.html#a2fd29c141f2dabc1dd05627089b839d3',1,'crappy.blocks.dashboard.Dashboard.Dashboard.i()'],['../namespacepid.html#ac2c06cf8883b5a32939f9a9b27232cc3',1,'pid.i()'],['../namespacebiaxe.html#a44398a20712a76447d9cb79f437e457b',1,'biaxe.i()'],['../namespaceopen__hdf.html#ab06c5167be0178242df3cca8bd95b0f1',1,'open_hdf.i()'],['../namespaceoriental.html#ae89a3000714caa81a4aeafc03ddc9ddb',1,'oriental.i()']]],
   ['i_5fterm',['i_term',['../classcrappy_1_1blocks_1_1pid_1_1PID.html#a68d6c29cf6aca61358a9941d4a24546a',1,'crappy::blocks::pid::PID']]],
   ['iclasses',['Iclasses',['../classcrappy_1_1inout_1_1inout_1_1MetaIO.html#af4fec9d079154b49b5b2010f96d9b854',1,'crappy::inout::inout::MetaIO']]],
   ['image',['image',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#a52f40e338e5a30ed8463f73bb72d1ef0',1,'crappy.blocks.drawing.Drawing.image()'],['../classCaptureCAM__XIMEA.html#ae3f3a9dea08bd14ee88117f395963634',1,'CaptureCAM_XIMEA::image()']]],
@@ -15,15 +15,18 @@ var searchData=
   ['in_5fchan_5flist',['in_chan_list',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#adc7fc5a51e51549617d2eb5f8fb474c3',1,'crappy::inout::labjackT7::Labjack_t7']]],
   ['in_5flist',['in_list',['../namespacecrappy_1_1inout.html#abef2a67bcec769641a7360240910ba1c',1,'crappy::inout']]],
   ['in_5fprocess',['in_process',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a844e276cc0a9addb1e129d2e04d2cb48',1,'crappy::blocks::masterblock::MasterBlock']]],
+  ['inertia',['inertia',['../classcrappy_1_1blocks_1_1generator__path_1_1inertia_1_1Inertia.html#a348e93d94fd997c9540d85221ef42fe8',1,'crappy::blocks::generator_path::inertia::Inertia']]],
   ['info_5fframe',['info_frame',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#ae9ecc0d1403d1fd56f68a6575c15fcc1',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['init_5fpopup_5fwidgets',['init_popup_widgets',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#aad0636b6f5988e9f7724ee830159c568',1,'crappy::tool::GUI_Arduino::minitens::MinitensPopups']]],
   ['initial_5fcmd',['initial_cmd',['../classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#a19e995e1603cf1b9687fd56c7a2bee49',1,'crappy::blocks::ioblock::IOBlock']]],
   ['inout_5flist',['inout_list',['../namespacecrappy_1_1inout.html#abf73721db46d492969f6bdee1d45884b',1,'crappy::inout']]],
+  ['inpreg_5faddresses',['inpreg_addresses',['../classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator.html#a72855cf6dab8697ea69ed45c4313bed1',1,'crappy::inout::kollmorgen::KollMorgenVariator']]],
   ['input_5ftxt',['input_txt',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1arduino__basics_1_1SubmitSerialFrame.html#ae0fe86f1b216058cbab2e1e417c96724',1,'crappy::tool::GUI_Arduino::arduino_basics::SubmitSerialFrame']]],
   ['inputs',['inputs',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#ac18b043b5675799d237409afe6b220db',1,'crappy::blocks::masterblock::MasterBlock']]],
   ['instances',['instances',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a5cffb6de8d68902a49bbc5c5708b9262',1,'crappy::blocks::masterblock::MasterBlock']]],
   ['interface',['interface',['../namespaceinterfaceCMdrive.html#ac75ced01dbbc2d070292f276e71e39a5',1,'interfaceCMdrive']]],
-  ['io',['io',['../namespaceread__write.html#aae9bf6681de748632450d7d614d78a54',1,'read_write.io()'],['../namespaceread__write2.html#a1ba7f254453dff784db4546d58bb1642',1,'read_write2.io()']]],
+  ['interp',['interp',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#af40e45e9b2951cf496bef6577e370999',1,'crappy::blocks::grapher::Grapher']]],
+  ['io',['io',['../namespacerw__comedi.html#afbc29049a3adb33b330a6a1493f458ee',1,'rw_comedi.io()'],['../namespacerw__labjack.html#a91a72ee4189e930c96d550156dbc9d1e',1,'rw_labjack.io()']]],
   ['ioclasses',['IOclasses',['../classcrappy_1_1inout_1_1inout_1_1MetaIO.html#aa64a912aadf461f79328382281698c27',1,'crappy::inout::inout::MetaIO']]],
   ['isacquiring',['isacquiring',['../classCaptureCAM__CL.html#a3b589a82582515ec45d3ee9189ccf535',1,'CaptureCAM_CL']]],
   ['isopened',['isopened',['../classCaptureCAM__CL.html#ab33aa6f1a3c040f04500bad5cb06f7df',1,'CaptureCAM_CL::isopened()'],['../classCaptureCAM__XIMEA.html#a934c9e1a77940bb91f658c6a2d03ad1f',1,'CaptureCAM_XIMEA::isopened()']]]

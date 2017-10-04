@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1autoDrive_1_1
 <div class="title">crappy.blocks.autoDrive.AutoDrive Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>To follow the spots with videoextenso.  
+ <a href="classcrappy_1_1blocks_1_1autoDrive_1_1AutoDrive.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.autoDrive.AutoDrive:</div>
 <div class="dyncontent">
@@ -143,7 +146,16 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a252ede33ba45f48d8a432a28a2a573a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1autoDrive_1_1AutoDrive.html#a252ede33ba45f48d8a432a28a2a573a5">device</a></td></tr>
 <tr class="separator:a252ede33ba45f48d8a432a28a2a573a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>To follow the spots with videoextenso. </p>
+<p>This blocks takes the output of a Videoextenso block and uses the spots coordinates to drive an actuator, on which the camera is mounted. This will allow the camera to follow the spots along an axis. It is simply a P loop: the difference in pixel between the barycenter of the spots and the middle of the image along the given axis is multiplied by P and set as the speed of the actuator.</p>
+<ul>
+<li>P: The gain (float, default=2000)</li>
+<li>direction: {X,Y}{+,-} what axis should be considered, and in which direction ? (two chars string, default="Y-")</li>
+<li>range: the size in pixel of the image along this axis (int,default=2048)</li>
+<li>max_speed: The absolute max value to send to the actuator (float,default:200000) </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a495416b3b7574faa2abb8b440fd64acb"></a>
 <div class="memitem">
 <div class="memproto">

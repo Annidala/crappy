@@ -1,6 +1,7 @@
 var searchData=
 [
   ['b',['b',['../namespacebiaxe.html#afabfbbf4d37314b47beb626721ce72a8',1,'biaxe.b()'],['../namespacebiotens.html#a5cc170e0e055a67927b5333a95acc6a9',1,'biotens.b()']]],
+  ['backend',['backend',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#a328186b2b5075a54a925f2b71922a7f8',1,'crappy.blocks.drawing.Drawing.backend()'],['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#ab7dc97f73fec783fbc0697d147f7c53d',1,'crappy.blocks.grapher.Grapher.backend()']]],
   ['baud',['baud',['../classcrappy_1_1actuator_1_1servostar_1_1Servostar.html#a2f1a1af9e4e7f51b6e8e7a345a00c96c',1,'crappy::actuator::servostar::Servostar']]],
   ['baudcombo',['baudCombo',['../classinterfaceCMdrive_1_1Interface.html#a3ca9cee3eef6b81fe425530f3ad9fbd9',1,'interfaceCMdrive::Interface']]],
   ['baudrate',['baudrate',['../classcrappy_1_1actuator_1_1biaxe_1_1Biaxe.html#aa83260bba36130c0841b77c01a18dcb3',1,'crappy.actuator.biaxe.Biaxe.baudrate()'],['../classcrappy_1_1actuator_1_1biotens_1_1Biotens.html#a81401ccdc0c0980ecf323f86d5303cd5',1,'crappy.actuator.biotens.Biotens.baudrate()'],['../classcrappy_1_1actuator_1_1cmDrive_1_1CM__drive.html#a37bc9f150b0a61ac2349829ea4e60ee2',1,'crappy.actuator.cmDrive.CM_drive.baudrate()'],['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a08eb1cd43e8e3650558b55eac7ef6cd4',1,'crappy.actuator.oriental.Oriental.baudrate()'],['../classcrappy_1_1inout_1_1agilent34420A_1_1Agilent34420A.html#aee914ab8e057692cd331a295ff0b9c4f',1,'crappy.inout.agilent34420A.Agilent34420A.baudrate()']]],

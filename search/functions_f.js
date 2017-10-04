@@ -2,7 +2,9 @@ var searchData=
 [
   ['read',['read',['../classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#a83a7c753fef2d0b7b97ed5a9e952b76e',1,'crappy.blocks.ioblock.IOBlock.read()'],['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a51c14630d7e1b7c2dcaf995c132b6d51',1,'crappy.inout.labjackT7.Labjack_t7.read()']]],
   ['read_5fimage',['read_image',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#ac940d077686c570f2965e9fe55f26c87',1,'crappy::camera::camera::Camera']]],
+  ['read_5fposition',['read_position',['../classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator.html#a13009a41f7c7fb8dd7f929f7fbf2b2bc',1,'crappy::inout::kollmorgen::KollMorgenVariator']]],
   ['read_5freply',['read_reply',['../classcrappy_1_1inout_1_1opsens_1_1Opsens.html#aba5e29028754a01e1147d9b7eb2b413b',1,'crappy::inout::opsens::Opsens']]],
+  ['read_5fspeed',['read_speed',['../classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator.html#acf2b75980828ff5aed496cfa62a87fd6',1,'crappy::inout::kollmorgen::KollMorgenVariator']]],
   ['reader',['reader',['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a83f9dc39e35599e041e3eae0271f822d',1,'crappy::actuator::oriental::Oriental']]],
   ['recoil',['recoil',['../classinterfaceCMdrive_1_1Interface.html#a795d9ab898d6bf376e5772209bb2f852',1,'interfaceCMdrive::Interface']]],
   ['recv',['recv',['../classcrappy_1_1links_1_1link_1_1Link.html#ac9495892b874a642c16ab6a1e7bd5626',1,'crappy::links::link::Link']]],

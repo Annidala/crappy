@@ -36,6 +36,7 @@ var hierarchy =
       [ "crappy.condition.condition.Condition", "classcrappy_1_1condition_1_1condition_1_1Condition.html", null ],
       [ "crappy.inout.arduino.ArduinoHandler", "classcrappy_1_1inout_1_1arduino_1_1ArduinoHandler.html", null ],
       [ "crappy.inout.inout.InOut", "classcrappy_1_1inout_1_1inout_1_1InOut.html", null ],
+      [ "crappy.inout.kollmorgen.KollMorgenVariator", "classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator.html", null ],
       [ "crappy.links.link.Link", "classcrappy_1_1links_1_1link_1_1Link.html", null ],
       [ "crappy.tool.cameraConfig.Camera_config", "classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html", null ],
       [ "crappy.tool.videoextenso.Video_extenso", "classcrappy_1_1tool_1_1videoextenso_1_1Video__extenso.html", null ]
@@ -87,7 +88,8 @@ var hierarchy =
       [ "crappy.condition.trig_on_change.Trig_on_change", "classcrappy_1_1condition_1_1trig__on__change_1_1Trig__on__change.html", null ],
       [ "crappy.condition.trig_on_value.Trig_on_value", "classcrappy_1_1condition_1_1trig__on__value_1_1Trig__on__value.html", null ],
       [ "crappy.links.filter.Filter", "classcrappy_1_1links_1_1filter_1_1Filter.html", null ],
-      [ "Instron_measures.EvalStress", "classInstron__measures_1_1EvalStress.html", null ]
+      [ "self-heating.ConditionCalib", "classself-heating_1_1ConditionCalib.html", null ],
+      [ "self-heating.EvalStress", "classself-heating_1_1EvalStress.html", null ]
     ] ],
     [ "FrameObjects", null, [
       [ "crappy.tool.GUI_Arduino.minitens.MinitensFrames", "classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrames.html", [
@@ -102,6 +104,7 @@ var hierarchy =
       [ "crappy.inout.arduino.Arduino", "classcrappy_1_1inout_1_1arduino_1_1Arduino.html", null ],
       [ "crappy.inout.comedi.Comedi", "classcrappy_1_1inout_1_1comedi_1_1Comedi.html", null ],
       [ "crappy.inout.daqmx.Daqmx", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html", null ],
+      [ "crappy.inout.kollmorgen.Koll", "classcrappy_1_1inout_1_1kollmorgen_1_1Koll.html", null ],
       [ "crappy.inout.labjackT7.Labjack_t7", "classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html", null ],
       [ "crappy.inout.labjackUE9.Labjack_ue9", "classcrappy_1_1inout_1_1labjackUE9_1_1Labjack__ue9.html", null ],
       [ "crappy.inout.opendaq.Opendaq", "classcrappy_1_1inout_1_1opendaq_1_1Opendaq.html", null ],
@@ -136,6 +139,7 @@ var hierarchy =
       [ "crappy.blocks.generator_path.custom.Custom", "classcrappy_1_1blocks_1_1generator__path_1_1custom_1_1Custom.html", null ],
       [ "crappy.blocks.generator_path.cyclic.Cyclic", "classcrappy_1_1blocks_1_1generator__path_1_1cyclic_1_1Cyclic.html", null ],
       [ "crappy.blocks.generator_path.cyclic_ramp.Cyclic_ramp", "classcrappy_1_1blocks_1_1generator__path_1_1cyclic__ramp_1_1Cyclic__ramp.html", null ],
+      [ "crappy.blocks.generator_path.inertia.Inertia", "classcrappy_1_1blocks_1_1generator__path_1_1inertia_1_1Inertia.html", null ],
       [ "crappy.blocks.generator_path.protection.Protection", "classcrappy_1_1blocks_1_1generator__path_1_1protection_1_1Protection.html", null ],
       [ "crappy.blocks.generator_path.ramp.Ramp", "classcrappy_1_1blocks_1_1generator__path_1_1ramp_1_1Ramp.html", null ],
       [ "crappy.blocks.generator_path.sine.Sine", "classcrappy_1_1blocks_1_1generator__path_1_1sine_1_1Sine.html", null ]

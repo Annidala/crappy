@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1videoExtenso_
 <div class="title">crappy.blocks.videoExtenso.Video_extenso Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Measure the deformation for the video of dots on the sample.  
+ <a href="classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.videoExtenso.Video_extenso:</div>
 <div class="dyncontent">
@@ -153,7 +156,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad0bd03be6aa426b8d7bbc938d8df8320"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1videoExtenso_1_1Video__extenso.html#ad0bd03be6aa426b8d7bbc938d8df8320">last_fps_loops</a></td></tr>
 <tr class="separator:ad0bd03be6aa426b8d7bbc938d8df8320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Measure the deformation for the video of dots on the sample. </p>
+<p>This requires the user to select the ROI to make the spot detection. Once done, it will return the deformation (in %) along X and Y axis. It also returns a list of tuples, which are the coordinates (in pixel) of the barycenters of the spots. Optionally, it can save images.</p>
+<ul>
+<li>camera ("str",default="XimeaCV"): The name of the camera class to use</li>
+<li>save_folder (str or None, default=None): If given, the images will be saved in this folder.</li>
+<li>save_period (int, default=1): If saving, will only save one out of save_period images.</li>
+<li>labels (list, default=['t(s)', 'Coord(px)', 'Eyy(%)', 'Exx(%)']): The labels of the output</li>
+<li>show_fps (bool deafult=False): If True, the block will print the FPS in the terminal every 2 seconds </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a92387cb60bd2cedcd3e652413dced946"></a>
 <div class="memitem">
 <div class="memproto">

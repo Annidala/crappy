@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1machine_1_1Ma
 <div class="title">crappy.blocks.machine.Machine Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>To drive a machine with a one or more actuators.  
+ <a href="classcrappy_1_1blocks_1_1machine_1_1Machine.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.machine.Machine:</div>
 <div class="dyncontent">
@@ -149,7 +152,25 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:affb246459e1e4068b77c769c041c05a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1machine_1_1Machine.html#affb246459e1e4068b77c769c041c05a6">actuators</a></td></tr>
 <tr class="separator:affb246459e1e4068b77c769c041c05a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>To drive a machine with a one or more actuators. </p>
+<p>Takes a list of dicts, containing the information to create each actuator Each key will stand for a parameter (see below), else they are transferred to the actuator.</p>
+<ul>
+<li>actuators (list of dict): The list of the actuators of the machine. Each dict must have keys according to the list below and the kwargs you want to send to the actuator.</li>
+<li>common (dict, default:{}) The keys of this dict will be added to each dict. However, if a same key is in an arg AND in common, the arg will prevail.</li>
+<li>freq (float, default 200): The looping frequency of the block</li>
+<li>time_label (str, default='t(s)'): If reading data from one or more actuators, the time will also be returned under this label.</li>
+</ul>
+<p>If you want to forward a parameter to the actuator that has the name of a key below, add an underscore at the end of its key keys:</p>
+<ul>
+<li>type (str): The name of the actuator to instanciate</li>
+<li>cmd (str): The label of the input to drive the axis</li>
+<li>mode: ('speed'|'position', default='speed') Will either call set_speed or set_position on the actuator</li>
+<li>speed: If mode is position, the speed of the axis</li>
+<li>pos_label: If set, the block will return the value of .get_position with this label</li>
+<li>speed_label: same as pos_label but with get_speed </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a150ed70ea23201d8b568ff8305838aa1"></a>
 <div class="memitem">
 <div class="memproto">

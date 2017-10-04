@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('classcrappy_1_1inout_1_1comedi_1_1Come
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classcrappy_1_1inout_1_1comedi_1_1Comedi.html" title="Comedi object, for IO with cards using comedi drive. ">Comedi</a> object, for IO with cards using comedi drive.  
+<p><a class="el" href="classcrappy_1_1inout_1_1comedi_1_1Comedi.html" title="Comedi object, for IO with cards using comedi driver. ">Comedi</a> object, for IO with cards using comedi driver.  
  <a href="classcrappy_1_1inout_1_1comedi_1_1Comedi.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.inout.comedi.Comedi:</div>
@@ -163,7 +163,22 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a31563dd71ae38d96359b1c4acdbf3c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classcrappy_1_1inout_1_1comedi_1_1Comedi.html" title="Comedi object, for IO with cards using comedi drive. ">Comedi</a> object, for IO with cards using comedi drive. </p>
+<div class="textblock"><p><a class="el" href="classcrappy_1_1inout_1_1comedi_1_1Comedi.html" title="Comedi object, for IO with cards using comedi driver. ">Comedi</a> object, for IO with cards using comedi driver. </p>
+<p>The channel-specific args can be given as a list to set it for each channel or as a single value to apply it to every channel</p>
+<ul>
+<li>device (str, default="/dev/comedi0"): The address of the device</li>
+<li>subdevice (int, default=0): The id of the subdevice</li>
+<li>channels (list, default=[0]): The list of the input channels</li>
+<li>range_num (list/int, default=0): The range to use on each channel</li>
+<li>gain (list/float, default=1): The return value for each chan will be multiplied by the gain</li>
+<li>offset (list/float, default=0): The offset will be added to the return value for each chan</li>
+<li>make_zero (list/bool, default=True): If True, the value read at the begining will be removed to the offset to take it as a reference</li>
+<li>channels (list, default=[]): The list of the output channels</li>
+<li>out_range_num (list/int, default=0): The range to use on each output</li>
+<li>out_gain (list/float, default=1): The output value for each chan will be multiplied by the gain</li>
+<li>out_offset (list/float, default=0): The offset will be added to the output value for each chan</li>
+<li>out_subdevice (int,default=1): The id of the output subdevice </li>
+</ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a246951582b0b0f70d7a3ab87ce97f0cb"></a>
 <div class="memitem">

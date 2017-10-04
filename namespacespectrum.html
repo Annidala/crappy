@@ -105,49 +105,128 @@ $(document).ready(function(){initNavTree('namespacespectrum.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">spectrum Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:addc153d82e1c39cc597e20e35dd82660"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#addc153d82e1c39cc597e20e35dd82660">my_mean</a></td></tr>
-<tr class="separator:addc153d82e1c39cc597e20e35dd82660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:ac59fcb7faa081d40381237b30ff74bfe"><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#ac59fcb7faa081d40381237b30ff74bfe">channels</a> = list(range(16))</td></tr>
+<tr class="separator:ac59fcb7faa081d40381237b30ff74bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d9f4c0a28cbdf2473d390cba122c7d1"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#a9d9f4c0a28cbdf2473d390cba122c7d1">ranges</a> = [10000]</td></tr>
+<tr class="separator:a9d9f4c0a28cbdf2473d390cba122c7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f609c5c310db04d1d50b36335824fbe"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#a4f609c5c310db04d1d50b36335824fbe">gains</a> = [1]</td></tr>
+<tr class="separator:a4f609c5c310db04d1d50b36335824fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba81a6da1e54913b9b0a1aeb4555e805"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#aba81a6da1e54913b9b0a1aeb4555e805">save_file</a> = &quot;./out.h5&quot;</td></tr>
+<tr class="separator:aba81a6da1e54913b9b0a1aeb4555e805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e4ed72a163816f8e46991d883641065"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#a6e4ed72a163816f8e46991d883641065">chan_names</a> = ['ch'+str(i) for i in <a class="el" href="namespacespectrum.html#ac59fcb7faa081d40381237b30ff74bfe">channels</a>]</td></tr>
+<tr class="separator:a6e4ed72a163816f8e46991d883641065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7877be5adf903b1da70f4dc521c2d968"><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#a7877be5adf903b1da70f4dc521c2d968">spectrum</a></td></tr>
 <tr class="separator:a7877be5adf903b1da70f4dc521c2d968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5692164921f089ba40324571e4b5668"><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#ad5692164921f089ba40324571e4b5668">graph</a> = crappy.blocks.Grapher(*[('t(s)','ch'+str(i)) for i in range(16)])</td></tr>
+<tr class="memitem:ad5692164921f089ba40324571e4b5668"><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#ad5692164921f089ba40324571e4b5668">graph</a> = crappy.blocks.Grapher(*[('t(s)',i) for i in <a class="el" href="namespacespectrum.html#a6e4ed72a163816f8e46991d883641065">chan_names</a>])</td></tr>
 <tr class="separator:ad5692164921f089ba40324571e4b5668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7fafa0cdeb429b01bea2abb011ed516"><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#ae7fafa0cdeb429b01bea2abb011ed516">hsaver</a></td></tr>
+<tr class="separator:ae7fafa0cdeb429b01bea2abb011ed516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641dfaa1d3c28736ed0ef59cbf6adf3c"><td class="memItemLeft" align="right" valign="top">tuple&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacespectrum.html#a641dfaa1d3c28736ed0ef59cbf6adf3c">condition</a> = crappy.condition.Demux(<a class="el" href="namespacespectrum.html#a6e4ed72a163816f8e46991d883641065">chan_names</a>,mean=False)</td></tr>
+<tr class="separator:a641dfaa1d3c28736ed0ef59cbf6adf3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="addc153d82e1c39cc597e20e35dd82660"></a>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a6e4ed72a163816f8e46991d883641065"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def spectrum.my_mean </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
+          <td class="memname">list spectrum.chan_names = ['ch'+str(i) for i in <a class="el" href="namespacespectrum.html#ac59fcb7faa081d40381237b30ff74bfe">channels</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ac59fcb7faa081d40381237b30ff74bfe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tuple spectrum.channels = list(range(16))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a641dfaa1d3c28736ed0ef59cbf6adf3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tuple spectrum.condition = crappy.condition.Demux(<a class="el" href="namespacespectrum.html#a6e4ed72a163816f8e46991d883641065">chan_names</a>,mean=False)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4f609c5c310db04d1d50b36335824fbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">list spectrum.gains = [1]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ad5692164921f089ba40324571e4b5668"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">tuple spectrum.graph = crappy.blocks.Grapher(*[('t(s)','ch'+str(i)) for i in range(16)])</td>
+          <td class="memname">tuple spectrum.graph = crappy.blocks.Grapher(*[('t(s)',i) for i in <a class="el" href="namespacespectrum.html#a6e4ed72a163816f8e46991d883641065">chan_names</a>])</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae7fafa0cdeb429b01bea2abb011ed516"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">tuple spectrum.hsaver</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="namespacespectrum.html">    1</a></span>&#160;= <a class="code" href="namespacecrappy_1_1blocks.html#a6a819e1b8d50773b9e5f692df313eff6">crappy.blocks.Hdf_saver</a>(<span class="stringliteral">&quot;./out.h5&quot;</span>,</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;      metadata={<span class="stringliteral">&#39;channels&#39;</span>:channels,<span class="stringliteral">&#39;ranges&#39;</span>:ranges,<span class="stringliteral">&#39;freq&#39;</span>:100000,</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;        <span class="stringliteral">&#39;factor&#39;</span>:[r*g/32000000 <span class="keywordflow">for</span> r,g <span class="keywordflow">in</span> zip(ranges,gains)]})</div>
+<div class="ttc" id="namespacecrappy_1_1blocks_html_a6a819e1b8d50773b9e5f692df313eff6"><div class="ttname"><a href="namespacecrappy_1_1blocks.html#a6a819e1b8d50773b9e5f692df313eff6">crappy.blocks.Hdf_saver</a></div><div class="ttdeci">tuple Hdf_saver</div><div class="ttdef"><b>Definition:</b> __init__.py:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9d9f4c0a28cbdf2473d390cba122c7d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">list spectrum.ranges = [10000]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba81a6da1e54913b9b0a1aeb4555e805"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string spectrum.save_file = &quot;./out.h5&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -163,10 +242,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="namespacespectrum.html">    1</a></span>&#160;= crappy.blocks.IOBlock(<span class="stringliteral">&#39;spectrum&#39;</span>,ranges=[1000]*16,</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    channels=list(range(16)),</div>
+<b>Initial value:</b><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="namespacespectrum.html">    1</a></span>&#160;= crappy.blocks.IOBlock(<span class="stringliteral">&#39;spectrum&#39;</span>,ranges=ranges,</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    channels=channels,</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    streamer=<span class="keyword">True</span>,</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    labels=[<span class="stringliteral">&#39;t(s)&#39;</span>]+[<span class="stringliteral">&#39;ch&#39;</span>+str(i) <span class="keywordflow">for</span> i <span class="keywordflow">in</span> range(16)])</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    labels=[<span class="stringliteral">&#39;t(s)&#39;</span>,<span class="stringliteral">&#39;stream&#39;</span>])</div>
 </div><!-- fragment -->
 </div>
 </div>

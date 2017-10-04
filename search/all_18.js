@@ -3,7 +3,7 @@ var searchData=
   ['x',['x',['../namespacecorrel__advanced.html#af49cd141538d01f6758847f691180598',1,'correl_advanced']]],
   ['xi_5fformat_5fdict',['xi_format_dict',['../namespacecrappy_1_1camera_1_1ximea.html#ac64bd4d9e70b19faf0da4cecbf69bc74',1,'crappy.camera.ximea.xi_format_dict()'],['../namespacecrappy_1_1camera_1_1ximeaCV.html#ad348002616a5ec6e27292a50b7c4b4aa',1,'crappy.camera.ximeaCV.xi_format_dict()']]],
   ['ximea',['Ximea',['../classcrappy_1_1camera_1_1ximea_1_1Ximea.html',1,'crappy::camera::ximea']]],
-  ['ximea',['ximea',['../classcrappy_1_1camera_1_1ximea_1_1Ximea.html#aa071e4e0108cf2f2e42ccf51c891f0d4',1,'crappy.camera.ximea.Ximea.ximea()'],['../namespacecrappy_1_1camera.html#a8d3a6262d1befa30008afcad3ba1199a',1,'crappy.camera.Ximea()'],['../namespaceexample.html#ad1203154e0d5be79e6728000272e2b9f',1,'example.ximea()'],['../group__ximea.html',1,'(Global Namespace)']]],
+  ['ximea',['ximea',['../classcrappy_1_1camera_1_1ximea_1_1Ximea.html#aa071e4e0108cf2f2e42ccf51c891f0d4',1,'crappy.camera.ximea.Ximea.ximea()'],['../namespaceexample.html#ad1203154e0d5be79e6728000272e2b9f',1,'example.ximea()'],['../namespacecrappy_1_1camera.html#a8d3a6262d1befa30008afcad3ba1199a',1,'crappy.camera.Ximea()'],['../group__ximea.html',1,'(Global Namespace)']]],
   ['ximea_2ecpp',['ximea.cpp',['../ximea_8cpp.html',1,'']]],
   ['ximea_2eh',['ximea.h',['../ximea_8h.html',1,'']]],
   ['ximea_2epy',['ximea.py',['../ximea_8py.html',1,'']]],

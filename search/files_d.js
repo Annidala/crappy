@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['open_5fhdf_2epy',['open_hdf.py',['../open__hdf_8py.html',1,'']]],
-  ['opendaq_2epy',['opendaq.py',['../opendaq_8py.html',1,'']]],
-  ['opsens_2epy',['opsens.py',['../opsens_8py.html',1,'']]],
-  ['oriental_2epy',['oriental.py',['../crappy_2actuator_2oriental_8py.html',1,'']]],
-  ['oriental_2epy',['oriental.py',['../util_2oriental_8py.html',1,'']]]
+  ['machine_2epy',['machine.py',['../machine_8py.html',1,'']]],
+  ['masterblock_2epy',['masterblock.py',['../masterblock_8py.html',1,'']]],
+  ['mean_2epy',['mean.py',['../mean_8py.html',1,'']]],
+  ['measurebystep_2epy',['measureByStep.py',['../measureByStep_8py.html',1,'']]],
+  ['median_2epy',['median.py',['../median_8py.html',1,'']]],
+  ['minitens_2epy',['minitens.py',['../minitens_8py.html',1,'']]],
+  ['module_5flister_2epy',['module_lister.py',['../module__lister_8py.html',1,'']]],
+  ['moving_5favg_2epy',['moving_avg.py',['../moving__avg_8py.html',1,'']]],
+  ['multiplex_2epy',['multiplex.py',['../multiplex_8py.html',1,'']]]
 ];

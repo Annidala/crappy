@@ -11,7 +11,7 @@ var searchData=
   ['out_5fchan_5fdict',['out_chan_dict',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a7d45f00b9ec0a496e53a4db1de57aac1',1,'crappy::inout::labjackT7::Labjack_t7']]],
   ['out_5fchan_5flist',['out_chan_list',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a2b664f0bca2e68e35f8d6e5edb45e44f',1,'crappy::inout::labjackT7::Labjack_t7']]],
   ['out_5fchannels',['out_channels',['../classcrappy_1_1inout_1_1comedi_1_1Comedi.html#a2160b40fadf24c9784f5c692b637d1e5',1,'crappy.inout.comedi.Comedi.out_channels()'],['../classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#a22c025e1fd063ea3cf9ef9fbc22c53fc',1,'crappy.inout.daqmx.Daqmx.out_channels()']]],
-  ['out_5fgain',['out_gain',['../classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#ac0abb98ca784ad1156b23e1390e6f8ba',1,'crappy::inout::daqmx::Daqmx']]],
+  ['out_5fgain',['out_gain',['../classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#ac0abb98ca784ad1156b23e1390e6f8ba',1,'crappy.inout.daqmx.Daqmx.out_gain()'],['../namespacevideo__extenso__full.html#a0cc41e96e32907ed7dfb6422d370cb9c',1,'video_extenso_full.out_gain()']]],
   ['out_5fhandle',['out_handle',['../classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#a583fd40bc4138d8aad5918cb8a6bf29f',1,'crappy::inout::daqmx::Daqmx']]],
   ['out_5flist',['out_list',['../namespacecrappy_1_1inout.html#a8be6789413279c749c0b97c47fd3db3c',1,'crappy::inout']]],
   ['out_5foffset',['out_offset',['../classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#aa3d9c1ca554352e31fb69d9d871eb238',1,'crappy::inout::daqmx::Daqmx']]],

@@ -129,6 +129,7 @@ Inheritance diagram for crappy.blocks.camera.Camera:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abd899479ccaf8ae4288b05ef728745f9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1camera_1_1Camera.html#abd899479ccaf8ae4288b05ef728745f9">__init__</a></td></tr>
+<tr class="memdesc:abd899479ccaf8ae4288b05ef728745f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read images from a camera object, save and/or send them to another block.  <a href="#abd899479ccaf8ae4288b05ef728745f9">More...</a><br/></td></tr>
 <tr class="separator:abd899479ccaf8ae4288b05ef728745f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758b56b506e2d82b63fba9322d5f4246"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1camera_1_1Camera.html#a758b56b506e2d82b63fba9322d5f4246">prepare</a></td></tr>
 <tr class="separator:a758b56b506e2d82b63fba9322d5f4246"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,6 +195,19 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Read images from a camera object, save and/or send them to another block. </p>
+<p>It can be triggered by an other block, internally, or try to run at a given framerate</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">camera</td><td>{"Ximea","Jai","Webcam",...} See crappy.camera.MasterCam.classes for a full list (str, default="Fake_camera") </td></tr>
+    <tr><td class="paramname">save_folder</td><td>directory to save the images. It will be created if necessary. If None, it will not save the images (str or None, default: None) </td></tr>
+    <tr><td class="paramname">verbose</td><td>Will print fps every 2 seconds in the console (bool, default=False) </td></tr>
+    <tr><td class="paramname">labels</td><td>string, default=['t(s)','frame'] The labels for respectively time and the frame </td></tr>
+    <tr><td class="paramname">config</td><td>Show the popup for config ? (bool, default = True) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

@@ -13,6 +13,9 @@ var dir_5301a1fa620e95015a9a5ea74b31e4ea =
     [ "cyclic_ramp.py", "cyclic__ramp_8py.html", [
       [ "Cyclic_ramp", "classcrappy_1_1blocks_1_1generator__path_1_1cyclic__ramp_1_1Cyclic__ramp.html", "classcrappy_1_1blocks_1_1generator__path_1_1cyclic__ramp_1_1Cyclic__ramp" ]
     ] ],
+    [ "inertia.py", "inertia_8py.html", [
+      [ "Inertia", "classcrappy_1_1blocks_1_1generator__path_1_1inertia_1_1Inertia.html", "classcrappy_1_1blocks_1_1generator__path_1_1inertia_1_1Inertia" ]
+    ] ],
     [ "path.py", "path_8py.html", [
       [ "Path", "classcrappy_1_1blocks_1_1generator__path_1_1path_1_1Path.html", "classcrappy_1_1blocks_1_1generator__path_1_1path_1_1Path" ]
     ] ],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['d',['d',['../namespacedrawing.html#ac867b7177c13ba41dbf36489451f7815',1,'drawing.d()'],['../namespacepid.html#a8f23a40d467b624b4c0b63b742625dc2',1,'pid.d()'],['../namespacepid__autotune.html#ae69cf7c39e9bfcc0b2a1f25c7af6fd30',1,'pid_autotune.d()']]],
   ['daqmx',['Daqmx',['../namespacecrappy_1_1inout.html#a6f20577fd45bd9e8891b25263e55fa35',1,'crappy::inout']]],
-  ['data',['data',['../classcrappy_1_1blocks_1_1camera_1_1Camera.html#adc17ef00aeca01e7e66dbb36ada81835',1,'crappy.blocks.camera.Camera.data()'],['../namespacecrappy_1_1tool_1_1comedi__bind.html#aa70532e1e52eb43e0b4097fcd1c76057',1,'crappy.tool.comedi_bind.data()']]],
+  ['data',['data',['../classcrappy_1_1blocks_1_1camera_1_1Camera.html#adc17ef00aeca01e7e66dbb36ada81835',1,'crappy.blocks.camera.Camera.data()'],['../classcrappy_1_1inout_1_1kollmorgen_1_1Koll.html#a81c5c21cfac5caed81fd482a5c85b9cc',1,'crappy.inout.kollmorgen.Koll.data()'],['../namespacecrappy_1_1tool_1_1comedi__bind.html#aa70532e1e52eb43e0b4097fcd1c76057',1,'crappy.tool.comedi_bind.data()']]],
   ['data_5ffiles',['data_files',['../namespacesetup.html#aa53ac83b0960b5acd92e9692d0297097',1,'setup']]],
   ['dcoffset',['DCOffset',['../structpyFgen.html#a2f983db00bc1e4137f0230eb0d357e8b',1,'pyFgen']]],
   ['default',['default',['../classcrappy_1_1camera_1_1camera_1_1Cam__setting.html#a49ff8381bdbaaff39ba9952f0886e2bd',1,'crappy.camera.camera.Cam_setting.default()'],['../classcrappy_1_1inout_1_1comedi_1_1Comedi.html#a3354253e5c2cfca0e9a7f767ae461abd',1,'crappy.inout.comedi.Comedi.default()']]],
@@ -27,6 +27,7 @@ var searchData=
   ['devvec',['devVec',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#acf99e865d730e23bcec6b06874e1e564',1,'crappy::tool::correl::CorrelStage']]],
   ['devx',['devX',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a7120fc31b383a979fac669ce824b9169',1,'crappy::tool::correl::CorrelStage']]],
   ['direction',['direction',['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#aabd4608b7cdfb37b24a21a81cf8d2ec9',1,'crappy::blocks::signalGenerator::SignalGenerator']]],
+  ['directory',['directory',['../namespaceself-heating.html#a222a7511945122f502c93da93ffaf4cf',1,'self-heating']]],
   ['disp',['disp',['../namespacedisplayer.html#a601e38579659261dcd5b27e3e71be230',1,'displayer']]],
   ['dot',['dot',['../classcrappy_1_1blocks_1_1drawing_1_1Dot__text.html#af0cbd4cea90c778ef8f15ab7a2d595d1',1,'crappy::blocks::drawing::Dot_text']]],
   ['double_5freg',['double_reg',['../namespacecrappy_1_1tool_1_1pyspcm.html#a8f317338693350a2a4f8d9fc65307e92',1,'crappy::tool::pyspcm']]],

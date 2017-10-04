@@ -24,7 +24,8 @@ var searchData=
   ['hist_5fgenerator',['Hist_generator',['../classcrappy_1_1tool_1_1cameraConfig_1_1Hist__generator.html',1,'crappy::tool::cameraConfig']]],
   ['hist_5flabel',['hist_label',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#ae416396bab8234c7e36bdff8fa0d0bf4',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['hist_5fprocess',['hist_process',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a84274d988682241630322b0cd19c274a',1,'crappy::tool::cameraConfig::Camera_config']]],
+  ['hldreg_5faddresses',['hldreg_addresses',['../classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator.html#a589d2426b22524438a3998bdf4f4b81a',1,'crappy::inout::kollmorgen::KollMorgenVariator']]],
   ['hopen',['hOpen',['../namespacecrappy_1_1tool_1_1pyspcm.html#a3c23307874527cc52ae2cfdfef98e104',1,'crappy::tool::pyspcm']]],
-  ['hsaver',['hsaver',['../namespacespectrum__save.html#a34916c13496e75cce6cc1ec715370e0d',1,'spectrum_save']]],
+  ['hsaver',['hsaver',['../namespacespectrum.html#ae7fafa0cdeb429b01bea2abb011ed516',1,'spectrum']]],
   ['how_20to_20use_20c_2b_2b_20designed_20hardware_20drivers_20with_20crappy_20_3f',['How to use C++ designed hardware drivers with Crappy ?',['../tuto1.html',1,'']]]
 ];

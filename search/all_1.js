@@ -18,7 +18,7 @@ var searchData=
   ['actuatorname',['actuatorName',['../classinterfaceCMdrive_1_1Interface.html#a8fb67119b83b958d2385815e8b932dba',1,'interfaceCMdrive::Interface']]],
   ['actuatornamecombo',['actuatorNameCombo',['../classinterfaceCMdrive_1_1Interface.html#aa254957eb945d99076c529b463ae63e4',1,'interfaceCMdrive::Interface']]],
   ['actuators',['actuators',['../classcrappy_1_1blocks_1_1machine_1_1Machine.html#affb246459e1e4068b77c769c041c05a6',1,'crappy::blocks::machine::Machine']]],
-  ['ad',['ad',['../namespacevideo__extenso__auto__drive.html#a9a2c93af3edec1281ee816e923f12f26',1,'video_extenso_auto_drive']]],
+  ['ad',['ad',['../namespacevideo__extenso__auto__drive.html#a9a2c93af3edec1281ee816e923f12f26',1,'video_extenso_auto_drive.ad()'],['../namespacevideo__extenso__full.html#a77ec931bcc13c40bf3564d4bdbc321e1',1,'video_extenso_full.ad()']]],
   ['add_5fbutton',['add_button',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#aafdcc6e0f174dd229e9c8a749eff8166',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
   ['add_5fcheckbutton',['add_checkbutton',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#a93fdf10945518b283792a19944cc4abf',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
   ['add_5fcombobox',['add_combobox',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html#ade113c0e736cdd7b7e26c3261bfcd991',1,'crappy::tool::GUI_Arduino::frame_objects::FrameObjects']]],
@@ -53,6 +53,7 @@ var searchData=
   ['array',['array',['../classcrappy_1_1blocks_1_1generator__path_1_1custom_1_1Custom.html#a5bdcea10c26af501502c315753fcbbf5',1,'crappy.blocks.generator_path.custom.Custom.array()'],['../classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#aac216d07487256c1fbc06b9f69f36889',1,'crappy.blocks.hdf_saver.Hdf_saver.array()'],['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a84b241731455365abb3b11926dbd10bc',1,'crappy.tool.correl.CorrelStage.array()']]],
   ['array_5fbuffer',['array_buffer',['../structVideoCapture.html#a48c7393bcbcbe8f8b9b25dd3db2641ea',1,'VideoCapture::array_buffer()'],['../pyXimea_8cpp.html#a41628769fdff45ffe979265b06f8a648',1,'array_buffer():&#160;pyXimea.cpp']]],
   ['array_5fd',['array_d',['../classcrappy_1_1tool_1_1correl_1_1CorrelStage.html#a97892be0b54ec5480553909d07e53af5',1,'crappy::tool::correl::CorrelStage']]],
+  ['atom',['atom',['../classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#a28ead9fbdd871e10936f4cbc4df85d6e',1,'crappy::blocks::hdf_saver::Hdf_saver']]],
   ['author',['author',['../namespacesetup.html#ac83393287a89728d636e4ae9f4ac914f',1,'setup']]],
   ['author_5femail',['author_email',['../namespacesetup.html#aa144ac52ed417d5c65d7377e0e75673e',1,'setup']]],
   ['auto_5frange',['auto_range',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a206030e43771e5a73392f6cf701cafc9',1,'crappy::tool::cameraConfig::Camera_config']]],
@@ -61,5 +62,6 @@ var searchData=
   ['autodrive_2epy',['autoDrive.py',['../autoDrive_8py.html',1,'']]],
   ['available_5fsettings',['available_settings',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#a645026f409cf1725405a9c27890e33b5',1,'crappy::camera::camera::Camera']]],
   ['ax',['ax',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#af9b1b15661f508ac052d0392b2931203',1,'crappy.blocks.drawing.Drawing.ax()'],['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a97037d67df4fc6eabbce94bc10ad3b5c',1,'crappy.blocks.grapher.Grapher.ax()']]],
-  ['axe',['axe',['../namespacebiaxe.html#a5a860c693af98e8982abc31008aac090',1,'biaxe.axe()'],['../namespaceoriental.html#ad6438c55b6270e1c176c6b6db0efa720',1,'oriental.axe()']]]
+  ['axe',['axe',['../namespacebiaxe.html#a5a860c693af98e8982abc31008aac090',1,'biaxe.axe()'],['../namespaceoriental.html#ad6438c55b6270e1c176c6b6db0efa720',1,'oriental.axe()']]],
+  ['axis',['axis',['../classcrappy_1_1inout_1_1kollmorgen_1_1Koll.html#a35c133546d8f68b75c55192b3a57c229',1,'crappy::inout::kollmorgen::Koll']]]
 ];

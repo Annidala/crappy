@@ -114,6 +114,9 @@ $(document).ready(function(){initNavTree('classcrappy_1_1blocks_1_1pid_1_1PID.ht
 <div class="title">crappy.blocks.pid.PID Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A <a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html" title="A PID corrector. ">PID</a> corrector.  
+ <a href="classcrappy_1_1blocks_1_1pid_1_1PID.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for crappy.blocks.pid.PID:</div>
 <div class="dyncontent">
@@ -159,7 +162,23 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a42518d7f881614df027abb8542f195ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html#a42518d7f881614df027abb8542f195ce">kd</a></td></tr>
 <tr class="separator:a42518d7f881614df027abb8542f195ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A <a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html" title="A PID corrector. ">PID</a> corrector. </p>
+<p>A <a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html" title="A PID corrector. ">PID</a> will continuously adjust the output based on the target and the actual value, to try to actually reach the target.</p>
+<ul>
+<li>kp: (float) P gain</li>
+<li>ki: (float, default=0) I gain</li>
+<li>kd: (float, default=0) D gain</li>
+<li>out_max (float or None,default:None): If not None, it will always keep the output below this value</li>
+<li>out_min (float or None,default:None): If not None, it will always keep the output above this value</li>
+<li>target_label (str,default="cmd"): The label of the setpoint</li>
+<li>input_label (str,default="V"): The reading of the actual value to be compared with the setpoint</li>
+<li>time_label (str,default="t(s)"): The label of the time</li>
+<li>labels (list,default=['t(s)','pid']): The labels of the output of the block. It must have TWO strings: the time and the command.</li>
+<li>reverse (bool,default=False): To reverse the retroaction</li>
+<li>send_terms (bool,default=False): To get the weight of each term in the output value. It will add ['p_term','i_term','d_term'] to the labels. This is particularly useful to tweak the gains. </li>
+</ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ae8fb3a6803f35d652f2a3a45450ca7ec"></a>
 <div class="memitem">
 <div class="memproto">

@@ -11,6 +11,7 @@ var searchData=
   ['win_5ftimeout',['win_timeout',['../namespacecrappy_1_1links_1_1link.html#a1a9f5dfb2c339f37a8244d6c82632295',1,'crappy::links::link']]],
   ['window_5fpos',['window_pos',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a16a25521dd6de7a9d463dadbcbdc8a6b',1,'crappy::blocks::grapher::Grapher']]],
   ['window_5fsize',['window_size',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#a30d28bc3b671051fb324c03fb4b97620',1,'crappy.blocks.drawing.Drawing.window_size()'],['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a0909718eea9d2c3508686b2840d97401',1,'crappy.blocks.grapher.Grapher.window_size()']]],
+  ['windowserror',['WindowsError',['../namespacecrappy_1_1inout.html#ac49d07b18aa11dc4b1863b4bb9a4476f',1,'crappy::inout']]],
   ['write',['write',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a15378134149ddc17f92fabe1c69bc5ce',1,'crappy::inout::labjackT7::Labjack_t7']]],
   ['write_5faddresses',['write_addresses',['../classcrappy_1_1inout_1_1labjackT7_1_1Labjack__t7.html#a16cbabe1e74d3d49a3f27a525fdf149f',1,'crappy::inout::labjackT7::Labjack_t7']]],
   ['write_5fcmd',['write_cmd',['../classcrappy_1_1actuator_1_1oriental_1_1Oriental.html#a9bccf8b38344b7b7c0c28defcbce148f',1,'crappy::actuator::oriental::Oriental']]],

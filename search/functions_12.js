@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['uint16_5fto_5fdata',['uint16_to_data',['../namespacecrappy_1_1tool_1_1convert__data.html#a2c5c192ac976be01dcbf13330f156af8',1,'crappy::tool::convert_data']]],
+  ['uint32_5fto_5fdata',['uint32_to_data',['../namespacecrappy_1_1tool_1_1convert__data.html#a53093dd6bfc841ec9529568ded9ae22b',1,'crappy::tool::convert_data']]],
   ['update',['update',['../classcrappy_1_1actuator_1_1fakemotor_1_1Fake__motor.html#a813cf4f0bc15d2d652c58f6204fce36e',1,'crappy.actuator.fakemotor.Fake_motor.update()'],['../classcrappy_1_1blocks_1_1dashboard_1_1Dashboard_1_1Dashboard.html#a7c14a6f1ccd8020318958f8b87839238',1,'crappy.blocks.dashboard.Dashboard.Dashboard.update()'],['../classcrappy_1_1blocks_1_1drawing_1_1Text.html#aaf62d85d94b548f113b11b3235220fd8',1,'crappy.blocks.drawing.Text.update()'],['../classcrappy_1_1blocks_1_1drawing_1_1Dot__text.html#ac278a6ef90091a3d646604bf4bfd7e5d',1,'crappy.blocks.drawing.Dot_text.update()'],['../classcrappy_1_1blocks_1_1drawing_1_1Time.html#a38aed5b881d9aff7fda946208b4d24f8',1,'crappy.blocks.drawing.Time.update()']]],
   ['update_5fbox',['update_box',['../classcrappy_1_1tool_1_1videoextensoConfig_1_1VE__config.html#a4e2368f1b8572b8a241e193124f6457e',1,'crappy::tool::videoextensoConfig::VE_config']]],
   ['update_5fdata',['update_data',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a6532511242b45b16bbcca6cd0a6a33ca',1,'crappy::tool::GUI_Arduino::minitens::MinitensFrame']]],

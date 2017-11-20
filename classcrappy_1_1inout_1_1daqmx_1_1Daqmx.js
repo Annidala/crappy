@@ -4,7 +4,7 @@ var classcrappy_1_1inout_1_1daqmx_1_1Daqmx =
     [ "check_vars", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#a35788fa88fb66defb97f570fad5bd0c6", null ],
     [ "close", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#acc030fed70999894856e641ee0f8a015", null ],
     [ "get_data", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#aada57727e510a6981d2d8fb9ea2057cb", null ],
-    [ "get_stream", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#ab4c78350dea1a4a947f289ecfbbcc3b2", null ],
+    [ "get_single", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#a9a959c3c36a38f225261530255763895", null ],
     [ "open", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#ad8eb477f7ab44b4d0d8bf0e4b275bd0c", null ],
     [ "set_cmd", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#a4aaf10b9e886773dec8192482790a174", null ],
     [ "channels", "classcrappy_1_1inout_1_1daqmx_1_1Daqmx.html#a7f64499432586e2efeac118e1c789024", null ],

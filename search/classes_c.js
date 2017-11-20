@@ -2,6 +2,7 @@ var searchData=
 [
   ['machine',['Machine',['../classcrappy_1_1blocks_1_1machine_1_1Machine.html',1,'crappy::blocks::machine']]],
   ['masterblock',['MasterBlock',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html',1,'crappy::blocks::masterblock']]],
+  ['mean',['Mean',['../classcrappy_1_1blocks_1_1mean_1_1Mean.html',1,'crappy::blocks::mean']]],
   ['mean',['Mean',['../classcrappy_1_1condition_1_1mean_1_1Mean.html',1,'crappy::condition::mean']]],
   ['measurebystep',['MeasureByStep',['../classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep.html',1,'crappy::blocks::measureByStep']]],
   ['median',['Median',['../classcrappy_1_1condition_1_1median_1_1Median.html',1,'crappy::condition::median']]],

@@ -20,7 +20,7 @@ var searchData=
   ['hexlify',['hexlify',['../namespacecrappy_1_1camera_1_1bispectral.html#aa196b721e24b3e5a0e80099601f2dcb5',1,'crappy::camera::bispectral']]],
   ['hfile',['hfile',['../classcrappy_1_1blocks_1_1hdf__saver_1_1Hdf__saver.html#a1b2b38cb3cdb47615b9a28da1a4e9b99',1,'crappy::blocks::hdf_saver::Hdf_saver']]],
   ['high',['high',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a1258854c47ef9bd4c35efeb95071fcff',1,'crappy::tool::cameraConfig::Camera_config']]],
-  ['hist',['hist',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a4d9bf3744ba3aae0619a5ebb2dc85eee',1,'crappy.blocks.multiplex.Multiplex.hist()'],['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a8f6c0f267fdd35e61b54e8978c99af3c',1,'crappy.tool.cameraConfig.Camera_config.hist()']]],
+  ['hist',['hist',['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#a4d9bf3744ba3aae0619a5ebb2dc85eee',1,'crappy.blocks.multiplex.Multiplex.hist()'],['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a8f6c0f267fdd35e61b54e8978c99af3c',1,'crappy.tool.cameraConfig.Camera_config.hist()'],['../classsim__four_1_1Delay.html#a18426ec030a70121328f8c45ab358f69',1,'sim_four.Delay.hist()']]],
   ['hist_5fgenerator',['Hist_generator',['../classcrappy_1_1tool_1_1cameraConfig_1_1Hist__generator.html',1,'crappy::tool::cameraConfig']]],
   ['hist_5flabel',['hist_label',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#ae416396bab8234c7e36bdff8fa0d0bf4',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['hist_5fprocess',['hist_process',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a84274d988682241630322b0cd19c274a',1,'crappy::tool::cameraConfig::Camera_config']]],

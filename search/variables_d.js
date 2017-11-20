@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m',['m',['../namespaceprotection.html#a79f083642df12eaf9c581bced1405a73',1,'protection.m()'],['../namespaceprotection__par__axe.html#a07a7fe778f20bea45a66b6785ec9aac6',1,'protection_par_axe.m()'],['../namespaceread.html#a3a2056156ace3312bb5b1d693b1d0729',1,'read.m()']]],
+  ['m',['m',['../namespacemean.html#aedd7f678143c9d71154fe2e9111ca0d7',1,'mean.m()'],['../namespaceprotection.html#a79f083642df12eaf9c581bced1405a73',1,'protection.m()'],['../namespaceprotection__par__axe.html#a07a7fe778f20bea45a66b6785ec9aac6',1,'protection_par_axe.m()'],['../namespaceread.html#a3a2056156ace3312bb5b1d693b1d0729',1,'read.m()'],['../namespacethermocouple__t7.html#a70c1cd01102cd41859eec9faa24aca30',1,'thermocouple_t7.m()']]],
   ['m1',['m1',['../namespaceprotection.html#a4ff749646460add3b4551851f4120993',1,'protection.m1()'],['../namespaceprotection__par__axe.html#a2e065df26a97badafede71af5a9f8909',1,'protection_par_axe.m1()']]],
   ['m2',['m2',['../namespaceprotection.html#a571a96b21a650a1d7f4c390dc02a6e4b',1,'protection.m2()'],['../namespaceprotection__par__axe.html#a058e7140c398ea0d40eaca4706adf751',1,'protection_par_axe.m2()']]],
   ['m2cmd_5fall_5fstop',['M2CMD_ALL_STOP',['../namespacecrappy_1_1tool_1_1pyspcm.html#aa40acd50e1eecd857361f5d787928a4a',1,'crappy::tool::pyspcm']]],
@@ -27,6 +27,7 @@ var searchData=
   ['max_5ffps',['max_fps',['../classcrappy_1_1camera_1_1camera_1_1Camera.html#a3fc05c9fc4a0491ca8efcf5cae9c13be',1,'crappy::camera::camera::Camera']]],
   ['maxpt',['maxpt',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a6ae17dab4e7648eab3e4d8d06fab6c3f',1,'crappy::blocks::grapher::Grapher']]],
   ['mean',['mean',['../classcrappy_1_1condition_1_1demux_1_1Demux.html#a72e923d99d2430949a5e0de807d73660',1,'crappy::condition::demux::Demux']]],
+  ['mean_5fblock',['mean_block',['../namespaceacq-crappy.html#a28c0eadfc622984dcd45b53c3966d567',1,'acq-crappy']]],
   ['menu_5fexp_5fparameters',['menu_exp_parameters',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#ade54353343a1c7dbaeef446d7894f39f',1,'crappy::tool::GUI_Arduino::minitens::MinitensPopups']]],
   ['menu_5frec',['menu_rec',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#a3e97cb3d70da76062f74e2268b808ee2',1,'crappy::tool::GUI_Arduino::minitens::MinitensPopups']]],
   ['menu_5ftools',['menu_tools',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensPopups.html#a06bca0b93669e18ca624dd624384e650',1,'crappy::tool::GUI_Arduino::minitens::MinitensPopups']]],

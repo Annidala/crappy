@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['p',['p',['../namespacepid.html#aa6d676710b2a6c14250490181ed3bc80',1,'pid.p()'],['../namespacesetup.html#a4001153aafd2d6f93c55eefb4fab386f',1,'setup.p()']]],
+  ['p',['P',['../namespacefour.html#a189d67df97996791398bda2875f69074',1,'four.P()'],['../namespacefour__test.html#ae6c0531057836ce030559c89dc7327fb',1,'four_test.P()'],['../namespacesim__four.html#ab17751d236b4c619648e095c3f40d63c',1,'sim_four.P()'],['../namespacepid.html#aa6d676710b2a6c14250490181ed3bc80',1,'pid.p()'],['../namespacesetup.html#a4001153aafd2d6f93c55eefb4fab386f',1,'setup.p()']]],
   ['p2',['p2',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a44045e0f48f3d52bdac6c8f117052cfe',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['packages',['packages',['../namespacesetup.html#aac31bc6390743c46ed466881a9d62eb2',1,'setup']]],
   ['path',['path',['../classcrappy_1_1blocks_1_1generator_1_1Generator.html#ab8c6ae67a1717d92b1c0881fb461aabf',1,'crappy.blocks.generator.Generator.path()'],['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#acb1d7da9527f0286d122141f85059fc7',1,'crappy.blocks.signalGenerator.SignalGenerator.path()'],['../namespacebiaxe.html#a64fc42633c6462fc6ed3f7bed4a62a8b',1,'biaxe.path()']]],
@@ -8,7 +8,9 @@ var searchData=
   ['path_5fid',['path_id',['../classcrappy_1_1blocks_1_1generator_1_1Generator.html#a58a5f03320217dac6aac37b162166772',1,'crappy::blocks::generator::Generator']]],
   ['pcpos',['pcpos',['../classcrappy_1_1inout_1_1spectrum_1_1Spectrum.html#abbfb75da61d26b74008d1314ebd3a6f3',1,'crappy::inout::spectrum::Spectrum']]],
   ['phase',['phase',['../classcrappy_1_1blocks_1_1generator__path_1_1sine_1_1Sine.html#ad0ae626999a8f5b0f577bca79606ef2c',1,'crappy.blocks.generator_path.sine.Sine.phase()'],['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#aa631aa0d38f183acc6a73812fa6ae0e7',1,'crappy.blocks.signalGenerator.SignalGenerator.phase()']]],
-  ['pid',['pid',['../namespacepid.html#a09b49c3a47e5f45085bd7783a14491f3',1,'pid']]],
+  ['pid',['pid',['../namespacepid.html#a09b49c3a47e5f45085bd7783a14491f3',1,'pid.pid()'],['../namespacesim__four.html#a9f47caca971b06dff9bb4a65b47e115a',1,'sim_four.pid()']]],
+  ['pid_5flist',['pid_list',['../namespacefour.html#ae406a0d4807d4bc7ead8bf450963095b',1,'four']]],
+  ['pins',['pins',['../namespacefour.html#a0a4bf95c2cb0fa48a5866ac90e0e3217',1,'four.pins()'],['../namespacefour__test.html#a145022b2b97025e97c071a97c1a24cc5',1,'four_test.pins()']]],
   ['pipe',['pipe',['../classcrappy_1_1tool_1_1cameraConfig_1_1Hist__generator.html#a5a47a72099e38a537bacf06734616953',1,'crappy.tool.cameraConfig.Hist_generator.pipe()'],['../classcrappy_1_1tool_1_1videoextenso_1_1Video__extenso.html#a1be0cfe5da3ae06f70b2d1e967092cb3',1,'crappy.tool.videoextenso.Video_extenso.pipe()'],['../classcrappy_1_1tool_1_1videoextenso_1_1Tracker.html#a033d49d2805817fb1fae09e90d720dbe',1,'crappy.tool.videoextenso.Tracker.pipe()']]],
   ['pipe2',['pipe2',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#acc4dbe1b3e329a046bb9c64ef26beaa6',1,'crappy::blocks::masterblock::MasterBlock']]],
   ['pipe_5fin',['pipe_in',['../classcrappy_1_1tool_1_1datapicker_1_1DataPicker.html#ac4e2a41c39fb38278c6b882fb88db09e',1,'crappy::tool::datapicker::DataPicker']]],
@@ -31,6 +33,7 @@ var searchData=
   ['prepare',['prepare',['../namespacecrappy.html#a559c257e85d1c496b5a0f1739b38fb4c',1,'crappy']]],
   ['previous_5fwindow',['previous_window',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#a0348e695e1a936f3767dea2a04f3c59a',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['proc',['proc',['../classcrappy_1_1tool_1_1datapicker_1_1DataPicker.html#a1b996ff14f33d7d653c4c27afba53822',1,'crappy::tool::datapicker::DataPicker']]],
+  ['pwm_5fchan',['pwm_chan',['../namespacefour.html#a5e2b2c94a59ad47010bac255c2712b79',1,'four']]],
   ['pyfgenmodule',['pyFgenModule',['../namespacesetup.html#a90b65992ab365ca811b7f69b2efff9c9',1,'setup']]],
   ['pyobject_5fhead',['PyObject_HEAD',['../structVideoCapture.html#a6a44f241bc542a7aebfd051f40fa3a29',1,'VideoCapture']]]
 ];

@@ -13,6 +13,7 @@ var namespacecrappy_1_1blocks =
     [ "ioblock", "namespacecrappy_1_1blocks_1_1ioblock.html", "namespacecrappy_1_1blocks_1_1ioblock" ],
     [ "machine", "namespacecrappy_1_1blocks_1_1machine.html", "namespacecrappy_1_1blocks_1_1machine" ],
     [ "masterblock", "namespacecrappy_1_1blocks_1_1masterblock.html", "namespacecrappy_1_1blocks_1_1masterblock" ],
+    [ "mean", "namespacecrappy_1_1blocks_1_1mean.html", "namespacecrappy_1_1blocks_1_1mean" ],
     [ "measureByStep", "namespacecrappy_1_1blocks_1_1measureByStep.html", "namespacecrappy_1_1blocks_1_1measureByStep" ],
     [ "multiplex", "namespacecrappy_1_1blocks_1_1multiplex.html", "namespacecrappy_1_1blocks_1_1multiplex" ],
     [ "pid", "namespacecrappy_1_1blocks_1_1pid.html", "namespacecrappy_1_1blocks_1_1pid" ],

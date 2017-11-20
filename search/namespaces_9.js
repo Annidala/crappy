@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['read',['read',['../namespaceread.html',1,'']]],
-  ['rw_5fcomedi',['rw_comedi',['../namespacerw__comedi.html',1,'']]],
-  ['rw_5flabjack',['rw_labjack',['../namespacerw__labjack.html',1,'']]]
+  ['oldmeasure_2dcrappy',['oldmeasure-crappy',['../namespaceoldmeasure-crappy.html',1,'']]],
+  ['open_5fhdf',['open_hdf',['../namespaceopen__hdf.html',1,'']]],
+  ['oriental',['oriental',['../namespaceoriental.html',1,'']]]
 ];

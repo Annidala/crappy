@@ -27,6 +27,10 @@ var searchData=
   ['float32_5fto_5fdata',['float32_to_data',['../namespacecrappy_1_1tool_1_1convert__data.html#a960c74d6d87083d6d5ddd82b3e777411',1,'crappy::tool::convert_data']]],
   ['format',['format',['../classCaptureCAM__CL.html#a266e2b3ba3adccc6df770467550949ee',1,'CaptureCAM_CL::format()'],['../classCaptureCAM__XIMEA.html#a9a6ddc7e4896edaa3bcca8b79578ebcc',1,'CaptureCAM_XIMEA::format()']]],
   ['format_5flists',['format_lists',['../namespacecrappy_1_1inout_1_1labjackUE9.html#a102bdde15f2667de33994c7dd8504cca',1,'crappy::inout::labjackUE9']]],
+  ['four',['four',['../namespacefour.html',1,'four'],['../namespacesim__four.html#a3a51a82e70dbcab64bb68ac2eb2e153c',1,'sim_four.four()']]],
+  ['four_2epy',['four.py',['../four_8py.html',1,'']]],
+  ['four_5ftest',['four_test',['../namespacefour__test.html',1,'']]],
+  ['four_5ftest_2epy',['four_test.py',['../four__test_8py.html',1,'']]],
   ['fps_5flabel',['fps_label',['../classcrappy_1_1tool_1_1cameraConfig_1_1Camera__config.html#af8063e972523a595645578d35d66f80f',1,'crappy::tool::cameraConfig::Camera_config']]],
   ['fps_5ftimer',['fps_timer',['../classcrappy_1_1blocks_1_1camera_1_1Camera.html#a95698ffd6e8fb3b7755285bd239a0e77',1,'crappy::blocks::camera::Camera']]],
   ['frame',['frame',['../classcrappy_1_1camera_1_1streamer_1_1Streamer.html#a44fe6391fc494ce27501be6eb70eb964',1,'crappy::camera::streamer::Streamer']]],
@@ -35,7 +39,7 @@ var searchData=
   ['frameobjects',['FrameObjects',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1frame__objects_1_1FrameObjects.html',1,'crappy::tool::GUI_Arduino::frame_objects']]],
   ['frames',['frames',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1minitens_1_1MinitensFrame.html#a20f6b6ef65f6e096c530274e50963903',1,'crappy::tool::GUI_Arduino::minitens::MinitensFrame']]],
   ['framespersec',['framespersec',['../classCaptureCAM__CL.html#aac6834248bdede33c42d3ef3e3c7ae26',1,'CaptureCAM_CL']]],
-  ['freq',['freq',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#ab0a42dbcdadeda319ae0f9ae3cc24b2e',1,'crappy.blocks.drawing.Drawing.freq()'],['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a8316109d1e4f02c5efd3e82f306c6551',1,'crappy.blocks.grapher.Grapher.freq()'],['../classcrappy_1_1blocks_1_1machine_1_1Machine.html#a033c0cef0505a93a911fbd8cdb333d5a',1,'crappy.blocks.machine.Machine.freq()'],['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#aaca7db06b599bf8266c03df29c5cc4e3',1,'crappy.blocks.multiplex.Multiplex.freq()'],['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#ac853dc6f424eeec81f8e959146d6ea9a',1,'crappy.blocks.signalGenerator.SignalGenerator.freq()']]],
+  ['freq',['freq',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#ab0a42dbcdadeda319ae0f9ae3cc24b2e',1,'crappy.blocks.drawing.Drawing.freq()'],['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#a8316109d1e4f02c5efd3e82f306c6551',1,'crappy.blocks.grapher.Grapher.freq()'],['../classcrappy_1_1blocks_1_1machine_1_1Machine.html#a033c0cef0505a93a911fbd8cdb333d5a',1,'crappy.blocks.machine.Machine.freq()'],['../classcrappy_1_1blocks_1_1mean_1_1Mean.html#a6e2ae1e48152a4bd55261cef8c6b3fc1',1,'crappy.blocks.mean.Mean.freq()'],['../classcrappy_1_1blocks_1_1multiplex_1_1Multiplex.html#aaca7db06b599bf8266c03df29c5cc4e3',1,'crappy.blocks.multiplex.Multiplex.freq()'],['../classcrappy_1_1blocks_1_1signalGenerator_1_1SignalGenerator.html#ac853dc6f424eeec81f8e959146d6ea9a',1,'crappy.blocks.signalGenerator.SignalGenerator.freq()'],['../namespacefour.html#a63dc6a3c8fd61595cb458651bd4d289a',1,'four.FREQ()'],['../namespacefour__test.html#a420d1b10b7738c1b1607b6aaeee06825',1,'four_test.FREQ()']]],
   ['frequency',['Frequency',['../structpyFgen.html#aee9ae7a1cebefc9e2f25943e8e562b4a',1,'pyFgen']]],
   ['from_5f',['from_',['../namespacemodule__lister.html#a375fc10d210405d8c39c99b12d656cd4',1,'module_lister']]]
 ];

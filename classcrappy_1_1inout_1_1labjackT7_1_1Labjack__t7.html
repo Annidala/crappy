@@ -214,7 +214,9 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">range</td><td>10/1/.1/.01. The range of the acquisition (V). 10 means -10V&gt;+10V default=10</td></tr>
     <tr><td class="paramname">limits</td><td>tuple (mini,maxi), To clamp the output values to a given range. Can be useful to make sure not to go beyond given values. DO NOT CONSIDER THIS AS A SAFETY IMPLEMENTATION. It <em>should</em> not go beyond/below the given values, but this is not meant to replace hardware safety ! </td></tr>
     <tr><td class="paramname">default</td><td>None</td></tr>
-    <tr><td class="paramname">thermocouple</td><td>E/J/K/R/T/S/C (char) The type of thermocouple (AIN only) If specified, it will use the EF to read a temperature directly from the thermocouples. </td></tr>
+    <tr><td class="paramname">thermocouple</td><td>E/J/K/R/T/S/C (char) The type of thermocouple (AIN only) If specified, it will use the EF to read a temperature directly from the thermocouples.</td></tr>
+    <tr><td class="paramname">write_at_open</td><td>list, If you need to write specific names or registers when opening the channel, you can give them as a list of tuple. They will be written in the order of the list. The tuples can either be (name (str), value (int/float)) or <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;(register (int), type (int), value (float/int))</div>
+</div><!-- fragment --></td></tr>
   </table>
   </dd>
 </dl>

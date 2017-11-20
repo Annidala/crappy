@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['i',['I',['../classself-heating_1_1EvalStress.html#abb2006f88188fb7aba0c61831466e0fc',1,'self-heating.EvalStress.I()'],['../classcrappy_1_1blocks_1_1dashboard_1_1Dashboard_1_1Dashboard.html#a2fd29c141f2dabc1dd05627089b839d3',1,'crappy.blocks.dashboard.Dashboard.Dashboard.i()'],['../namespacepid.html#ac2c06cf8883b5a32939f9a9b27232cc3',1,'pid.i()'],['../namespacebiaxe.html#a44398a20712a76447d9cb79f437e457b',1,'biaxe.i()'],['../namespaceopen__hdf.html#ab06c5167be0178242df3cca8bd95b0f1',1,'open_hdf.i()'],['../namespaceoriental.html#ae89a3000714caa81a4aeafc03ddc9ddb',1,'oriental.i()']]],
+  ['i',['I',['../classself-heating_1_1EvalStress.html#abb2006f88188fb7aba0c61831466e0fc',1,'self-heating.EvalStress.I()'],['../classcrappy_1_1blocks_1_1dashboard_1_1Dashboard_1_1Dashboard.html#a2fd29c141f2dabc1dd05627089b839d3',1,'crappy.blocks.dashboard.Dashboard.Dashboard.i()'],['../namespacepid.html#ac2c06cf8883b5a32939f9a9b27232cc3',1,'pid.i()'],['../namespacebiaxe.html#a44398a20712a76447d9cb79f437e457b',1,'biaxe.i()'],['../namespaceopen__hdf.html#ab06c5167be0178242df3cca8bd95b0f1',1,'open_hdf.i()'],['../namespaceoriental.html#ae89a3000714caa81a4aeafc03ddc9ddb',1,'oriental.i()'],['../namespacefour.html#aafa0b82c289d44e16de8c53d6e15d9b9',1,'four.I()'],['../namespacefour__test.html#a45d25e6d2304040b154fcf7aa9dc1079',1,'four_test.I()'],['../namespacesim__four.html#aeb4399de171e1a9e5f8af595ab589b03',1,'sim_four.I()']]],
+  ['i_5flimit',['i_limit',['../classcrappy_1_1blocks_1_1pid_1_1PID.html#a599fe32ded3af9322d1e132f8afa2e38',1,'crappy::blocks::pid::PID']]],
   ['i_5fterm',['i_term',['../classcrappy_1_1blocks_1_1pid_1_1PID.html#a68d6c29cf6aca61358a9941d4a24546a',1,'crappy::blocks::pid::PID']]],
   ['iclasses',['Iclasses',['../classcrappy_1_1inout_1_1inout_1_1MetaIO.html#af4fec9d079154b49b5b2010f96d9b854',1,'crappy::inout::inout::MetaIO']]],
   ['image',['image',['../classcrappy_1_1blocks_1_1drawing_1_1Drawing.html#a52f40e338e5a30ed8463f73bb72d1ef0',1,'crappy.blocks.drawing.Drawing.image()'],['../classCaptureCAM__XIMEA.html#ae3f3a9dea08bd14ee88117f395963634',1,'CaptureCAM_XIMEA::image()']]],
@@ -21,12 +22,13 @@ var searchData=
   ['initial_5fcmd',['initial_cmd',['../classcrappy_1_1blocks_1_1ioblock_1_1IOBlock.html#a19e995e1603cf1b9687fd56c7a2bee49',1,'crappy::blocks::ioblock::IOBlock']]],
   ['inout_5flist',['inout_list',['../namespacecrappy_1_1inout.html#abf73721db46d492969f6bdee1d45884b',1,'crappy::inout']]],
   ['inpreg_5faddresses',['inpreg_addresses',['../classcrappy_1_1inout_1_1kollmorgen_1_1KollMorgenVariator.html#a72855cf6dab8697ea69ed45c4313bed1',1,'crappy::inout::kollmorgen::KollMorgenVariator']]],
+  ['input_5flabel',['input_label',['../namespacefour.html#a60b45c84da9ada652af358136d6791c0',1,'four']]],
   ['input_5ftxt',['input_txt',['../classcrappy_1_1tool_1_1GUI__Arduino_1_1arduino__basics_1_1SubmitSerialFrame.html#ae0fe86f1b216058cbab2e1e417c96724',1,'crappy::tool::GUI_Arduino::arduino_basics::SubmitSerialFrame']]],
   ['inputs',['inputs',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#ac18b043b5675799d237409afe6b220db',1,'crappy::blocks::masterblock::MasterBlock']]],
   ['instances',['instances',['../classcrappy_1_1blocks_1_1masterblock_1_1MasterBlock.html#a5cffb6de8d68902a49bbc5c5708b9262',1,'crappy::blocks::masterblock::MasterBlock']]],
   ['interface',['interface',['../namespaceinterfaceCMdrive.html#ac75ced01dbbc2d070292f276e71e39a5',1,'interfaceCMdrive']]],
   ['interp',['interp',['../classcrappy_1_1blocks_1_1grapher_1_1Grapher.html#af40e45e9b2951cf496bef6577e370999',1,'crappy::blocks::grapher::Grapher']]],
-  ['io',['io',['../namespacerw__comedi.html#afbc29049a3adb33b330a6a1493f458ee',1,'rw_comedi.io()'],['../namespacerw__labjack.html#a91a72ee4189e930c96d550156dbc9d1e',1,'rw_labjack.io()']]],
+  ['io',['io',['../namespacedio__daqmx.html#af0dc3a0d757a72197ee8d4b725edce3a',1,'dio_daqmx.io()'],['../namespaceio__daqmx.html#aa867cad3e5d55ae08493989e7e278137',1,'io_daqmx.io()'],['../namespacerw__comedi.html#afbc29049a3adb33b330a6a1493f458ee',1,'rw_comedi.io()'],['../namespacerw__labjack.html#a91a72ee4189e930c96d550156dbc9d1e',1,'rw_labjack.io()'],['../namespacethermocouple__daqmx.html#a8854d2b55e2043b571d94a26e4acdb6f',1,'thermocouple_daqmx.io()']]],
   ['ioclasses',['IOclasses',['../classcrappy_1_1inout_1_1inout_1_1MetaIO.html#aa64a912aadf461f79328382281698c27',1,'crappy::inout::inout::MetaIO']]],
   ['isacquiring',['isacquiring',['../classCaptureCAM__CL.html#a3b589a82582515ec45d3ee9189ccf535',1,'CaptureCAM_CL']]],
   ['isopened',['isopened',['../classCaptureCAM__CL.html#ab33aa6f1a3c040f04500bad5cb06f7df',1,'CaptureCAM_CL::isopened()'],['../classCaptureCAM__XIMEA.html#a934c9e1a77940bb91f658c6a2d03ad1f',1,'CaptureCAM_XIMEA::isopened()']]]

@@ -147,6 +147,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a68d6c29cf6aca61358a9941d4a24546a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34f8bc9b4ce0d07f06dafe7b1afd7440"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html#a34f8bc9b4ce0d07f06dafe7b1afd7440">last_val</a></td></tr>
 <tr class="separator:a34f8bc9b4ce0d07f06dafe7b1afd7440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a599fe32ded3af9322d1e132f8afa2e38"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html#a599fe32ded3af9322d1e132f8afa2e38">i_limit</a></td></tr>
+<tr class="separator:a599fe32ded3af9322d1e132f8afa2e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae641ba4ea89292342630e7c25e4de405"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html#ae641ba4ea89292342630e7c25e4de405">last_t</a></td></tr>
 <tr class="separator:ae641ba4ea89292342630e7c25e4de405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81d6c84cdbf82e74468efc185b22127f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcrappy_1_1blocks_1_1pid_1_1PID.html#a81d6c84cdbf82e74468efc185b22127f">target_link_id</a></td></tr>
@@ -176,6 +178,7 @@ Public Attributes</h2></td></tr>
 <li>time_label (str,default="t(s)"): The label of the time</li>
 <li>labels (list,default=['t(s)','pid']): The labels of the output of the block. It must have TWO strings: the time and the command.</li>
 <li>reverse (bool,default=False): To reverse the retroaction</li>
+<li>i_limit (float/tuple,default=1): To avoid over integration. If it is a tuple, it is the boudaries for the I term. If it is a float, the boudaries will be i_limit*out_min,i_limit*out_max (typically between 0 and 1)</li>
 <li>send_terms (bool,default=False): To get the weight of each term in the output value. It will add ['p_term','i_term','d_term'] to the labels. This is particularly useful to tweak the gains. </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -254,7 +257,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>limits</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -327,6 +336,18 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">crappy.blocks.pid.PID.feedback_link_id</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a599fe32ded3af9322d1e132f8afa2e38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">crappy.blocks.pid.PID.i_limit</td>
         </tr>
       </table>
 </div><div class="memdoc">

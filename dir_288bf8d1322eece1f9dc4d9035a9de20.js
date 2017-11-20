@@ -5,9 +5,7 @@ var dir_288bf8d1322eece1f9dc4d9035a9de20 =
     [ "autoDrive.py", "autoDrive_8py.html", [
       [ "AutoDrive", "classcrappy_1_1blocks_1_1autoDrive_1_1AutoDrive.html", "classcrappy_1_1blocks_1_1autoDrive_1_1AutoDrive" ]
     ] ],
-    [ "camera.py", "blocks_2camera_8py.html", [
-      [ "Camera", "classcrappy_1_1blocks_1_1camera_1_1Camera.html", "classcrappy_1_1blocks_1_1camera_1_1Camera" ]
-    ] ],
+    [ "camera.py", "blocks_2camera_8py.html", "blocks_2camera_8py" ],
     [ "correl.py", "blocks_2correl_8py.html", [
       [ "Correl", "classcrappy_1_1blocks_1_1correl_1_1Correl.html", "classcrappy_1_1blocks_1_1correl_1_1Correl" ]
     ] ],
@@ -35,6 +33,9 @@ var dir_288bf8d1322eece1f9dc4d9035a9de20 =
       [ "Machine", "classcrappy_1_1blocks_1_1machine_1_1Machine.html", "classcrappy_1_1blocks_1_1machine_1_1Machine" ]
     ] ],
     [ "masterblock.py", "masterblock_8py.html", "masterblock_8py" ],
+    [ "mean.py", "crappy_2blocks_2mean_8py.html", [
+      [ "Mean", "classcrappy_1_1blocks_1_1mean_1_1Mean.html", "classcrappy_1_1blocks_1_1mean_1_1Mean" ]
+    ] ],
     [ "measureByStep.py", "measureByStep_8py.html", [
       [ "MeasureByStep", "classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep.html", "classcrappy_1_1blocks_1_1measureByStep_1_1MeasureByStep" ]
     ] ],

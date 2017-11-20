@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['example',['example',['../namespaceexample.html',1,'']]]
+  ['dio_5fdaqmx',['dio_daqmx',['../namespacedio__daqmx.html',1,'']]],
+  ['displayer',['displayer',['../namespacedisplayer.html',1,'']]],
+  ['drawing',['drawing',['../namespacedrawing.html',1,'']]]
 ];

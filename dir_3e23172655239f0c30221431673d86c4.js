@@ -19,6 +19,7 @@ var dir_3e23172655239f0c30221431673d86c4 =
     ] ],
     [ "labjackT7.py", "labjackT7_8py.html", "labjackT7_8py" ],
     [ "labjackUE9.py", "labjackUE9_8py.html", "labjackUE9_8py" ],
+    [ "nidaqmx.py", "nidaqmx_8py.html", "nidaqmx_8py" ],
     [ "opendaq.py", "opendaq_8py.html", "opendaq_8py" ],
     [ "opsens.py", "opsens_8py.html", [
       [ "Opsens", "classcrappy_1_1inout_1_1opsens_1_1Opsens.html", "classcrappy_1_1inout_1_1opsens_1_1Opsens" ]

@@ -8,5 +8,6 @@ var classcrappy_1_1condition_1_1demux_1_1Demux =
     [ "labels", "classcrappy_1_1condition_1_1demux_1_1Demux.html#ab94b56b55f07b98100df246263913371", null ],
     [ "mean", "classcrappy_1_1condition_1_1demux_1_1Demux.html#a72e923d99d2430949a5e0de807d73660", null ],
     [ "stream", "classcrappy_1_1condition_1_1demux_1_1Demux.html#aac3dce962a3bc598aa1912e45ae8a951", null ],
-    [ "time", "classcrappy_1_1condition_1_1demux_1_1Demux.html#a6869607b10e5a835cbeeb385aa67bb79", null ]
+    [ "time", "classcrappy_1_1condition_1_1demux_1_1Demux.html#a6869607b10e5a835cbeeb385aa67bb79", null ],
+    [ "transpose", "classcrappy_1_1condition_1_1demux_1_1Demux.html#afb181998a9c8aa4e6ac6511dd85c803e", null ]
 ];

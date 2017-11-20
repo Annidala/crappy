@@ -14,7 +14,7 @@ var dir_01bfb7b0de3744a4775fbac8f5950ea9 =
     [ "integrate.py", "integrate_8py.html", [
       [ "Integrate", "classcrappy_1_1condition_1_1integrate_1_1Integrate.html", "classcrappy_1_1condition_1_1integrate_1_1Integrate" ]
     ] ],
-    [ "mean.py", "mean_8py.html", [
+    [ "mean.py", "crappy_2condition_2mean_8py.html", [
       [ "Mean", "classcrappy_1_1condition_1_1mean_1_1Mean.html", "classcrappy_1_1condition_1_1mean_1_1Mean" ]
     ] ],
     [ "median.py", "median_8py.html", [

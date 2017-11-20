@@ -10,6 +10,7 @@ var searchData=
   ['int32_5fto_5fdata',['int32_to_data',['../namespacecrappy_1_1tool_1_1convert__data.html#a05ba5bb2a8bfb0c7d74a1cb9c24c8a6f',1,'crappy::tool::convert_data']]],
   ['interp',['interp',['../namespacecrappy_1_1blocks_1_1multiplex.html#ac94f56ac7e456d865f6f116338349501',1,'crappy::blocks::multiplex']]],
   ['interpnearest',['interpNearest',['../namespacecrappy_1_1tool_1_1correl.html#a8fd282ebafa9aa739ad8f7f47040ac11',1,'crappy::tool::correl']]],
+  ['intify',['intify',['../namespacedio__daqmx.html#af333c8895828c4c4714ddeca4f7ddeb1',1,'dio_daqmx']]],
   ['is_5finput',['is_input',['../classcrappy_1_1inout_1_1inout_1_1InOut.html#a1ebbc715386f21c67f3ba59629078202',1,'crappy::inout::inout::InOut']]],
   ['is_5foutput',['is_output',['../classcrappy_1_1inout_1_1inout_1_1InOut.html#a0b53331067f654c3e2e46a8946de1d51',1,'crappy::inout::inout::InOut']]]
 ];

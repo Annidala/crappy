@@ -2,7 +2,10 @@ var searchData=
 [
   ['machine_2epy',['machine.py',['../machine_8py.html',1,'']]],
   ['masterblock_2epy',['masterblock.py',['../masterblock_8py.html',1,'']]],
-  ['mean_2epy',['mean.py',['../mean_8py.html',1,'']]],
+  ['mean_2epy',['mean.py',['../crappy_2condition_2mean_8py.html',1,'']]],
+  ['mean_2epy',['mean.py',['../Examples_2mean_8py.html',1,'']]],
+  ['mean_2epy',['mean.py',['../crappy_2blocks_2mean_8py.html',1,'']]],
+  ['measure_2dcrappy_2epy',['measure-crappy.py',['../measure-crappy_8py.html',1,'']]],
   ['measurebystep_2epy',['measureByStep.py',['../measureByStep_8py.html',1,'']]],
   ['median_2epy',['median.py',['../median_8py.html',1,'']]],
   ['minitens_2epy',['minitens.py',['../minitens_8py.html',1,'']]],
